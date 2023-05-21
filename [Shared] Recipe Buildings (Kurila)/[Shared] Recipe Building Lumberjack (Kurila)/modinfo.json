@@ -1,0 +1,46 @@
+{
+  "out": "${annoMods}/[Shared] Recipe Buildings (Kurila)/${modName}",
+  "Version": "1.0.0",
+  "ModID": "shared_recipe_building_lumberjack_kurila",
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "English": "Recipe Building Lumberjack (Kurila)",
+    "Chinese": "Recipe Building Lumberjack (Kurila)",
+    "French": "Recipe Building Lumberjack (Kurila)",
+    "German": "Recipe Building Lumberjack (Kurila)",
+    "Italian": "Recipe Building Lumberjack (Kurila)",
+    "Japanese": "Recipe Building Lumberjack (Kurila)",
+    "Korean": "Recipe Building Lumberjack (Kurila)",
+    "Polish": "Recipe Building Lumberjack (Kurila)",
+    "Russian": "Recipe Building Lumberjack (Kurila)",
+    "Spanish": "Recipe Building Lumberjack (Kurila)",
+    "Taiwanese": "Recipe Building Lumberjack (Kurila)"
+  },
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Description": {
+    "English": null,
+    "Chinese": null,
+    "French": null,
+    "German": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  }
+}

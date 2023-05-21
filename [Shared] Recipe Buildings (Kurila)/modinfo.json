@@ -1,0 +1,45 @@
+{
+  "Version": "1.0.0",
+  "ModID": "shared_recipe_buildings_kurila",
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "English": "Recipe Buildings (Kurila)",
+    "Chinese": "Recipe Buildings (Kurila)",
+    "French": "Recipe Buildings (Kurila)",
+    "German": "Recipe Buildings (Kurila)",
+    "Italian": "Recipe Buildings (Kurila)",
+    "Japanese": "Recipe Buildings (Kurila)",
+    "Korean": "Recipe Buildings (Kurila)",
+    "Polish": "Recipe Buildings (Kurila)",
+    "Russian": "Recipe Buildings (Kurila)",
+    "Spanish": "Recipe Buildings (Kurila)",
+    "Taiwanese": "Recipe Buildings (Kurila)"
+  },
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Description": {
+    "English": null,
+    "Chinese": null,
+    "French": null,
+    "German": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  }
+}

@@ -1,0 +1,20 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500300840</GUID>
+      <Text>Une matière première très répandue, tant pour la production de marchandises que comme combustible pour les fours. Depuis toujours, il fait partie intégrante de notre quotidien et il est impossible de s'en passer. Il ne faut pourtant pas le prendre pour acquis et tout déboiser sans réfléchir !</Text>
+    </Text>  
+    <Text>
+      <GUID>1500300841</GUID>
+      <Text>Bois</Text>
+    </Text>  
+    <Text>
+      <GUID>1500300842</GUID>
+      <Text>Afin de garantir l'approvisionnement en matières premières essentielles, les autorités ont mis à disposition des terres sur lesquelles les arbres les plus demandés et les plus productifs doivent être cultivés.</Text>
+    </Text>      
+    <Text>
+      <GUID>1010266</GUID>
+      <Text>Cabane de bûcheron: Bois</Text>
+    </Text>           
+  </ModOp>
+</ModOps>

@@ -1,0 +1,28 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404420032</GUID>
+      <Text>Apples</Text>
+    </Text>  
+    <Text>
+      <GUID>1500301073</GUID>
+      <Text>Coloured Tiles</Text>
+    </Text>  
+    <Text>
+      <GUID>1500300040</GUID>
+      <Text>Liqueur</Text>
+    </Text>   
+    <Text>
+      <GUID>1500300060</GUID>
+      <Text>Sandwiches</Text>
+    </Text> 
+    <Text>
+      <GUID>1500300020</GUID>
+      <Text>Smoked Fish</Text>
+    </Text>     
+    <Text>
+      <GUID>1500010150</GUID>
+      <Text>Wooden Jewelry</Text>
+    </Text>      
+  </ModOp>
+</ModOps>

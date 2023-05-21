@@ -1,0 +1,20 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500300840</GUID>
+      <Text>商品の生産にも、ストーブの燃料にもなる、ありふれた原料。それは常に私たちの日常生活に欠かせないものであり、それなしの生活を想像することは不可能である。とはいえ、当たり前のように、無思慮に切り捨ててしまうのは禁物だ！</Text>
+    </Text>  
+    <Text>
+      <GUID>1500300841</GUID>
+      <Text>丸太</Text>
+    </Text>  
+    <Text>
+      <GUID>1500300842</GUID>
+      <Text>重要な原材料を確保するため、当局は最も需要のある生産性の高い樹木を栽培するための土地を用意したのです。</Text>
+    </Text>      
+    <Text>
+      <GUID>1010266</GUID>
+      <Text>木こりの小屋: 丸太</Text>
+    </Text>           
+  </ModOp>
+</ModOps>

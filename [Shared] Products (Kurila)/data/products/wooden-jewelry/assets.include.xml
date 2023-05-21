@@ -1,0 +1,125 @@
+<ModOps>
+  <!-- # Product: Wooden Jewelry -->
+  <ModOp GUID="1010250" Type="addNextSibling">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1500010150</GUID>
+          <Name>Wooden Jewelry</Name>
+          <IconFilename>data\ui\2kimages\main\3dicons\museum\icon_wooden_ring.png</IconFilename>
+          <InfoDescription>1500010017</InfoDescription>
+        </Standard>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11705</ProductCategory>
+          <BasePrice>50</BasePrice>
+          <CivLevel>1</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>10</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <FluffText>12860</FluffText>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Lists: After Fish -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="120055,120057"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1500010150']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010200']">
+      <Item>
+        <Product>1500010150</Product>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="501992,502004,502017"
+      Condition="!~/Values/ProductList/List/Item[Product='1500010150']"
+      Path="/Values/ProductList/List">
+      <Item>
+        <Product>1500010150</Product>
+      </Item>
+    </ModOp>
+  </Group>
+
+  <!-- # Docklands: Chanteuse -->
+  <Group Condition="!//TradeLevels/Item/Trades[Item/Good='1500010150']">
+    <ModOp Type="addNextSibling" GUID="1010250"
+      Condition="!//FactoryBase[FactoryOutputs/Item/Product='1500010150']/IsMainFactory[text()='1']">
+      <Asset>
+        <Template>FactoryBuilding7</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301145</GUID>
+            <Name>IsMainFactory_Fake: Wooden Jewelry</Name>
+          </Standard>
+          <Building>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
+          </Building>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/graphics/buildings/production/factory_03/factory_03.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Locked />
+          <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>120008</Product>
+                <Amount>1</Amount>
+                <StorageAmount>5</StorageAmount>
+              </Item>								
+            </FactoryInputs>
+            <FactoryOutputs>
+              <Item>
+                <Product>1500010150</Product>
+                <Amount>1</Amount>
+                <StorageAmount>5</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>30</CycleTime>				  
+            <IsMainFactory>1</IsMainFactory>
+          </FactoryBase>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010052</Product>
+                <Amount>20</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+        </Values>
+      </Asset>  
+    </ModOp>
+
+    <ModOp Type="add" GUID="131764"
+      Path="/Values/TradeContractFeature/Traders/Item[TraderName='131765']/TradeLevels/Item/Trades[Item/Good='1010237']">
+      <Item>
+        <Good>1500010150</Good>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="502235" Path="/Values/ProductList/List">
+      <Item>
+        <Product>1500010150</Product>
+      </Item>
+    </ModOp>
+  </Group>
+</ModOps>

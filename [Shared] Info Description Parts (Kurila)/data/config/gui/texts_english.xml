@@ -15,6 +15,23 @@
 		<Text>
 			<GUID>1500300046</GUID>
 			<Text>&lt;font overrideTextColor="true" color='#56B224'&gt;[AssetData(23196) Text]&lt;/font&gt;&lt;font overrideTextColor="true" color='#edc891'&gt; per Cycle:&lt;/font&gt;</Text>
-		</Text>   		    		
+		</Text>  
+		<!--  Example for Input/Output Text Block
+
+			&#xD;&#xA = Line break
+
+			&lt;b&gt;XXX&lt;/b&gt = XXX are Capitalised 
+
+			&lt;font overrideTextColor="true" color='#edc891'&gt;XXX/font&gt; = XXX becomes coloured
+
+			&lt;img height='24' width='24' src="[AssetData(XXX) Icon]"/&gt; = Icon of XXX is displayed
+
+			[AssetData(XXX) Text] = Text from XXX is displayed
+
+			<Text>
+				<GUID></GUID>
+				<Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;b&gt;1t&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(XXX) Icon]"/&gt; [AssetData(XXX) Text]&lt;/font&gt;&#xD;&#xA;</Text>
+			</Text>
+		-->
 	</ModOp>
 </ModOps>

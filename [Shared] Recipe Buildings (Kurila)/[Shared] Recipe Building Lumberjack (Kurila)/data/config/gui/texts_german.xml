@@ -1,0 +1,20 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500300840</GUID>
+      <Text>Ein verbreitetes Rohmaterial, sowohl für die Herstellung von Waren, als auch als Brennstoff für Öfen. Es ist seit jeher ein fester Bestandteil unseres Alltags und aus diesem nicht wegzudenken. Man sollte es trotzdem nicht für selbstverständlich halten, und unbedacht alles abholzen!</Text>
+    </Text>  
+    <Text>
+      <GUID>1500300841</GUID>
+      <Text>Holz</Text>
+    </Text>  
+    <Text>
+      <GUID>1500300842</GUID>
+      <Text>Um die versorgung mit wichtigen Rohstoffen zu gewährleisten, haben die Behörden Land bereitgestellt, auf dem die gefragtesten und produktivsten Bäume kultiviert werden sollen.</Text>
+    </Text>      
+    <Text>
+      <GUID>1010266</GUID>
+      <Text>Holzfällerhütte: Holz</Text>
+    </Text>           
+  </ModOp>
+</ModOps>
