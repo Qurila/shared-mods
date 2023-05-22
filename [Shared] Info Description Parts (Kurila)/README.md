@@ -25,17 +25,17 @@ This would be a text block for an input/output.
 
 It is started with the opening of a tag for colouring  
 ```xml
-- <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;
+<Text>&lt;font overrideTextColor="true" color='#edc891'&gt;
 ```
 
 Then follows a tag to capitalise the text "1t".
 ```xml
-- &lt;b&gt;1t&lt;/b&gt; 
+&lt;b&gt;1t&lt;/b&gt; 
 ```
 
 After that comes the entry for displaying an icon(Bread in this case), it is best to put a space after the end of the capitalisation tag.
 ```xml
-- &lt;img height='24' width='24' src="[AssetData(1010213) Icon]"/&gt;
+&lt;img height='24' width='24' src="[AssetData(1010213) Icon]"/&gt;
 ```
 
 Now follows the entry for the name of the product (in this case bread). It is also best to leave a space between the icon and the text.
@@ -45,12 +45,12 @@ Now follows the entry for the name of the product (in this case bread). It is al
 
 Now the tag is closed for colouring
 ```xml
-- &lt;/font&gt;
+&lt;/font&gt;
 ```
 
 At the end, you can add a line break. In this way, the next text block you start would begin directly on a new line.
 ```xml
-- &#xD;&#xA;
+&#xD;&#xA;
 ```
 
 This is what it looks like when finished.
@@ -66,32 +66,32 @@ For the finished InfoDescription, these text blocks are joined together via [Ass
 
 To do this, start with the "Demand" text block that provides this mod.
 ```xml
-- <Text>[AssetData(1500300045) Text]
+<Text>[AssetData(1500300045) Text]
 ```
 
 then set a line break, but you can also write this at the beginning of the text block that is to follow "Demand".
 ```xml
-- &#xD;&#xA;
+&#xD;&#xA;
 ```
 
 Now comes the created text block for the first input
 ```xml
-- [AssetData(XXX) Text]
+[AssetData(XXX) Text]
 ```
 
 You can now append more text blocks if you want to display several inputs.
 ```xml
-- [AssetData(XXX2) Text][AssetData(XXX2) Text][AssetData(XXX3) Text]
+[AssetData(XXX2) Text][AssetData(XXX2) Text][AssetData(XXX3) Text]
 ```
 
 The following is the "supply" text block provided by this mod. Either place 2 line breaks bevor this to create a line space, or place them at the end of the last text block before "Supply".
 ```xml
-- &#xD;&#xA;&#xD;&#xA;[AssetData(1500300046) Text]
+&#xD;&#xA;&#xD;&#xA;[AssetData(1500300046) Text]
 ```
 
 After this, you also set a line break, if you have not written it in the first text block after "Supply".
 ```xml
-- &#xD;&#xA;
+&#xD;&#xA;
 ```
 
 A text block is also used here as after "Demand". Therefore, we use the familiar block here.
@@ -101,6 +101,6 @@ A text block is also used here as after "Demand". Therefore, we use the familiar
 
 In the end, the text for the InfoDescription looks like this
 ```xml
-- Text>[AssetData(1500300045) Text]&#xD;&#xA;[AssetData(XXX) Text]&#xD;&#xA;&#xD;&#xA;[AssetData(1500300046) Text][AssetData(XXX) Text]
+Text>[AssetData(1500300045) Text]&#xD;&#xA;[AssetData(XXX) Text]&#xD;&#xA;&#xD;&#xA;[AssetData(1500300046) Text][AssetData(XXX) Text]
 
 ```
