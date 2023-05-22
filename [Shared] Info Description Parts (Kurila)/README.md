@@ -9,7 +9,6 @@ There are also some minor changes to vanilla texts.
 Take the building blocks for "Demand" and "Supply" and build them into your InfoDescription via [AssetData(XXX) Text].
 After each [AssetData(XXX) Text] entry for "Demand" and "Supply", it is best to set your own text blocks assigned with a GUID.
 
-```xml
 
 - &#xD;&#xA = Line break
 
@@ -21,7 +20,7 @@ After each [AssetData(XXX) Text] entry for "Demand" and "Supply", it is best to 
 
 - [AssetData(XXX) Text] = Text from XXX is displayed
 
-
+```xml
 This would be a text block for an input/output.
 
 It is started with the opening of a tag for colouring  
