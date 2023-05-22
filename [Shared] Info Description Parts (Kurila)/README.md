@@ -28,17 +28,17 @@ It is started with the opening of a tag for colouring
 <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;
 ```
 
-Then follows a tag to capitalise the text "1t".
+Then follows a tag to capitalise the text "1t", it is best to put a space after the end of the capitalisation tag.
 ```xml
 &lt;b&gt;1t&lt;/b&gt; 
 ```
 
-After that comes the entry for displaying an icon(Bread in this case), it is best to put a space after the end of the capitalisation tag.
+After that comes the entry for displaying an icon (Bread in this case). It is also best to leave a space after the Icon.
 ```xml
-&lt;img height='24' width='24' src="[AssetData(1010213) Icon]"/&gt;
+&lt;img height='24' width='24' src="[AssetData(1010213) Icon]"/&gt; 
 ```
 
-Now follows the entry for the name of the product (in this case bread). It is also best to leave a space between the icon and the text.
+Now follows the entry for the name of the product (in this case bread).
 ```xml
 -[AssetData(1010213) Text]
 ```
@@ -96,11 +96,10 @@ After this, you also set a line break, if you have not written it in the first t
 
 A text block is also used here as after "Demand". Therefore, we use the familiar block here.
 ```xml
--[AssetData(XXX) Text]
+-[AssetData(XXX) Text]</Text>
 ```
 
 In the end, the text for the InfoDescription looks like this
 ```xml
-Text>[AssetData(1500300045) Text]&#xD;&#xA;[AssetData(XXX) Text]&#xD;&#xA;&#xD;&#xA;[AssetData(1500300046) Text][AssetData(XXX) Text]
-
+<Text>[AssetData(1500300045) Text]&#xD;&#xA;[AssetData(XXX) Text]&#xD;&#xA;&#xD;&#xA;[AssetData(1500300046) Text][AssetData(XXX) Text]</Text>
 ```
