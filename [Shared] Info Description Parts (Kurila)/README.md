@@ -9,6 +9,7 @@ There are also some minor changes to vanilla texts.
 Take the building blocks for "Demand" and "Supply" and build them into your InfoDescription via [AssetData(XXX) Text].
 After each [AssetData(XXX) Text] entry for "Demand" and "Supply", it is best to set your own text blocks assigned with a GUID.
 
+# Markdown heading
 
 - &#xD;&#xA = Line break
 
