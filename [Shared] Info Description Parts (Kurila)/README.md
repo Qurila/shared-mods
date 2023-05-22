@@ -24,7 +24,7 @@ After each [AssetData(XXX) Text] entry for "Demand" and "Supply", it is best to 
 This would be a text block for an input/output.
 
 It is started with the opening of a tag for colouring  
-- <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;
+- (<Text>&lt;font overrideTextColor="true" color='#edc891'&gt;)
 
 Then follows a tag to capitalise the text "1t".
 - &lt;b&gt;1t&lt;/b&gt; 
