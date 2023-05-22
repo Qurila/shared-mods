@@ -87,4 +87,5 @@ A text block is also used here as after "Demand". Therefore, we use the familiar
 In the end, the text for the InfoDescription looks like this
 
 - Text>[AssetData(1500300045) Text]&#xD;&#xA;[AssetData(XXX) Text]&#xD;&#xA;&#xD;&#xA;[AssetData(1500300046) Text][AssetData(XXX) Text]
+
 ```
