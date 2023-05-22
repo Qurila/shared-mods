@@ -81,7 +81,7 @@ Now comes the created text block for the first input
 
 You can now append more text blocks if you want to display several inputs.
 ```xml
-[AssetData(XXX2) Text][AssetData(XXX2) Text][AssetData(XXX3) Text]
+[AssetData(XXX2) Text][AssetData(XXX3) Text][AssetData(XXX4) Text]
 ```
 
 The following is the "supply" text block provided by this mod. Either place 2 line breaks bevor this to create a line space, or place them at the end of the last text block before "Supply".
@@ -96,7 +96,7 @@ After this, you also set a line break, if you have not written it in the first t
 
 A text block is also used here as after "Demand". Therefore, we use the familiar block here.
 ```xml
--[AssetData(XXX) Text]</Text>
+[AssetData(XXX) Text]</Text>
 ```
 
 In the end, the text for the InfoDescription looks like this
