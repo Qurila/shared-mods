@@ -25,9 +25,8 @@ I recommend defining each text module via a GUID and inserting it with [AssetDat
   To create these hex values, the mod comes with the "colourpicker" chrome application from modder Fam. You can use it to select a colour and the appropriate value is generated.
   However, it is important to know that only RGB is used in the game, but the colourpicker generates RGBA. The last two numbers/letters must be removed from the generated hex value.
 
-This would be a text block for an input/output.
 
-It is started with the opening of a tag for colouring  
+This would be a text block for an input/output. It is started with the opening of a tag for colouring  
 ```xml
 <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;
 ```
@@ -44,10 +43,10 @@ After that comes the entry for displaying an icon (Bread in this case). It is al
 
 Now follows the entry for the name of the product (in this case bread).
 ```xml
--[AssetData(1010213) Text]
+[AssetData(1010213) Text]
 ```
 
-Now the tag is closed for colouring
+Now the colouring tag is closed.
 ```xml
 &lt;/font&gt;
 ```

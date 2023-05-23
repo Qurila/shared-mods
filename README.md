@@ -5,6 +5,7 @@ Shared mods from Kurilas's Collection.
 ## Shared Info Description Parts
 
 Contains text modules for an extended InfoDescription
+
 There are also some minor changes to vanilla texts.
 
 ![](./doc/infodescription.jpg)
@@ -23,7 +24,9 @@ Add the following dependencies to your `modinfo.json`:
 ## Shared Products
 
 Shared products from Kurila, Jakob and Lrds42.
+
 These products are planned as additional productions and have little influence on the vanilla game.
+
 Contains products with definition, icon and Docklands information.
 
 Icon | GUID | Name |
@@ -38,7 +41,9 @@ Icon | GUID | Name |
 ## Shared Products Extended 
 
 Shared extended products from Kurila and Lrds42.
+
 These products are planned as intermediate stages to existing production chains and have a greater impact on the vanilla game.
+
 Contains products with definition, icon and Docklands information.
 
 Icon | GUID | Name |
