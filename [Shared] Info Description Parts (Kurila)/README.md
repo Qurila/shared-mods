@@ -1,13 +1,14 @@
 # Shared Info Description Parts
 
-Contains text modules for an extended InfoDescription
+Contains text modules for an extended InfoDescription.
 There are also some minor changes to vanilla texts.
 
 
 ## Use Info Description Parts in your Mod
 
 Take the building blocks for "Demand" and "Supply" and build them into your InfoDescription via [AssetData(XXX) Text].
-After each [AssetData(XXX) Text] entry for "Demand" and "Supply", it is best to set your own text blocks assigned with a GUID.
+After each [AssetData(XXX) Text] entry for "Demand" and "Supply" you set your own text modules.
+I recommend defining each text module via a GUID and inserting it with [AssetData(XXX) Text]. Otherwise the code will be much too long and confusing with several entries.
 
 
 - &#xD;&#xA = Line break
@@ -20,6 +21,9 @@ After each [AssetData(XXX) Text] entry for "Demand" and "Supply", it is best to 
 
 - [AssetData(XXX) Text] = Text from XXX is displayed
 
+- The colour that the font should take is set via hex values.
+  To create these hex values, the mod comes with the "colourpicker" chrome application from modder Fam. You can use it to select a colour and the appropriate value is generated.
+  However, it is important to know that only RGB is used in the game, but the colourpicker generates RGBA. The last two numbers/letters must be removed from the generated hex value.
 
 This would be a text block for an input/output.
 
