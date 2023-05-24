@@ -2,6 +2,36 @@
 
 Shared mods from Kurilas's Collection.
 
+## Shared General Modules
+
+Contains adaptations of the UI elements for modules.
+
+Instead of agricultural terms and icons, more general ones are used (as far as possible). 
+
+### Use General Modules
+
+Add the following dependencies to your `modinfo.json`:
+```json
+"ModDependencies": [
+  ""
+]
+```
+
+## Shared General Permits
+
+Contains adjustments to the UI elements of the building permits.
+
+Instead of only Great Eastern and Advanced Pier, they are now designed for ships/harbour structures and industrial buildings.
+
+### Use General Permits
+
+Add the following dependencies to your `modinfo.json`:
+```json
+"ModDependencies": [
+  ""
+]
+```
+
 ## Shared Info Description Parts
 
 Contains text modules for an extended InfoDescription

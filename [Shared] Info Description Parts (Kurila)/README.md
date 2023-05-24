@@ -13,7 +13,7 @@ I recommend defining each text module via a GUID and inserting it with [AssetDat
 
 - &#xD;&#xA = Line break
 
-- &lt;b&gt;XXX&lt;/b&gt = XXX are Capitalised 
+- &lt;b&gt;XXX&lt;/b&gt = XXX are Capitalised
 
 - &lt;font overrideTextColor="true" color='#edc891'&gt;XXX&lt;/font&gt; = XXX becomes coloured
 
@@ -24,7 +24,6 @@ I recommend defining each text module via a GUID and inserting it with [AssetDat
 - The colour that the font should take is set via hex values.
   To create these hex values, the mod comes with the "colourpicker" chrome application from modder Fam. You can use it to select a colour and the appropriate value is generated.
   However, it is important to know that only RGB is used in the game, but the colourpicker generates RGBA. The last two numbers/letters must be removed from the generated hex value.
-
 
 This would be a text block for an input/output. It is started with the opening tag for colouring  
 
