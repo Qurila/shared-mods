@@ -13,7 +13,7 @@ Instead of agricultural terms and icons, more general ones are used (as far as p
 Add the following dependencies to your `modinfo.json`:
 ```json
 "ModDependencies": [
-  ""
+  "https://github.com/Qurila/shared-mods/releases/download/v2/general_modules_kurila.zip"
 ]
 ```
 
@@ -28,7 +28,7 @@ Instead of only Great Eastern and Advanced Pier, they are now designed for ships
 Add the following dependencies to your `modinfo.json`:
 ```json
 "ModDependencies": [
-  ""
+  "https://github.com/Qurila/shared-mods/releases/download/v2/general_permits_kurila.zip"
 ]
 ```
 
@@ -47,7 +47,7 @@ For more information on the use of extended InfoDescription, read the mod's read
 Add the following dependencies to your `modinfo.json`:
 ```json
 "ModDependencies": [
-  ""
+  "https://github.com/Qurila/shared-mods/releases/download/v2/info_description_parts_kurila.zip"
 ]
 ```
 
@@ -89,8 +89,8 @@ Icon | GUID | Name |
 Add one/all of the following dependencies to your `modinfo.json`:
 ```json
 "ModDependencies": [
-  "",
-  ""
+  "https://github.com/Qurila/shared-mods/releases/download/v2/products_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v2/products_extended_kurila.zip"
 ]
 ```
 
