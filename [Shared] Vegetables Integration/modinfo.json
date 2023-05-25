@@ -1,6 +1,6 @@
 {
   "Version": "1.0",
-  "ModID": "vegetables_integrated_kurila",
+  "ModID": "shared_vegetables_integration_kurila",
   "DeprecateIds": [
 
   ],  
@@ -30,17 +30,17 @@
     "Taiwanese": "Shared"
   },
   "ModName": {
-    "Chinese": "Vegetables Integrated (Kurila)",
-    "English": "Vegetables Integrated (Kurila)",
-    "French": "Vegetables Integrated (Kurila)",
-    "German": " Vegetables Integrated (Kurila)",
-    "Italian": "Vegetables Integrated (Kurila)",
-    "Japanese": "Vegetables Integrated (Kurila)",
-    "Korean": "Vegetables Integrated (Kurila)",
-    "Polish": "Vegetables Integrated (Kurila)",
-    "Russian": "Vegetables Integrated (Kurila)",
-    "Spanish": "Vegetables Integrated (Kurila)",
-    "Taiwanese": "Vegetables Integrated (Kurila)"
+    "Chinese": "Vegetables Integration (Kurila)",
+    "English": "Vegetables Integration (Kurila)",
+    "French": "Vegetables Integration (Kurila)",
+    "German": " Vegetables Integration (Kurila)",
+    "Italian": "Vegetables Integration (Kurila)",
+    "Japanese": "Vegetables Integration (Kurila)",
+    "Korean": "Vegetables Integration (Kurila)",
+    "Polish": "Vegetables Integration (Kurila)",
+    "Russian": "Vegetables Integration (Kurila)",
+    "Spanish": "Vegetables Integration (Kurila)",
+    "Taiwanese": "Vegetables Integration (Kurila)"
   },
   "Description": {
     "English": "Replaces peppers with vegetables.",
