@@ -1,0 +1,65 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- Vanilla Changes --> 	
+    <Text>
+      <GUID>1010198</GUID>
+      <Text>Vegetables</Text>
+    </Text>    
+    <Text>
+      <GUID>133285</GUID>
+      <Text>Stroggof Goulash (Meat, Vegetables, Corn)</Text>
+    </Text>         
+    <Text>
+      <GUID>12623</GUID>
+      <Text>Grows vegetables in glossy colours.</Text>
+    </Text>   
+    <Text>
+      <GUID>12628</GUID>
+      <Text>His wines have been spat, his vegetables probed. The verdict? Outstanding.</Text>
+    </Text>  
+    <Text>
+      <GUID>15917</GUID>
+      <Text>These seeds can help you grow a few fields of vegetables in alien soil.</Text>
+    </Text>
+    <Text>
+      <GUID>15918</GUID>
+      <Text>These seeds can help you grow plentiful fields of vegetables in alien soil.</Text>
+    </Text>         
+    <Text>
+      <GUID>15919</GUID>
+      <Text>These seeds have been adapted to grow in a very wide range of soils, and with an increased yield of vegetables!</Text>
+    </Text>  
+    <Text>
+      <GUID>22407</GUID>
+      <Text>Activates vegetable fertility if built in the Old World.</Text>
+    </Text>   
+    <Text>
+      <GUID>100654</GUID>
+      <Text>Vegetable Farm</Text>
+    </Text>         
+    <Text>
+      <GUID>100656</GUID>
+      <Text>Vegetable Crop</Text>
+    </Text> 
+    <Text>
+      <GUID>1010570</GUID>
+      <Text>Vegetable Fertility</Text>
+    </Text>     
+    <Text>
+      <GUID>194006</GUID>
+      <Text>All Grain, Vegetable, Potato, Cherry and Hops Farms</Text>
+    </Text>   
+    <Text>
+      <GUID>190928</GUID>
+      <Text>Vegetable Seeds</Text>
+    </Text>
+    <Text>
+      <GUID>190929</GUID>
+      <Text>Quality Vegetable Seeds</Text>
+    </Text>
+    <Text>
+      <GUID>190930</GUID>
+      <Text>Hybrid Vegetable Seeds</Text>
+    </Text>                                 	   	    	  	  	  	  	  	  														
+	</ModOp>
+</ModOps>

@@ -1,0 +1,189 @@
+  <ModOps>
+  <!-- Replace Pepper with Vegetables -->
+    <Group>  
+      <ModOp Type="replace" GUID="1010293,132750,133932" Path="/Values/FactoryBase/FactoryInputs/Item[Product='1010198']/Product">
+        <Product>1500010836</Product>                                                    
+      </ModOp>   
+
+      <ModOp Type="replace" GUID="151062,193229,190802" Path="/Values/RewardPool/ItemsPool/Item[ItemLink='1010198']/ItemLink">
+        <ItemLink>1500010836</ItemLink>                                                    
+      </ModOp>   
+
+      <ModOp Type="replace" GUID="803084,803107,118076,120805" Path="/Values/ExpeditionTrade/SuccessChance/TradeValues/Item[Item='1010198']/Item">
+        <Item>1500010836</Item>                                                    
+      </ModOp>   
+
+      <ModOp Type="replace" GUID="800111" Path="/Values/ExpeditionFeature/FeedOption/FeedOptions/Item[Product='1010198']/Product">
+        <Product>1500010836</Product>                                                    
+      </ModOp> 
+
+      <ModOp Type="replace" GUID="190692,190693,269256,269366" Path="/Values/FactoryUpgrade/AdditionalOutput/Item[Product='1010198']/Product">
+        <Product>1500010836</Product>                                                    
+      </ModOp>    
+
+      <ModOp Type="replace" GUID="116164,116175" Path="/Values/CraftableItem/CraftingCosts/Item[Product='1010198']/Product">
+        <Product>1500010836</Product>                                                    
+      </ModOp>  
+
+      <ModOp Type="replace" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1010198']/Good">
+        <Good>1500010836</Good>                                                    
+      </ModOp>    
+    </Group> 
+  <!-- Adjust Icons and Pepper farm -->
+    <Group>
+      <ModOp Type="replace" GUID="22407,1010198,1010570,153303,13930" Path="/Values/Standard/IconFilename">
+        <IconFilename>data/ui/2kimages/main/kurila/icons/icon_vegetables.png</IconFilename>                                                   
+      </ModOp>   
+
+      <ModOp Type="replace" GUID="1500010836" Path="/Values/Standard/IconFilename" Condition="//Values[Standard/GUID='1500010836']">
+        <IconFilename>data/ui/2kimages/main/kurila/icons/icon_vegetables.png</IconFilename>                                                   
+      </ModOp> 
+
+      <ModOp Type="merge" GUID="100654" Path="/Values">
+        <Standard>
+          <IconFilename>data/ui/2kimages/main/kurila/icons/icon_vegetables.png</IconFilename> 
+        </Standard>
+        <FactoryBase>
+          <FactoryOutputs>
+            <Item>
+              <Product>1500010836</Product>
+            </Item>
+          </FactoryOutputs>
+          <IsMainFactory>0</IsMainFactory>
+        </FactoryBase>  
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/kurila/vegetables_farm/vegetables_farm.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Maintenance>
+          <Maintenances>
+            <Item />
+            <Item>
+              <Amount>20</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>                                                                                         
+      </ModOp>
+
+      <ModOp Type="replace" GUID="100656" Path="/Values/Object/Variations">
+        <Variations>  
+          <Item>
+            <Filename>data\kurila\vegetables_field\agriculture_11_field_01.cfg</Filename>
+          </Item> 
+          <Item>
+            <Filename>data\kurila\vegetables_field\agriculture_11_field_02.cfg</Filename>
+          </Item>        
+          <Item>
+            <Filename>data\kurila\vegetables_field\agriculture_11_field_03.cfg</Filename>
+          </Item> 
+          <Item>
+            <Filename>data\kurila\vegetables_field\agriculture_11_field_04.cfg</Filename>
+          </Item> 
+          <Item>
+            <Filename>data\kurila\vegetables_field\agriculture_11_field_05.cfg</Filename>
+          </Item> 
+          <Item>
+            <Filename>data\kurila\vegetables_field\agriculture_11_field_06.cfg</Filename>
+          </Item>   
+          <Item>
+            <Filename>data\kurila\vegetables_field\agriculture_11_field_07.cfg</Filename>
+          </Item>                                                     
+          <Item>
+            <Filename>data\jakob\vegetables\vegetable_farm\cabbage_field_01.cfg</Filename>
+          </Item>
+          <Item>
+            <Filename>data/graphics/buildings/production/agriculture_04/agriculture_04_field_02.cfg</Filename>
+          </Item>
+          <Item>
+            <Filename>data/graphics/buildings/production/agriculture_04/agriculture_04_field_03.cfg</Filename>
+          </Item>
+          <Item>
+            <Filename>data\jakob\vegetables\vegetable_farm\cabbage_field_02.cfg</Filename>
+          </Item>
+          <Item>
+            <Filename>data/graphics/buildings/production/agriculture_04/agriculture_04_field_04.cfg</Filename>
+          </Item>
+          <Item>
+            <Filename>data/graphics/buildings/production/agriculture_04/agriculture_04_field_05.cfg</Filename>
+          </Item>
+          <Item>
+            <Filename>data\jakob\vegetables\vegetable_farm\cabbage_field_03.cfg</Filename>
+          </Item>
+          <Item>
+            <Filename>data\jakob\vegetables\vegetable_farm\cabbage_field_04.cfg</Filename>
+          </Item>
+          <Item>
+            <Filename>data\jakob\vegetables\vegetable_farm\cabbage_field_05.cfg</Filename>
+          </Item>
+          <Item>
+            <Filename>data\jakob\vegetables\vegetable_farm\cabbage_field_06.cfg</Filename>
+          </Item>  
+        </Variations>                                                                             
+      </ModOp>                                                   
+    </Group>    
+  <!-- Trigger -->
+    <ModOp GUID="100654" Type="addNextSibling">
+      <Asset>
+        <Template>Trigger</Template>
+        <Values>
+          <Standard>
+            <GUID>1500300088</GUID>
+            <Name>Trigger_Vegetables</Name>
+          </Standard>
+          <Trigger>
+            <TriggerCondition>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <Condition />
+                <ConditionAlwaysTrue />
+              </Values>
+            </TriggerCondition>
+            <TriggerActions>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionUnlockAsset</Template>
+                  <Values>
+                    <Action />
+                    <ActionUnlockAsset>
+                      <UnlockAssets>
+                        <Item>
+                          <Asset>1500010836</Asset>
+                        </Item>                                                                                                                 	  
+                      </UnlockAssets>
+                    </ActionUnlockAsset>
+                  </Values>
+                </TriggerAction>
+              </Item>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionResetTrigger</Template>
+                  <Values>
+                    <Action />
+                    <ActionResetTrigger />
+                  </Values>
+                </TriggerAction>
+              </Item>
+            </TriggerActions>
+          </Trigger>
+          <TriggerSetup />
+        </Values>
+      </Asset>     
+    </ModOp> 
+  <!-- Jakobs Vegetable Farm -->
+    <ImyaTweaks Title="Features of Vegetables Integrated" />
+    <ModOp Type="replace" GUID="25000189,500945" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1500010830']/Building" AllowNoMatch="1" ModOpID="vegetablefarm" Skip="1">
+      <Building>100654</Building>
+    </ModOp>     
+    <ModOp Type="replace" GUID="1500010114,1500010846" Path="/Values/ProductionChain/Tier1/Item[Building='1500010830']/Building" AllowNoMatch="1" ModOpID="vegetablefarm" Skip="1">
+      <Building>100654</Building>
+    </ModOp>     
+    <ModOp Type="replace" GUID="500004" Path="/Values/ProductionChain/Tier2/Item[Building='1500010830']/Building" AllowNoMatch="1" ModOpID="vegetablefarm" Skip="1">
+      <Building>100654</Building>
+    </ModOp>     
+    <ImyaExpose Path="*" ModOpID="vegetablefarm" ExposeID="Vegetable Farms" Kind="SkipToggle" Description="Toggles whether Jakob's vegetable farm is replaced or not.&#xD;&#xA;Off= Jakobs farm&#xD;&#xA;on= Changed pepper farm">
+    </ImyaExpose>  
+  <Include File="./assets.imyatweak.include.xml" Skip="1" /><!-- The skip is intentional here -->                          
+</ModOps>

@@ -1,0 +1,65 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- Vanilla Changes --> 	
+    <Text>
+      <GUID>1010198</GUID>
+      <Text>Verdura</Text>
+    </Text>    
+    <Text>
+      <GUID>133285</GUID>
+      <Text>Gulasch alla Stroggof (carne, verdure, mais)</Text>
+    </Text>         
+    <Text>
+      <GUID>12623</GUID>
+      <Text>Produce verdure con un'ampia gamma di colori.</Text>
+    </Text>   
+    <Text>
+      <GUID>12628</GUID>
+      <Text>I suoi vini sono stati sputati, le sue verdure esaminati. Il verdetto? Eccezionale.</Text>
+    </Text>  
+    <Text>
+      <GUID>15917</GUID>
+      <Text>Questi semi ti aiuteranno a coltivare alcuni campi di Verdura in un terreno non adatto.</Text>
+    </Text>
+    <Text>
+      <GUID>15918</GUID>
+      <Text>Questi semi ti aiuteranno a coltivare molti campi di Verdura in un terreno non adatto.</Text>
+    </Text>         
+    <Text>
+      <GUID>15919</GUID>
+       <Text>Questi semi si adattano a un numero molto elevato di terreni; inoltre, la resa di Verdura è maggiore!</Text>
+    </Text>  
+    <Text>
+      <GUID>22407</GUID>
+      <Text>La sua costruzione nel Vecchio Mondo attiva la fertilità di verdura.</Text>
+    </Text>   
+    <Text>
+      <GUID>100654</GUID>
+      <Text>Fattoria di Verdura</Text>
+    </Text>         
+    <Text>
+      <GUID>100656</GUID>
+      <Text>Raccolto di verdure</Text>
+    </Text> 
+    <Text>
+      <GUID>1010570</GUID>
+      <Text>Fertilità per Verdura</Text>
+    </Text>     
+    <Text>
+      <GUID>194006</GUID>
+      <Text>Tutte le fattorie di grano, verdure, patate, ciliegie e luppoli</Text>
+    </Text>   
+    <Text>
+      <GUID>190928</GUID>
+      <Text>Semi di verdure</Text>
+    </Text>
+    <Text>
+      <GUID>190929</GUID>
+      <Text>Semi di verdure di qualità</Text>
+    </Text>
+    <Text>
+      <GUID>190930</GUID>
+      <Text>Semi di verdure ibridi</Text>
+    </Text>                                 	   	    	  	  	  	  	  	  														
+	</ModOp>
+</ModOps>

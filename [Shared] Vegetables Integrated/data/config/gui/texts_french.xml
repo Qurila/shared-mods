@@ -1,0 +1,65 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- Vanilla Changes -->
+    <Text>
+      <GUID>1010198</GUID>
+      <Text>Légumes</Text>
+    </Text>    
+    <Text>
+      <GUID>133285</GUID>
+      <Text>Goulasch Strogalof (viande, légumes, maïs)</Text>
+    </Text>         
+    <Text>
+      <GUID>12623</GUID>
+      <Text>Elle cultive des légumes de toutes les couleurs.</Text>
+    </Text>   
+    <Text>
+      <GUID>12628</GUID>
+      <Text>Ses raisins ont été mâchés et ses légumes soupesés... le verdict ? Exceptionnel.</Text>
+    </Text>  
+    <Text>
+      <GUID>15917</GUID>
+      <Text>Ces graines peuvent vous permettre de cultiver des champs de légumes en terre étrangère.</Text>
+    </Text>
+    <Text>
+      <GUID>15918</GUID>
+      <Text>Ces graines peuvent vous permettre de cultiver des champs de légumes prospères en terre étrangère.</Text>
+    </Text>         
+    <Text>
+      <GUID>15919</GUID>
+      <Text>Ces graines ont été adaptées pour prospérer dans des sols variés avec un rendement en légumes amélioré !</Text>
+    </Text>  
+    <Text>
+      <GUID>22407</GUID>
+      <Text>Construire cet élément dans l'Ancien Monde active la fertilité Légumes.</Text>
+    </Text>   
+    <Text>
+      <GUID>100654</GUID>
+      <Text>Ferme de Légumes</Text>
+    </Text>         
+    <Text>
+      <GUID>100656</GUID>
+      <Text>Culture de légumes</Text>
+    </Text> 
+    <Text>
+      <GUID>1010570</GUID>
+      <Text>Fertilité (Légumes)</Text>
+    </Text>     
+    <Text>
+      <GUID>194006</GUID>
+      <Text>Toutes les fermes (céréales, Légumes, pommes de terre, cerises et houblon)</Text>
+    </Text>   
+    <Text>
+      <GUID>190928</GUID>
+      <Text>Semences de Légumes</Text>
+    </Text>
+    <Text>
+      <GUID>190929</GUID>
+      <Text>Semences de Légumes supérieures</Text>
+    </Text>
+    <Text>
+      <GUID>190930</GUID>
+      <Text>Semences de Légumes hybrides</Text>
+    </Text>                                 	   	    	  	  	  	  	  	  														
+	</ModOp>
+</ModOps>

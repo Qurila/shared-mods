@@ -97,6 +97,7 @@ Add one/all of the following dependencies to your `modinfo.json`:
 Products are not unlocked automatically, you need to unlock them yourself, if you use the products.
 
 ## Shared Recipe Buildings
+
 This mod is a collection of single mods that convert vanilla buildings to recipe buildings.
 
 This way, modders who plan new recipes can all build on the same base and there are no compatibility problems.
@@ -105,10 +106,15 @@ I do not recommend using the collection as a whole, otherwise all buildings will
 
 Only include the Sub-Mod Building for which you are planning recipes.
 
-### Converted buildings.
+### Converted buildings
 
 - Lumberjack
 
+## Shared Vegetables Integrated
+
+This mod replaces peppers with vegetables instead of having vegetables and peppers separately.
+
+The pepper farm has been changed to a vegetable farm. The vegetable icon has been extended with paprika.
 
 ## How to Build
 
