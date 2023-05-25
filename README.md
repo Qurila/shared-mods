@@ -116,6 +116,14 @@ This mod replaces peppers with vegetables instead of having vegetables and peppe
 
 The pepper farm has been changed to a vegetable farm. The vegetable icon has been extended with paprika.
 
+### Use Vegetables Integrated in your Mod
+
+Add the following dependencies to your `modinfo.json`:
+```json
+"ModDependencies": [
+  "https://github.com/Qurila/shared-mods/releases/download/v3/vegetables_integrated_kurila.zip"
+]
+```
 ## How to Build
 
 ### Build with Visual Studio Code plugin
