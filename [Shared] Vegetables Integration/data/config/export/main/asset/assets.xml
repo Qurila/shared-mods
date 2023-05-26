@@ -173,7 +173,7 @@
       </Asset>     
     </ModOp> 
   <!-- Jakobs Vegetable Farm -->
-    <ImyaTweaks Title="Features of Vegetables Integrated" />
+    <ImyaTweaks Title="Features of Vegetables Integration" />
     <ModOp Type="replace" GUID="25000189,500945" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1500010830']/Building" AllowNoMatch="1" ModOpID="vegetablefarm" Skip="1">
       <Building>100654</Building>
     </ModOp>     
@@ -183,7 +183,7 @@
     <ModOp Type="replace" GUID="500004" Path="/Values/ProductionChain/Tier2/Item[Building='1500010830']/Building" AllowNoMatch="1" ModOpID="vegetablefarm" Skip="1">
       <Building>100654</Building>
     </ModOp>     
-    <ImyaExpose Path="*" ModOpID="vegetablefarm" ExposeID="Vegetable Farms" Kind="SkipToggle" Description="Toggles whether Jakob's vegetable farm is replaced or not.&#xD;&#xA;Off= Jakobs farm&#xD;&#xA;on= Changed pepper farm">
+    <ImyaExpose Path="*" ModOpID="vegetablefarm" ExposeID="Vegetable Farms" Kind="SkipToggle" Description="Toggles whether Jakob's vegetable farm is replaced or not.&#xD;&#xA;Off = Jakobs farm&#xD;&#xA;On = Changed pepper farm">
     </ImyaExpose>  
   <Include File="./assets.imyatweak.include.xml" Skip="1" /><!-- The skip is intentional here -->                          
 </ModOps>
