@@ -1,0 +1,26 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+  <!-- Vanilla Changes -->
+    <Text>
+      <GUID>1829</GUID><!-- Magazin DropGoodFactory Headline -->
+      <Text>Produkcja</Text>
+    </Text>  
+  <!-- New Entries -->    
+    <Text>
+      <GUID>1500300850</GUID>
+      <Text>Drewno jest podstawą wielu budynków i obiektów. Niezależnie od tego, czy jest grube, cienkie czy szerokie, jest dostępne dla wszystkich wymagań.</Text>
+    </Text>  
+    <Text>
+      <GUID>1500300851</GUID>
+      <Text>Deski</Text>
+    </Text>  
+    <Text>
+      <GUID>1500300852</GUID>
+      <Text>Deski</Text>
+    </Text>     
+    <Text>
+      <GUID>1500300853</GUID>
+      <Text>Tartaki są podstawą obróbki drewna. Tutaj wszystkie rodzaje drewna są cięte z kłód.</Text>
+    </Text>           
+  </ModOp>
+</ModOps>

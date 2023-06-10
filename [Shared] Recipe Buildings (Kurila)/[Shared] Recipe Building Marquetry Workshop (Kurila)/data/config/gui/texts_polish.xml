@@ -1,0 +1,26 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+  <!-- Vanilla Changes -->
+    <Text>
+      <GUID>1829</GUID><!-- Magazin DropGoodFactory Headline -->
+      <Text>Produkcja</Text>
+    </Text>  
+  <!-- New Entries -->    
+    <Text>
+      <GUID>1500300844</GUID>
+      <Text>Fornir drewniany to przystępna cenowo alternatywa dla litego drewna. Pomimo swojego prostego charakteru, jest piękny dla oka.</Text>
+    </Text>  
+    <Text>
+      <GUID>1500300845</GUID>
+      <Text>Okładzina drewniana</Text>
+    </Text>  
+    <Text>
+      <GUID>1500300846</GUID>
+      <Text>Okładzina drewniana</Text>
+    </Text>     
+    <Text>
+      <GUID>1500300847</GUID>
+      <Text>Warsztaty intarsji zatrudniają utalentowanych rzemieślników, których umiejętności obróbki drewna nie mają sobie równych. Żadne drewno nie jest przed nimi bezpieczne.</Text>
+    </Text>           
+  </ModOp>
+</ModOps>

@@ -1,0 +1,26 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+  <!-- Vanilla Changes -->
+    <Text>
+      <GUID>1829</GUID><!-- Magazin DropGoodFactory Headline -->
+      <Text>Production</Text>
+    </Text>  
+  <!-- New Entries -->    
+    <Text>
+      <GUID>1500300850</GUID>
+      <Text>Timber is the foundation of many buildings and objects. Whether thick, thin or wide, it is available for all requirements.</Text>
+    </Text>  
+    <Text>
+      <GUID>1500300851</GUID>
+      <Text>[AssetData(1010196) Text]</Text>
+    </Text>  
+    <Text>
+      <GUID>1500300852</GUID>
+      <Text>[AssetData(1010196) Text]</Text>
+    </Text>     
+    <Text>
+      <GUID>1500300853</GUID>
+      <Text>Sawmills are the basis of wood working. Here, all kinds of timber are sawn from logs.</Text>
+    </Text>           
+  </ModOp>
+</ModOps>

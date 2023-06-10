@@ -1,12 +1,12 @@
 {
-  "Version": "1.0",
+  "Version": "1.0.1",
   "ModID": "shared_info_description_parts_kurila",
   "DeprecateIds": [
 
-  ],  
+  ],
   "LoadAfterIds": [
 
-  ],  
+  ],
   "IncompatibleIds": null,
   "ModDependencies": null,
   "Category": {
@@ -53,7 +53,7 @@
     {
       "DLC": "",
       "Dependant": ""
-    } 
+    }
 ],
   "CreatorName": "Kurila",
   "CreatorContact": "https://discord.gg/YTQGDFK",

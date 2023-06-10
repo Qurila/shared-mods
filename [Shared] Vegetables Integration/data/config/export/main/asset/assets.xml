@@ -35,7 +35,11 @@
         <IconFilename>data/ui/2kimages/main/kurila/icons/icon_vegetables.png</IconFilename>                                                   
       </ModOp>   
 
-      <ModOp Type="replace" GUID="1500010836" Path="/Values/Standard/IconFilename" Condition="//Values[Standard/GUID='1500010836']">
+      <ModOp Type="replace" GUID="1500010836" Path="/Values/Standard/IconFilename" Condition="@1500010836">
+        <IconFilename>data/ui/2kimages/main/kurila/icons/icon_vegetables.png</IconFilename>                                                   
+      </ModOp> 
+
+      <ModOp Type="replace" GUID="1500010830" Path="/Values/Standard/IconFilename" Condition="@1500010830">
         <IconFilename>data/ui/2kimages/main/kurila/icons/icon_vegetables.png</IconFilename>                                                   
       </ModOp> 
 

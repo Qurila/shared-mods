@@ -1,0 +1,26 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+  <!-- Vanilla Changes -->
+    <Text>
+      <GUID>1829</GUID><!-- Magazin DropGoodFactory Headline -->
+      <Text>[AssetData(25756) Text]</Text>
+    </Text>  
+  <!-- New Entries -->    
+    <Text>
+      <GUID>1500300844</GUID>
+      <Text>Wood veneer is an affordable alternative to solid wood. Despite its simple character, it is beautiful to look at.</Text>
+    </Text>  
+    <Text>
+      <GUID>1500300845</GUID>
+      <Text>[AssetData(1010242) Text]</Text>
+    </Text>  
+    <Text>
+      <GUID>1500300846</GUID>
+      <Text>[AssetData(1010242) Text]</Text>
+    </Text>     
+    <Text>
+      <GUID>1500300847</GUID>
+      <Text>Marquetry Workshops employ talented craftsmen whose woodworking skills are without equal. No wood is safe from them.</Text>
+    </Text>           
+  </ModOp>
+</ModOps>

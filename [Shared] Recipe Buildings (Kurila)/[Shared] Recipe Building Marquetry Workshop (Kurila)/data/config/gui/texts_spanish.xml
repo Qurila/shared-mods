@@ -1,0 +1,26 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+  <!-- Vanilla Changes -->
+    <Text>
+      <GUID>1829</GUID><!-- Magazin DropGoodFactory Headline -->
+      <Text>Producción</Text>
+    </Text>  
+  <!-- New Entries -->    
+    <Text>
+      <GUID>1500300844</GUID>
+      <Text>La chapa de madera es una alternativa asequible a la madera maciza. A pesar de su carácter sencillo, es hermosa a la vista.</Text>
+    </Text>  
+    <Text>
+      <GUID>1500300845</GUID>
+      <Text>Revestimientos de madera</Text>
+    </Text>  
+    <Text>
+      <GUID>1500300846</GUID>
+      <Text>Revestimientos de madera</Text>
+    </Text>     
+    <Text>
+      <GUID>1500300847</GUID>
+      <Text>Los talleres de marquetería emplean a artesanos de talento cuyas habilidades para trabajar la madera no tienen parangón. Ninguna madera está a salvo de ellos.</Text>
+    </Text>           
+  </ModOp>
+</ModOps>

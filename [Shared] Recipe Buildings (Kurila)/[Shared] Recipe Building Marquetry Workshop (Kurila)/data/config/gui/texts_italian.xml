@@ -1,0 +1,26 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+  <!-- Vanilla Changes -->
+    <Text>
+      <GUID>1829</GUID><!-- Magazin DropGoodFactory Headline -->
+      <Text>Produzione</Text>
+    </Text>  
+  <!-- New Entries -->    
+    <Text>
+      <GUID>1500300844</GUID>
+      <Text>L'impiallacciatura di legno è un'alternativa economica al legno massiccio. Nonostante il suo carattere semplice, è bello da vedere.</Text>
+    </Text>  
+    <Text>
+      <GUID>1500300845</GUID>
+      <Text>Impiallacciature di legno</Text>
+    </Text>  
+    <Text>
+      <GUID>1500300846</GUID>
+      <Text>Impiallacciature di legno</Text>
+    </Text>     
+    <Text>
+      <GUID>1500300847</GUID>
+      <Text>I laboratori di intarsio si avvalgono di artigiani di talento la cui abilità nella lavorazione del legno non ha eguali. Nessun legno è al sicuro da loro.</Text>
+    </Text>           
+  </ModOp>
+</ModOps>

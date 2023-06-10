@@ -1,0 +1,26 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+  <!-- Vanilla Changes -->
+    <Text>
+      <GUID>1829</GUID><!-- Magazin DropGoodFactory Headline -->
+      <Text>生产</Text>
+    </Text>  
+  <!-- New Entries -->    
+    <Text>
+      <GUID>1500300844</GUID>
+      <Text>木皮是实木的一种廉价替代品。尽管它的特点很简单，但它的外观很美。</Text>
+    </Text>  
+    <Text>
+      <GUID>1500300845</GUID>
+      <Text>薄木片</Text>
+    </Text>  
+    <Text>
+      <GUID>1500300846</GUID>
+      <Text>薄木片</Text>
+    </Text>     
+    <Text>
+      <GUID>1500300847</GUID>
+      <Text>镶嵌工场雇用了有才华的工匠，他们的木工技能是无与伦比的。没有任何木材能从他们那里得到保障。</Text>
+    </Text>           
+  </ModOp>
+</ModOps>

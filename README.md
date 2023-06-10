@@ -4,16 +4,17 @@ Shared mods from Kurilas's Collection.
 
 ## Shared General Modules
 
-Contains adaptations of the UI elements for modules.
+Contains adjustments of the UI elements for modules.
 
-Instead of agricultural terms and icons, more general ones are used (as far as possible). 
+Instead of agricultural terms and icons, more general ones are used (as far as possible).
 
 ### Use General Modules
 
 Add the following dependencies to your `modinfo.json`:
+
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v1/shared_general_modules_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v2/shared_general_modules_kurila.zip"
 ]
 ```
 
@@ -26,9 +27,10 @@ Instead of only Great Eastern and Advanced Pier, they are now designed for ships
 ### Use General Permits
 
 Add the following dependencies to your `modinfo.json`:
+
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v1/shared_general_permits_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v2/shared_general_permits_kurila.zip"
 ]
 ```
 
@@ -43,11 +45,13 @@ There are also some minor changes to vanilla texts.
 ### Use Info Description Parts in your Mod
 
 For more information on the use of extended InfoDescription, read the mod's readme.
+<https://github.com/Qurila/shared-mods/tree/main/%5BShared%5D%20Info%20Description%20Parts%20(Kurila)>
 
 Add the following dependencies to your `modinfo.json`:
+
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v1/shared_info_description_parts_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v2/shared_info_description_parts_kurila.zip"
 ]
 ```
 
@@ -68,7 +72,7 @@ Icon | GUID | Name |
 <img src="./[Shared] Products (Kurila)/data/products/smoked-fish/icon_smoked_fish.png" width="20" /> | 1500300020 | Smoked Fish |
 <img src="./doc/icon_wooden_ring_16.png" width="20" /> | 1500010150 | Wooden Jewelry |
 
-## Shared Products Extended 
+## Shared Products Extended
 
 Shared extended products from Kurila and Lrds42.
 
@@ -83,14 +87,17 @@ Icon | GUID | Name |
 <img src="./doc/icon_cloth_16.png" width="20" /> | 1500020000 | Wool Fabric |
 <img src="./doc/icon_wool_16.png" width="20" /> | 1500020010 | Sewing Thread |
 <img src="./[Shared] Products Extended (Kurila)/data/products/barrels/icon_barrels.png" width="20" /> | 1500300000 | Barrels |
+<img src="./doc/icon_wansa_wood_16.png" width="20" /> | 1500301150 | Wanza Wood |
+<img src="./[Shared] Products Extended (Kurila)/data/products/cherry-timber/icon_cherry_planks.png" width="20" /> | 1500301151 | Cherry Timber |
 
 ### Use Products in your Mod
 
 Add one/all of the following dependencies to your `modinfo.json`:
+
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v1/shared_products_kurila.zip",
-  "https://github.com/Qurila/shared-mods/releases/download/v1/shared_products_extended_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v2/shared_products_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v2/shared_products_extended_kurila.zip"
 ]
 ```
 
@@ -109,21 +116,26 @@ Only include the Sub-Mod Building for which you are planning recipes.
 ### Converted buildings
 
 - Lumberjack
+- Marquetry Workshops
+- Sawmills (Inlcuding Mod Buildings)
 
-## Shared Vegetables Integrated
+
+## Shared Vegetables Integration
 
 This mod replaces peppers with vegetables instead of having vegetables and peppers separately.
 
 The pepper farm has been changed to a vegetable farm. The vegetable icon has been extended with paprika.
 
-### Use Vegetables Integrated in your Mod
+### Use Vegetables Integration in your Mod
 
 Add the following dependencies to your `modinfo.json`:
+
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v1/shared_vegetables_integration_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v2/shared_vegetables_integration_kurila.zip"
 ]
 ```
+
 ## How to Build
 
 ### Build with Visual Studio Code plugin

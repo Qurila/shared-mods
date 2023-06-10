@@ -1,0 +1,26 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+  <!-- Vanilla Changes -->
+    <Text>
+      <GUID>1829</GUID><!-- Magazin DropGoodFactory Headline -->
+      <Text>生産</Text>
+    </Text>  
+  <!-- New Entries -->    
+    <Text>
+      <GUID>1500300844</GUID>
+      <Text>ウッドベニヤは、無垢材に代わる手頃な材料です。そのシンプルな性格とは裏腹に、見た目の美しさは抜群です。</Text>
+    </Text>  
+    <Text>
+      <GUID>1500300845</GUID>
+      <Text>寄せ木細工</Text>
+    </Text>  
+    <Text>
+      <GUID>1500300846</GUID>
+      <Text>寄せ木細工</Text>
+    </Text>     
+    <Text>
+      <GUID>1500300847</GUID>
+      <Text>寄木細工の工房では、木工技術に長けた職人たちが働いています。どんな木材も彼らの手にかかれば安全です。</Text>
+    </Text>           
+  </ModOp>
+</ModOps>

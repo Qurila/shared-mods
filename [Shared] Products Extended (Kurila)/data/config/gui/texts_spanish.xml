@@ -7,7 +7,7 @@
     <Text>
       <GUID>1404422300</GUID>
       <Text>Ganado</Text>
-    </Text> 
+    </Text>
     <Text>
       <GUID>1404420030</GUID>
       <Text>Cerezas</Text>
@@ -15,10 +15,22 @@
     <Text>
       <GUID>1500020000</GUID>
       <Text>Tejido de lana</Text>
-    </Text>     
+    </Text>
     <Text>
       <GUID>1500020010</GUID>
       <Text>Hilo de coser</Text>
-    </Text>   
+    </Text>
+    <Text>
+      <GUID>1500301150</GUID>
+      <Text>Madera de wanza</Text>
+    </Text>
+    <Text>
+      <GUID>114356</GUID>
+      <Text>Tablones de wanza</Text>
+    </Text>
+    <Text>
+      <GUID>1500301151</GUID>
+      <Text>Tablones de cerezo</Text>
+    </Text>
   </ModOp>
 </ModOps>

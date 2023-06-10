@@ -1,0 +1,26 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+  <!-- Vanilla Changes -->
+    <Text>
+      <GUID>1829</GUID><!-- Magazin DropGoodFactory Headline -->
+      <Text>Producción</Text>
+    </Text>  
+  <!-- New Entries -->    
+    <Text>
+      <GUID>1500300850</GUID>
+      <Text>La madera es la base de muchos edificios y objetos. Ya sea gruesa, fina o ancha, está disponible para todas las necesidades.</Text>
+    </Text>  
+    <Text>
+      <GUID>1500300851</GUID>
+      <Text>Tablones</Text>
+    </Text>  
+    <Text>
+      <GUID>1500300852</GUID>
+      <Text>Tablones</Text>
+    </Text>     
+    <Text>
+      <GUID>1500300853</GUID>
+      <Text>Los aserraderos son la base del trabajo de la madera. Aquí se sierran todo tipo de maderas a partir de troncos.</Text>
+    </Text>           
+  </ModOp>
+</ModOps>

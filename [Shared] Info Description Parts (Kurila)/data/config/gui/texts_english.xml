@@ -1,37 +1,20 @@
 <ModOps>
-  <ModOp Type="add" Path="/TextExport/Texts">	
+  <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
 			<GUID>11143</GUID>
 			<Text>&lt;font overrideTextColor="true" color='#edc891'&gt;[AssetData(10824) Text] per Cycle: 1t&lt;/font&gt;</Text>
-		</Text>	  
+		</Text>
 		<Text>
 			<GUID>1500300044</GUID>
 			<Text>[AssetData(132783) Text]&#xD;&#xA;&#xD;&#xA;[AssetData(11143) Text]</Text>
-		</Text>	  
+		</Text>
 		<Text>
 			<GUID>1500300045</GUID>
 			<Text>&lt;font overrideTextColor="true" color='#378cc8'&gt;[AssetData(23195) Text]&lt;/font&gt;&lt;font overrideTextColor="true" color='#edc891'&gt; per Cycle:&lt;/font&gt;</Text>
-		</Text>	
+		</Text>
 		<Text>
 			<GUID>1500300046</GUID>
 			<Text>&lt;font overrideTextColor="true" color='#56B224'&gt;[AssetData(23196) Text]&lt;/font&gt;&lt;font overrideTextColor="true" color='#edc891'&gt; per Cycle:&lt;/font&gt;</Text>
-		</Text>  
-		<!--  Example for Input/Output Text Block
-
-			&#xD;&#xA = Line break
-
-			&lt;b&gt;XXX&lt;/b&gt = XXX are Capitalised 
-
-			&lt;font overrideTextColor="true" color='#edc891'&gt;XXX/font&gt; = XXX becomes coloured
-
-			&lt;img height='24' width='24' src="[AssetData(XXX) Icon]"/&gt; = Icon of XXX is displayed
-
-			[AssetData(XXX) Text] = Text from XXX is displayed
-
-			<Text>
-				<GUID></GUID>
-				<Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;b&gt;1t&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(XXX) Icon]"/&gt; [AssetData(XXX) Text]&lt;/font&gt;&#xD;&#xA;</Text>
-			</Text>
-		-->
+		</Text>
 	</ModOp>
 </ModOps>

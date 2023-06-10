@@ -1,0 +1,26 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+  <!-- Vanilla Changes -->
+    <Text>
+      <GUID>1829</GUID><!-- Magazin DropGoodFactory Headline -->
+      <Text>Production</Text>
+    </Text>  
+  <!-- New Entries -->    
+    <Text>
+      <GUID>1500300850</GUID>
+      <Text>Le bois est à la base de nombreux bâtiments et objets. Qu'il soit épais, fin ou large, il est disponible pour toutes les exigences.</Text>
+    </Text>  
+    <Text>
+      <GUID>1500300851</GUID>
+      <Text>Planches</Text>
+    </Text>  
+    <Text>
+      <GUID>1500300852</GUID>
+      <Text>Planches</Text>
+    </Text>     
+    <Text>
+      <GUID>1500300853</GUID>
+      <Text>Les scieries sont à la base du travail du bois. On y scie toutes sortes de bois à partir de grumes.</Text>
+    </Text>           
+  </ModOp>
+</ModOps>

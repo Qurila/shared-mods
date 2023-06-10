@@ -7,7 +7,7 @@
     <Text>
       <GUID>1404422300</GUID>
       <Text>Rinder</Text>
-    </Text> 
+    </Text>
     <Text>
       <GUID>1404420030</GUID>
       <Text>Kirschen</Text>
@@ -15,10 +15,18 @@
     <Text>
       <GUID>1500020000</GUID>
       <Text>Wollstoff</Text>
-    </Text>     
+    </Text>
     <Text>
       <GUID>1500020010</GUID>
       <Text>Nähgarn</Text>
-    </Text>   
+    </Text>
+    <Text>
+      <GUID>1500301150</GUID>
+      <Text>Wanza-Holz</Text>
+    </Text>
+    <Text>
+      <GUID>1500301151</GUID>
+      <Text>Kirschbretter</Text>
+    </Text>
   </ModOp>
 </ModOps>

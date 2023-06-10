@@ -1,0 +1,26 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+  <!-- Vanilla Changes -->
+    <Text>
+      <GUID>1829</GUID><!-- Magazin DropGoodFactory Headline -->
+      <Text>生产</Text>
+    </Text>  
+  <!-- New Entries -->    
+    <Text>
+      <GUID>1500300850</GUID>
+      <Text>木材是许多建筑和物体的基础。无论是厚的、薄的还是宽的，它都可以满足所有的要求。</Text>
+    </Text>  
+    <Text>
+      <GUID>1500300860</GUID>
+      <Text>木材</Text>
+    </Text>  
+    <Text>
+      <GUID>1500300861</GUID>
+      <Text>木材</Text>
+    </Text>     
+    <Text>
+      <GUID>1500300853</GUID>
+      <Text>锯木厂是木材加工的基础。在这里，所有种类的木材都是从原木上锯下来的。</Text>
+    </Text>           
+  </ModOp>
+</ModOps>
