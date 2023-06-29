@@ -65,11 +65,11 @@ Contains products with definition, icon and Docklands information.
 
 Icon | GUID | Name |
 ---|---|---|
-<img src="./[Shared] Products (Kurila)/data/products/apples/icon_apples.png" width="20" /> | 1404420032 | Apples |
-<img src="./[Shared] Products (Kurila)/data/products/coloured-tiles/icon_tiles.png" width="20" /> | 1500301073 | Coloured Tiles |
-<img src="./[Shared] Products (Kurila)/data/products/liqueur/icon_liqueur.png" width="20" /> | 1500300040 | Liqueur |
-<img src="./[Shared] Products (Kurila)/data/products/sandwiches/icon_sandwich.png" width="20" /> | 1500300060 | Sandwiches |
-<img src="./[Shared] Products (Kurila)/data/products/smoked-fish/icon_smoked_fish.png" width="20" /> | 1500300020 | Smoked Fish |
+<img src="./shared_products_kurila/data/products/apples/icon_apples.png" width="20" /> | 1404420032 | Apples |
+<img src="./shared_products_kurila/data/products/coloured-tiles/icon_tiles.png" width="20" /> | 1500301073 | Coloured Tiles |
+<img src="./shared_products_kurila/data/products/liqueur/icon_liqueur.png" width="20" /> | 1500300040 | Liqueur |
+<img src="./shared_products_kurila/data/products/sandwiches/icon_sandwich.png" width="20" /> | 1500300060 | Sandwiches |
+<img src="./shared_products_kurila/data/products/smoked-fish/icon_smoked_fish.png" width="20" /> | 1500300020 | Smoked Fish |
 <img src="./doc/icon_wooden_ring_16.png" width="20" /> | 1500010150 | Wooden Jewelry |
 
 ## Shared Products Extended
@@ -83,12 +83,12 @@ Contains products with definition, icon and Docklands information.
 Icon | GUID | Name |
 ---|---|---|
 <img src="./doc/icon_cattle_16.png" width="20" /> | 1404422300 | Cattle |
-<img src="./[Shared] Products Extended (Kurila)/data/products/cherries/icon_cherries.png" width="20" /> | 1404420030 | Cherries |
+<img src="./shared_products_extended_kurila/data/products/cherries/icon_cherries.png" width="20" /> | 1404420030 | Cherries |
 <img src="./doc/icon_cloth_16.png" width="20" /> | 1500020000 | Wool Fabric |
 <img src="./doc/icon_wool_16.png" width="20" /> | 1500020010 | Sewing Thread |
-<img src="./[Shared] Products Extended (Kurila)/data/products/barrels/icon_barrels.png" width="20" /> | 1500300000 | Barrels |
+<img src="./shared_products_extended_kurila/data/products/barrels/icon_barrels.png" width="20" /> | 1500300000 | Barrels |
 <img src="./doc/icon_wansa_wood_16.png" width="20" /> | 1500301150 | Wanza Wood |
-<img src="./[Shared] Products Extended (Kurila)/data/products/cherry-timber/icon_cherry_planks.png" width="20" /> | 1500301151 | Cherry Timber |
+<img src="./shared_products_extended_kurila/data/products/cherry-timber/icon_cherry_planks.png" width="20" /> | 1500301151 | Cherry Timber |
 
 ### Use Products in your Mod
 
