@@ -1,7 +1,7 @@
 {
-  "out": "${annoMods}/wanza_sawmill_kurila",
+  "out": "${annoMods}/shared_wanza_sawmill_kurila",
   "Version": "1.0",
-  "ModID": "wanza_sawmill_kurila",
+  "ModID": "shared_wanza_sawmill_kurila",
   "DeprecateIds": [
 
   ],
