@@ -1,0 +1,83 @@
+{
+  "out": "${annoMods}/shared_vegetables_integration_kurila",
+  "Version": "1.1",
+  "ModID": "shared_vegetables_integration_kurila",
+  "DeprecateIds": [
+
+  ],
+  "ModDependencies": [
+    "https://github.com/jakobharder/anno1800-shared-mods/releases/download/v3.2.4/shared-products-jakob.zip"
+  ],
+  "LoadAfterIds": [
+    "production-vegetables-and-cheese-jakob",
+    "production-pickles-jakob",
+    "jakob_alternative_needs",
+    "shared-products-jakob"
+  ],
+  "IncompatibleIds": [
+
+  ],
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "Vegetables Integration (Kurila)",
+    "English": "Vegetables Integration (Kurila)",
+    "French": "Vegetables Integration (Kurila)",
+    "German": " Vegetables Integration (Kurila)",
+    "Italian": "Vegetables Integration (Kurila)",
+    "Japanese": "Vegetables Integration (Kurila)",
+    "Korean": "Vegetables Integration (Kurila)",
+    "Polish": "Vegetables Integration (Kurila)",
+    "Russian": "Vegetables Integration (Kurila)",
+    "Spanish": "Vegetables Integration (Kurila)",
+    "Taiwanese": "Vegetables Integration (Kurila)"
+  },
+  "Description": {
+    "English": "Replaces peppers with vegetables.",
+    "German": "Ersetzt Paprika mit Gemüse.",
+    "Chinese": "Replaces peppers with vegetables.",
+    "French": "Replaces peppers with vegetables.",
+    "Italian": "Replaces peppers with vegetables.",
+    "Japanese": "Replaces peppers with vegetables.",
+    "Korean": "Replaces peppers with vegetables.",
+    "Polish": "Replaces peppers with vegetables.",
+    "Russian": "Replaces peppers with vegetables.",
+    "Spanish": "Replaces peppers with vegetables.",
+    "Taiwanese": "Replaces peppers with vegetables."
+  },
+  "KnownIssues": [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+    {
+      "DLC": "",
+      "Dependant": ""
+    }
+],
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Image": null
+}

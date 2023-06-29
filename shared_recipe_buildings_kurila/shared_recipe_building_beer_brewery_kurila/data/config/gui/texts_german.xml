@@ -1,0 +1,22 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+  <!-- Vanilla Changes -->
+    <Text>
+      <GUID>1829</GUID><!-- Magazin DropGoodFactory Headline -->
+      <Text>Produktion</Text>
+    </Text>
+  <!-- New Entries -->
+    <Text>
+      <GUID>1500300872</GUID>
+      <Text>Keine Feier ist ohne Bier denkbar. Es ist gehaltvoll, geschmackvoll und lockert die Stimmung, nur sollte man es nicht damit übertreiben...</Text>
+    </Text>
+    <Text>
+      <GUID>1500300873</GUID>
+      <Text>Bier</Text>
+    </Text>
+    <Text>
+      <GUID>1500300874</GUID>
+      <Text>Bierbrauereien gibt es seit dem Altertum, sie sind ein fester Bestandteil vieler Kulturen. Heute kommt kaum eine Gemeinde ohne eine eigene Bierbrauerei aus.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

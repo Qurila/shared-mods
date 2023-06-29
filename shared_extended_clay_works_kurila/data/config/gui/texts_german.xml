@@ -1,0 +1,42 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- Clay Production -->
+      <Text>
+        <GUID>1500301060</GUID>
+        <Text>[AssetData(11143) Text]&#xD;&#xA;Diese flachen Lehmsenken lassen sich später zu tiefen Lehmgruben ausbauen.</Text>
+      </Text>
+      <Text>
+        <GUID>1500301061</GUID>
+        <Text>Lehmsenke</Text>
+      </Text>
+      <Text>
+        <GUID>1500301062</GUID>
+        <Text>Lehmmine</Text>
+      </Text>
+      <Text>
+        <GUID>1500301067</GUID>
+        <Text>Lehmmine</Text>
+      </Text>
+      <Text>
+        <GUID>1500301069</GUID>
+        <Text>Mittlere Lehmmine</Text>
+      </Text>
+      <Text>
+        <GUID>1500301070</GUID>
+        <Text>Rechte Lehmmine</Text>
+      </Text>
+      <Text>
+        <GUID>1500301072</GUID>
+        <Text>Linke Lehmmine</Text>
+      </Text>
+    <!-- Extended InfoDescription -->
+      <Text>
+        <GUID>1500301075</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;Baubar auf &lt;img height='24' width='24' src="[AssetData(1010505) Icon]"/&gt; [AssetData(1010505) Text].&lt;/font&gt;&#xD;&#xA;[AssetData(11143) Text]</Text>
+      </Text>
+      <Text>
+        <GUID>1500301076</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;Baubar auf &lt;img height='24' width='24' src="[AssetData(1010507) Icon]"/&gt; [AssetData(1010507) Text].&lt;/font&gt;&#xD;&#xA;[AssetData(11143) Text]</Text>
+      </Text>
+  </ModOp>
+</ModOps>

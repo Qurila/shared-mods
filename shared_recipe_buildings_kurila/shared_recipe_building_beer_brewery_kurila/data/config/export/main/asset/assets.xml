@@ -1,0 +1,148 @@
+<ModOps>
+  <!-- New Entries -->
+    <ModOp GUID="1010266" Type="addNextSibling">
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>1500300872</GUID>
+            <Name>Recipe_Desc_Beer</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Recipe</Template>
+        <Values>
+          <Standard>
+            <GUID>1500300873</GUID>
+            <Name>Recipe_Beer_OW</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_beer.png</IconFilename>
+          </Standard>
+          <Recipe>
+            <RecipeBuilding>1010292</RecipeBuilding>
+            <RecipeDescriptionText>1500300872</RecipeDescriptionText>
+            <RecipeImage>data/ui/2kimages/main/kurila/icons/icon_beer_sketch.png</RecipeImage>
+            <RecipeIngredientUIData>
+              <Item>
+                <PosY>20</PosY>
+                <PosX>20</PosX>
+                <UICirclePointer>SouthEast</UICirclePointer>
+              </Item>
+              <Item>
+                <PosX>-10</PosX>
+                <PosY>270</PosY>
+                <UICirclePointer>NorthEast</UICirclePointer>
+              </Item>
+            </RecipeIngredientUIData>
+          </Recipe>
+          <Locked>
+            <DefaultLockedState>0</DefaultLockedState>
+          </Locked>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>1500300874</GUID>
+            <Name>Recipe_List_Desc_Beer_Brewery</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>RecipeList</Template>
+        <Values>
+          <Standard>
+            <GUID>1500300875</GUID>
+            <Name>RecipeList_Beer_Brewery_OW</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_plantation.png</IconFilename>
+          </Standard>
+          <RecipeList>
+            <Recipes>
+              <Item>
+                <Recipe>1500300873</Recipe>
+              </Item>
+            </Recipes>
+            <RecipeListType>DropGood</RecipeListType>
+            <RecipeListMoodImage>data/ui/2kimages/main/kurila/icons/icon_beer_manufactory_sketch.png</RecipeListMoodImage>
+            <RecipeListDescription>1500300874</RecipeListDescription>
+          </RecipeList>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>RecipeList</Template>
+        <Values>
+          <Standard>
+            <GUID>1500300876</GUID>
+            <Name>RecipeList_Beer_Brewery_NW</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_plantation.png</IconFilename>
+          </Standard>
+          <RecipeList>
+            <Recipes>
+              <Item>
+                <Recipe>25062</Recipe>
+              </Item>
+            </Recipes>
+            <RecipeListType>DropGood</RecipeListType>
+            <RecipeListMoodImage>data/ui/2kimages/main/kurila/icons/icon_beer_manufactory_sketch.png</RecipeListMoodImage>
+            <RecipeListDescription>1500300874</RecipeListDescription>
+          </RecipeList>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Icon</Template>
+        <Values>
+          <Standard>
+            <GUID>1500300877</GUID>
+            <Name>Hacienda_Beer_Brewery_Icon</Name>
+            <IconFilename>data/ui/2kimages/main/kurila/icons/icon_hacienda_module_beer_brewery.png</IconFilename>
+          </Standard>
+        </Values>
+      </Asset>
+    </ModOp>
+
+  <!-- Building Changes -->
+    <ModOp Type="merge" GUID="1010292" Path="/Values">
+      <RecipeBuilding>
+        <RecipeList>1500300875</RecipeList>
+      </RecipeBuilding>
+    </ModOp>
+    <ModOp Type="merge" GUID="25064" Path="/Values">
+      <RecipeBuilding>
+        <RecipeList>1500300876</RecipeList>
+      </RecipeBuilding>
+    </ModOp>
+    <ModOp Type="merge" GUID="25064" Path="/Values" Condition="!@1999002025">
+      <Constructable>
+        <ConstructionMenuIcon>1500300877</ConstructionMenuIcon>
+      </Constructable>
+    </ModOp>
+  <!-- Recipe Changes -->
+    <ModOp Type="merge" GUID="25062" Path="/Values">
+      <Recipe>
+        <RecipeDescriptionText>1500300872</RecipeDescriptionText>
+        <RecipeImage>data/ui/2kimages/main/kurila/icons/icon_beer_sketch.png</RecipeImage>
+        <RecipeIngredientUIData>
+          <Item>
+            <PosY>20</PosY>
+            <PosX>20</PosX>
+            <UICirclePointer>SouthEast</UICirclePointer>
+          </Item>
+          <Item>
+            <PosX>-10</PosX>
+            <PosY>270</PosY>
+            <UICirclePointer>NorthEast</UICirclePointer>
+          </Item>
+        </RecipeIngredientUIData>
+      </Recipe>
+    </ModOp>
+    <ModOp Type="remove" GUID="24802" Path="/Values/RecipeList/Recipes/Item[Recipe='25062']"></ModOp>
+
+  <!-- Building Menu Changes -->
+    <ModOp Type="addNextSibling" GUID="7281" Path="/Values/ConstructionCategory/BuildingList/Item[Building='24800']">
+      <Item>
+        <Building>25064</Building>
+        <IgnoreUnlockStateForCategoryVisibility>1</IgnoreUnlockStateForCategoryVisibility>
+      </Item>
+    </ModOp>
+</ModOps>

@@ -1,0 +1,25 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+  <!-- Vanilla Changes -->
+    <Text>
+      <GUID>1829</GUID><!-- Magazin DropGoodFactory Headline -->
+      <Text>生産</Text>
+    </Text>
+  <!-- New Entries -->
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1500300872</GUID>
+      <Text>No celebration is conceivable without Beer. It is full-bodied, tasty and lightens the mood, but you should not overdo it...</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1500300873</GUID>
+      <Text>Beer</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1500300874</GUID>
+      <Text>Breweries have been around since ancient times and are an integral part of many Cultures. Today, hardly any district can do without its own brewery.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

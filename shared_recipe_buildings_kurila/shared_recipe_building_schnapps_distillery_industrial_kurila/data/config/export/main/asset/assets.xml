@@ -1,0 +1,75 @@
+<ModOps>
+  <!-- New Entries -->
+    <ModOp GUID="1010266" Type="addNextSibling">
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>1500300864</GUID>
+            <Name>Recipe_Desc_Schnapps</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Recipe</Template>
+        <Values>
+          <Standard>
+            <GUID>1500300870</GUID>
+            <Name>Recipe_Schnapps_Industrial</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_schnapps_4.png</IconFilename>
+          </Standard>
+          <Recipe>
+            <RecipeBuilding>1404423020</RecipeBuilding>
+            <RecipeDescriptionText>1500300864</RecipeDescriptionText>
+            <RecipeImage>data/ui/2kimages/main/kurila/icons/icon_schnapps_4_sketch.png</RecipeImage>
+            <RecipeIngredientUIData>
+              <Item>
+                <PosX>40</PosX>
+                <PosY>40</PosY>
+                <UICirclePointer>SouthEast</UICirclePointer>
+              </Item>
+            </RecipeIngredientUIData>
+          </Recipe>
+          <Locked>
+            <DefaultLockedState>0</DefaultLockedState>
+          </Locked>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>1500300866</GUID>
+            <Name>Recipe_List_Desc_Schnapps_Distillery</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>RecipeList</Template>
+        <Values>
+          <Standard>
+            <GUID>1500300871</GUID>
+            <Name>RecipeList_Schnapps_Distillery_Industrial</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_plantation.png</IconFilename>
+          </Standard>
+          <RecipeList>
+            <Recipes>
+              <Item>
+                <Recipe>1500300870</Recipe>
+              </Item>
+            </Recipes>
+            <RecipeListType>DropGood</RecipeListType>
+            <RecipeListMoodImage>data/ui/2kimages/main/kurila/icons/icon_schnapps_manufactory_sketch.png</RecipeListMoodImage>
+            <RecipeListDescription>1500300866</RecipeListDescription>
+          </RecipeList>
+        </Values>
+      </Asset>
+    </ModOp>
+
+  <!-- Building Changes -->
+    <ModOp Type="merge" GUID="1404423020" Path="/Values" Condition="@1404423020">
+      <RecipeBuilding>
+        <RecipeList>1500300871</RecipeList>
+      </RecipeBuilding>
+    </ModOp>
+</ModOps>

@@ -14,7 +14,7 @@ Add the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v2/shared_general_modules_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v3/shared_general_modules_kurila.zip"
 ]
 ```
 
@@ -30,7 +30,7 @@ Add the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v2/shared_general_permits_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v3/shared_general_permits_kurila.zip"
 ]
 ```
 
@@ -51,7 +51,7 @@ Add the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v2/shared_info_description_parts_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v3/shared_info_description_parts_kurila.zip"
 ]
 ```
 
@@ -96,8 +96,8 @@ Add one/all of the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v2/shared_products_kurila.zip",
-  "https://github.com/Qurila/shared-mods/releases/download/v2/shared_products_extended_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v3/shared_products_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v3/shared_products_extended_kurila.zip"
 ]
 ```
 
@@ -105,20 +105,38 @@ Products are not unlocked automatically, you need to unlock them yourself, if yo
 
 ## Shared Recipe Buildings
 
-This mod is a collection of single mods that convert vanilla buildings to recipe buildings.
+This mods convert vanilla buildings to recipe buildings.
 
 This way, modders who plan new recipes can all build on the same base and there are no compatibility problems.
-
-I do not recommend using the collection as a whole, otherwise all buildings will be changed regardless of whether you are planning a new recipe for just one.
-
-Only include the Sub-Mod Building for which you are planning recipes.
 
 ### Converted buildings
 
 - Lumberjack
 - Marquetry Workshops
 - Sawmills (Inlcuding Mod Buildings)
+- Schnapps Distilleries (Inlcuding Mod Buildings)
+- (Beer)Brewery
 
+### Use Recipe Buildings in your Mod
+
+Add the desired dependencies to your `modinfo.json`:
+
+```json
+"ModDependencies": [
+  "https://github.com/Qurila/shared-mods/releases/download/v3/shared_recipe_building_lumberjack_kurila.zip",
+
+  "https://github.com/Qurila/shared-mods/releases/download/v3/shared_recipe_building_sawmill_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v3/shared_recipe_building_sawmill_river_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v3/shared_recipe_building_sawmill_industrial_kurila.zip",
+
+  "https://github.com/Qurila/shared-mods/releases/download/v3/shared_recipe_building_marquetry_workshop_kurila.zip",
+
+  "https://github.com/Qurila/shared-mods/releases/download/v3/shared_recipe_building_beer_brewery_kurila.zip",
+
+  "https://github.com/Qurila/shared-mods/releases/download/v3/shared_recipe_building_schnapps_distillery_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v3/shared_recipe_building_schnapps_distillery_industrial_kurila.zip"
+]
+```
 
 ## Shared Vegetables Integration
 
@@ -132,7 +150,49 @@ Add the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v2/shared_vegetables_integration_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v3/shared_vegetables_integration_kurila.zip"
+]
+```
+
+## Shared Cherry Sawmill
+
+This mod makes it possible to produce cherry timber from cherry wood in sawmills that have been converted into recipe buildings.
+
+### Use Cherry Sawmill in your Mod
+
+Add the following dependencies to your `modinfo.json`:
+
+```json
+"ModDependencies": [
+  "https://github.com/Qurila/shared-mods/releases/download/v3/shared_cherry_sawmill_kurila.zip"
+]
+```
+
+## Shared Wanza Sawmill
+
+This mod makes it possible to produce wanza timber from wanza wood in a new enbesa sawmill.
+
+### Use Wanza Sawmill in your Mod
+
+Add the following dependencies to your `modinfo.json`:
+
+```json
+"ModDependencies": [
+  "https://github.com/Qurila/shared-mods/releases/download/v3/shared_wanza_sawmill_kurila.zip"
+]
+```
+
+## Shared Extended Clay Works
+
+This mod provides a farmer-level clay sink as an early source of clay and an ingineer-level clay mine as a late source of clay.
+
+### Use Extended Clay Works in your Mod
+
+Add the following dependencies to your `modinfo.json`:
+
+```json
+"ModDependencies": [
+  "https://github.com/Qurila/shared-mods/releases/download/v3/shared_extended_clay_works_kurila.zip"
 ]
 ```
 

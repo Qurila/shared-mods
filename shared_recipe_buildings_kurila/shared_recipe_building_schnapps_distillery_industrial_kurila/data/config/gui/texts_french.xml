@@ -1,0 +1,25 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+  <!-- Vanilla Changes -->
+    <Text>
+      <GUID>1829</GUID><!-- Magazin DropGoodFactory Headline -->
+      <Text>Production</Text>
+    </Text>
+  <!-- New Entries -->
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1500300864</GUID>
+      <Text>Schnapps distilled from Potatoes. It is a regular treat for large parts of the population, but it must be enjoyed with caution so as not to become addicted to it.</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1500300866</GUID>
+      <Text>Schnapps Distilleries can be found everywhere, whether in small Villages or large Cities, they produce high percentage Schnapps for the population.</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1500300870</GUID>
+      <Text>Schnapps</Text>
+    </Text>
+  </ModOp>
+</ModOps>

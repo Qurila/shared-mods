@@ -1,0 +1,86 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- Vanilla Changes -->
+      <Text>
+        <GUID>1829</GUID><!-- Magazin DropGoodFactory Headline -->
+        <Text>Produktion</Text>
+      </Text>
+  	<!-- Cherry Timber  -->
+      <Text>
+        <GUID>1500301320</GUID>
+        <Text>Sägewerk: Kirschholz</Text>
+      </Text>
+      <Text>
+        <GUID>1500301321</GUID>
+        <Text>Kirschbretter sind sehr hochwertig, sie werden nur von erfahrenen Handwerkern hergestellt. Aber was aus ihnen hergestellt wird ist Exquisit.</Text>
+      </Text>
+      <Text>
+        <GUID>1500301322</GUID>
+        <Text>Kirschbretter</Text>
+      </Text>
+      <Text>
+        <GUID>1500301323</GUID>
+        <Text>Sägewerk: Kirschholz</Text>
+      </Text>
+      <Text>
+        <GUID>1500301324</GUID>
+        <Text>Kirschbretter</Text>
+      </Text>
+      <Text>
+        <GUID>1500301325</GUID>
+        <Text>Großes Sägewerk: Kirschholz</Text>
+      </Text>
+      <Text>
+        <GUID>1500301326</GUID>
+        <Text>Kirschbretter</Text>
+      </Text>
+      <Text>
+        <GUID>1500301327</GUID>
+        <Text>Großes Sägewerk: Kirschholz</Text>
+      </Text>
+      <Text>
+        <GUID>1500301328</GUID>
+        <Text>Kirschbretter</Text>
+      </Text>
+      <Text>
+        <GUID>1500301329</GUID>
+        <Text>Flusssägemühle: Kirschholz</Text>
+      </Text>
+      <Text>
+        <GUID>1500301330</GUID>
+        <Text>Kirschbretter</Text>
+      </Text>
+      <Text>
+        <GUID>1500301331</GUID>
+        <Text>Flusssägemühle: Kirschholz</Text>
+      </Text>
+      <Text>
+        <GUID>1500301332</GUID>
+        <Text>Kirschbretter</Text>
+      </Text>
+      <Text>
+        <GUID>1500301344</GUID>
+        <Text>Küferei: Kirschbretter</Text>
+      </Text>
+      <Text>
+        <GUID>1500301352</GUID>
+        <Text>Küferei: Kirschbretter</Text>
+      </Text>
+      <Text>
+        <GUID>1500301360</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;b&gt;1t&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(1500301151) Icon]"/&gt; [AssetData(1500301151) Text]&lt;/font&gt;&#xD;&#xA;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301363</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(1500301151) Icon]"/&gt; [AssetData(1500301151) Text] &lt;b&gt;= 2t &lt;/b&gt;&lt;/font&gt;&#xD;&#xA;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301336</GUID>
+        <Text>[AssetData(1500301151) Text]</Text>
+      </Text>
+      <Text>
+        <GUID>1500301336</GUID>
+        <Text>[AssetData(1500301151) Text]</Text>
+      </Text>
+  </ModOp>
+</ModOps>

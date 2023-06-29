@@ -1,0 +1,289 @@
+<ModOps>
+	<!-- Enbesa Sawmill -->
+    <Group>
+      <!-- New Entries -->
+        <Group>
+          <ModOp GUID="122963" Type="addNextSibling">
+            <Asset>
+              <Template>FactoryBuilding7</Template>
+              <Values>
+                <Standard>
+                  <GUID>1500301290</GUID>
+                  <Name>Enbesa_Sawmill</Name>
+                  <IconFilename>data/ui/2kimages/main/kurila/icons/icon_wanza_planks.png</IconFilename>
+                </Standard>
+                <Building>
+                  <SkipUnlockMessage>1</SkipUnlockMessage>
+                  <BuildModeRandomRotation>180</BuildModeRandomRotation>
+                  <AssociatedRegions>Africa</AssociatedRegions>
+                </Building>
+                <Blocking />
+                <Cost>
+                  <Costs>
+                    <Item>
+                      <Ingredient>1010017</Ingredient>
+                      <Amount>500</Amount>
+                    </Item>
+                    <Item>
+                      <Ingredient>1500301150</Ingredient>
+                      <Amount>5</Amount>
+                    </Item>
+                    <Item>
+                      <Ingredient>1010205</Ingredient>
+                    </Item>
+                    <Item>
+                      <Ingredient>1010218</Ingredient>
+                    </Item>
+                    <Item>
+                      <Ingredient>1010207</Ingredient>
+                    </Item>
+                    <Item>
+                      <Ingredient>1010202</Ingredient>
+                    </Item>
+                  </Costs>
+                </Cost>
+                <Object>
+                  <Variations>
+                    <Item>
+                      <Filename>data/dlc06/graphics/buildings/production/production_colony02_12/production_colony02_12.cfg</Filename>
+                    </Item>
+                  </Variations>
+                  <Skins>
+                    <DefaultSkinName>1500301290</DefaultSkinName>
+                    <DefaultSkinDescription>23853</DefaultSkinDescription>
+                    <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                  </Skins>
+                </Object>
+                <Mesh />
+                <Selection>
+                  <OnSelection>
+                    <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                    <Values>
+                      <ActionList />
+                    </Values>
+                  </OnSelection>
+                  <ParticipantMessageArcheType>Africa_Resident_tier01</ParticipantMessageArcheType>
+                  <Colors>
+                    <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                  </Colors>
+                </Selection>
+                <Constructable />
+                <Locked>
+                  <DefaultLockedState>0</DefaultLockedState>
+                  <DLCDependency>410071</DLCDependency>
+                </Locked>
+                <SoundEmitter>
+                  <ActiveSounds>
+                    <Item>
+                      <Sound>270310</Sound>
+                    </Item>
+                    <Item>
+                      <Sound>270312</Sound>
+                    </Item>
+                  </ActiveSounds>
+                  <ConstructionSounds>
+                    <BuildSuccessful>
+                      <Item>
+                        <Sound>202404</Sound>
+                      </Item>
+                    </BuildSuccessful>
+                    <BuildMoveSuccess>
+                      <Item>
+                        <Sound>202404</Sound>
+                      </Item>
+                    </BuildMoveSuccess>
+                  </ConstructionSounds>
+                  <IncidentSounds>
+                    <InfectedFire>
+                      <Item>
+                        <Sound>214659</Sound>
+                      </Item>
+                    </InfectedFire>
+                  </IncidentSounds>
+                  <BuildingRepaired>
+                    <Item>
+                      <Sound>203866</Sound>
+                    </Item>
+                  </BuildingRepaired>
+                  <MaterialType>Wood</MaterialType>
+                </SoundEmitter>
+                <FeedbackController />
+                <Infolayer />
+                <UpgradeList />
+                <Factory7 />
+                <FactoryBase>
+                  <FactoryInputs>
+                    <Item>
+                      <Product>1500301150</Product>
+                      <Amount>1</Amount>
+                      <StorageAmount>8</StorageAmount>
+                    </Item>
+                  </FactoryInputs>
+                  <FactoryOutputs>
+                    <Item>
+                      <Product>114356</Product>
+                      <Amount>1</Amount>
+                      <StorageAmount>8</StorageAmount>
+                    </Item>
+                  </FactoryOutputs>
+                  <CycleTime>15</CycleTime>
+                  <IsMainFactory>1</IsMainFactory>
+                </FactoryBase>
+                <LogisticNode />
+                <AmbientMoodProvider>
+                  <Murmur>Factory</Murmur>
+                  <DynamicEnvironmentType>None</DynamicEnvironmentType>
+                </AmbientMoodProvider>
+                <Maintenance>
+                  <Maintenances>
+                    <Item>
+                      <Product>1010017</Product>
+                      <Amount>10</Amount>
+                      <InactiveAmount>5</InactiveAmount>
+                    </Item>
+                    <Item>
+                      <Product>114340</Product>
+                      <Amount>20</Amount>
+                    </Item>
+                  </Maintenances>
+                </Maintenance>
+                <Attackable>
+                  <AttackableType>IslandBuilding</AttackableType>
+                  <MaximumHitPoints>1500</MaximumHitPoints>
+                  <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <Pausable />
+                <IncidentInfectable>
+                  <Infectable>
+                    <Illness>
+                      <Escalated>0</Escalated>
+                    </Illness>
+                    <Explosion>
+                      <Base>0</Base>
+                      <Escalated>0</Escalated>
+                    </Explosion>
+                  </Infectable>
+                  <Explosion>
+                    <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                  </Explosion>
+                  <IncidentInfectionChanceFactors>
+                    <Fire>
+                      <DensityFactor>0.025</DensityFactor>
+                      <DensityDistance>20</DensityDistance>
+                      <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                      <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                    </Fire>
+                    <Riot>
+                      <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                      <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                      <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                      <HappinessThreshold>20</HappinessThreshold>
+                    </Riot>
+                  </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Industrializable>
+                  <BoostedByIndustrialization>0</BoostedByIndustrialization>
+                </Industrializable>
+                <Culture>
+                  <CultureType>Culture</CultureType>
+                </Culture>
+                <QuestObject />
+                <Electrifiable />
+                <EcoSystemProvider />
+              </Values>
+            </Asset>
+            <Asset>
+              <Template>ProductionChain</Template>
+              <Values>
+                <Standard>
+                  <GUID>1500301291</GUID>
+                  <Name>Wanza_Timber_Chain</Name>
+                  <IconFilename>data/ui/2kimages/main/kurila/icons/icon_wanza_planks.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                  <Building>1500301290</Building>
+                  <Tier1>
+                    <Item>
+                      <Building>122963</Building>
+                    </Item>
+                  </Tier1>
+                  <InfoTipHeight>450</InfoTipHeight>
+                </ProductionChain>
+                <Locked>
+                  <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+              </Values>
+            </Asset>
+          </ModOp>
+        </Group>
+      <!-- Adding to Pools/Buffs/Lists -->
+        <Group>
+          <!-- WorkforceMenu -->
+          <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+            <Item>
+              <Factory>1500301290</Factory>
+            </Item>
+          </ModOp>
+          <!-- Feedbacks -->
+          <ModOp Type="add" GUID="142311" Path="/Values/FeedbackBuildingGroup/Buildings">
+            <Item>
+              <Building>1500301290</Building>
+            </Item>
+          </ModOp>
+          <!-- Effect Pools -->
+          <ModOp Type="add" GUID="6000018,193856,193875,368,190914" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+            <Item>
+              <GUID>1500301290</GUID>
+            </Item>
+          </ModOp>
+          <!-- ProductList -->
+          <ModOp Type="add" GUID="502049" Path="/Values/ProductList/List">
+            <Item>
+              <Product>1500301150</Product>
+            </Item>
+          </ModOp>
+        </Group>
+      <!-- Build Menus -->
+        <Group>
+          <ModOp Type="replace" GUID='114553,119011' Path="/Values/ConstructionCategory/BuildingList/Item[Building='122963']/Building">
+            <Building>1500301291</Building>
+          </ModOp>
+        </Group>
+      <!-- Adjust Wanza Woodcutter / Wanza Timber -->
+        <Group>
+          <ModOp Type="merge" GUID='122963' Path="/Values">
+            <Values>
+              <Object>
+                <Variations>
+                  <Item>
+                    <Filename>data/kurila/wanza_woodcutter/wanza_woodcutter.cfg</Filename>
+                  </Item>
+                </Variations>
+              </Object>
+              <Maintenance>
+                <Maintenances>
+                  <Item />
+                  <Item>
+                    <Amount>10</Amount>
+                  </Item>
+                </Maintenances>
+              </Maintenance>
+              <FactoryBase>
+                <FactoryOutputs>
+                  <Item>
+                    <Product>1500301150</Product>
+                  </Item>
+                </FactoryOutputs>
+                <IsMainFactory>0</IsMainFactory>
+              </FactoryBase>
+            </Values>
+          </ModOp>
+          <ModOp Type="remove" GUID='190908,190909,190910' Path="/Values/ItemEffect/EffectTargets/Item[GUID='122963']"></ModOp>
+        </Group>
+    </Group>
+	<!-- Adjust Woodworkings -->
+    <!-- Enbesa Glasses Lion -->
+      <ModOp Type="replace" GUID="2100115706" Path="/Values/FactoryBase/FactoryInputs/Item[Product='114356']/Product" Condition="@2100115706">
+        <Product>1500301150</Product>
+      </ModOp>
+</ModOps>

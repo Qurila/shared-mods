@@ -1,0 +1,67 @@
+{
+  "out": "${annoMods}/shared_cherry_sawmill_kurila",
+  "Version": "1.0",
+  "ModID": "shared_cherry_sawmill_kurila",
+  "DeprecateIds": [
+
+  ],
+  "ModDependencies": [
+    "https://github.com/Qurila/shared-mods/releases/download/v3/shared_products_extended_kurila.zip",
+    "https://github.com/Qurila/shared-mods/releases/download/v3/shared_recipe_building_sawmill_kurila.zip",
+    "https://github.com/Qurila/shared-mods/releases/download/v3/shared_recipe_building_sawmill_river_kurila.zip",
+    "https://github.com/Qurila/shared-mods/releases/download/v3/shared_recipe_building_sawmill_industrial_kurila.zip"
+  ],
+  "LoadAfterIds": [
+
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "Cherry Sawmill (Kurila)",
+    "English": "Cherry Sawmill (Kurila)",
+    "French": "Cherry Sawmill (Kurila)",
+    "German": "Cherry Sawmill (Kurila)",
+    "Italian": "Cherry Sawmill (Kurila)",
+    "Japanese": "Cherry Sawmill (Kurila)",
+    "Korean": "Cherry Sawmill (Kurila)",
+    "Polish": "Cherry Sawmill (Kurila)",
+    "Russian": "Cherry Sawmill (Kurila)",
+    "Spanish": "Cherry Sawmill (Kurila)",
+    "Taiwanese": "Cherry Sawmill (Kurila)"
+  },
+  "Description": {
+    "English": "Adds cherry timber as an intermediate stage after cherry wood, including sawmills",
+    "German": "Fügt Kirschbretter als Zwischenstufe nach Kirschholz ein, inklusive Sägewerke",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+    {
+        "DLC": "HighLife",
+        "Dependant": "partly"
+    }
+],
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Image": null
+}

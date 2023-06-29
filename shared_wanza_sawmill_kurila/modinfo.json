@@ -1,0 +1,64 @@
+{
+  "out": "${annoMods}/wanza_sawmill_kurila",
+  "Version": "1.0",
+  "ModID": "wanza_sawmill_kurila",
+  "DeprecateIds": [
+
+  ],
+  "ModDependencies": [
+    "https://github.com/Qurila/shared-mods/releases/download/v3/shared_products_extended_kurila.zip"
+  ],
+  "LoadAfterIds": [
+    "Enbesa_Spectacles_Production"
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "Wanza Sawmill (Kurila)",
+    "English": "Wanza Sawmill (Kurila)",
+    "French": "Wanza Sawmill (Kurila)",
+    "German": "Wanza Sawmill (Kurila)",
+    "Italian": "Wanza Sawmill (Kurila)",
+    "Japanese": "Wanza Sawmill (Kurila)",
+    "Korean": "Wanza Sawmill (Kurila)",
+    "Polish": "Wanza Sawmill (Kurila)",
+    "Russian": "Wanza Sawmill (Kurila)",
+    "Spanish": "Wanza Sawmill (Kurila)",
+    "Taiwanese": "Wanza Sawmill (Kurila)"
+  },
+  "Description": {
+    "English": "Adds wanza wood as a pre-stage  to wanza timber, including a sawmill for Enbesa.",
+    "German": "Fügt Wanza-Holz als Vorstufe zu Wanza-Brettern ein, inklusive eines Sägewerks für Enbesa",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+    {
+        "DLC": "LandOfLions",
+        "Dependant": "Required"
+    }
+],
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Image": null
+}

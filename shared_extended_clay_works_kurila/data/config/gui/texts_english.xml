@@ -1,0 +1,42 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- Clay Production -->
+      <Text>
+        <GUID>1500301060</GUID>
+        <Text>[AssetData(11143) Text]&#xD;&#xA;These shallow Clay Sinks can later be developed into deep Clay Pits.</Text>
+      </Text>
+      <Text>
+        <GUID>1500301061</GUID>
+        <Text>Clay Sink</Text>
+      </Text>
+      <Text>
+        <GUID>1500301062</GUID>
+        <Text>Clay Mine</Text>
+      </Text>
+      <Text>
+        <GUID>1500301067</GUID>
+        <Text>Clay Mine</Text>
+      </Text>
+      <Text>
+        <GUID>1500301069</GUID>
+        <Text>Middle Clay Mine</Text>
+      </Text>
+      <Text>
+        <GUID>1500301070</GUID>
+        <Text>Right Clay Mine</Text>
+      </Text>
+      <Text>
+        <GUID>1500301072</GUID>
+        <Text>Left Clay Mine</Text>
+      </Text>
+    <!-- Extended InfoDescription -->
+      <Text>
+        <GUID>1500301075</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;Buildable on &lt;img height='24' width='24' src="[AssetData(1010505) Icon]"/&gt; [AssetData(1010505) Text].&lt;/font&gt;&#xD;&#xA;[AssetData(11143) Text]</Text>
+      </Text>
+      <Text>
+        <GUID>1500301076</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;Buildable on &lt;img height='24' width='24' src="[AssetData(1010507) Icon]"/&gt; [AssetData(1010507) Text].&lt;/font&gt;&#xD;&#xA;[AssetData(11143) Text]</Text>
+      </Text>
+  </ModOp>
+</ModOps>
