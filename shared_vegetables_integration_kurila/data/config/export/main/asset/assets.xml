@@ -25,26 +25,29 @@
         <Product>1500010836</Product>
       </ModOp>
 
-      <ModOp Type="remove" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1010198']">
+      <ModOp Type="remove" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1500010836']"></ModOp>
+
+      <ModOp Type="replace" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1010198']/Good">
+        <Good>1500010836</Good>
       </ModOp>
     </Group>
   <!-- Adjust Icons and Pepper farm -->
     <Group>
       <ModOp Type="replace" GUID="22407,1010198,1010570,153303,13930" Path="/Values/Standard/IconFilename">
-        <IconFilename>data/ui/2kimages/main/kurila/icons/icon_vegetables.png</IconFilename>
+        <IconFilename>data/ui/2kimages/main/kurila/icon_vegetables.png</IconFilename>
       </ModOp>
 
       <ModOp Type="replace" GUID="1500010836" Path="/Values/Standard/IconFilename" Condition="@1500010836">
-        <IconFilename>data/ui/2kimages/main/kurila/icons/icon_vegetables.png</IconFilename>
+        <IconFilename>data/ui/2kimages/main/kurila/icon_vegetables.png</IconFilename>
       </ModOp>
 
       <ModOp Type="replace" GUID="1500010830" Path="/Values/Standard/IconFilename" Condition="@1500010830">
-        <IconFilename>data/ui/2kimages/main/kurila/icons/icon_vegetables.png</IconFilename>
+        <IconFilename>data/ui/2kimages/main/kurila/icon_vegetables.png</IconFilename>
       </ModOp>
 
       <ModOp Type="merge" GUID="100654" Path="/Values">
         <Standard>
-          <IconFilename>data/ui/2kimages/main/kurila/icons/icon_vegetables.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/kurila/icon_vegetables.png</IconFilename>
         </Standard>
         <FactoryBase>
           <FactoryOutputs>
@@ -174,18 +177,4 @@
         </Values>
       </Asset>
     </ModOp>
-  <!-- Jakobs Vegetable Farm -->
-    <ImyaTweaks Title="Features of Vegetables Integration" />
-    <ModOp Type="replace" GUID="25000189,500945" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1500010830']/Building" AllowNoMatch="1" ModOpID="vegetablefarm" Skip="1">
-      <Building>100654</Building>
-    </ModOp>
-    <ModOp Type="replace" GUID="1500010114,1500010846" Path="/Values/ProductionChain/Tier1/Item[Building='1500010830']/Building" AllowNoMatch="1" ModOpID="vegetablefarm" Skip="1">
-      <Building>100654</Building>
-    </ModOp>
-    <ModOp Type="replace" GUID="500004" Path="/Values/ProductionChain/Tier2/Item[Building='1500010830']/Building" AllowNoMatch="1" ModOpID="vegetablefarm" Skip="1">
-      <Building>100654</Building>
-    </ModOp>
-    <ImyaExpose Path="*" ModOpID="vegetablefarm" ExposeID="Vegetable Farms" Kind="SkipToggle" Description="Toggles whether Jakob's vegetable farm is replaced or not.&#xD;&#xA;Off = Jakobs farm&#xD;&#xA;On = Changed pepper farm">
-    </ImyaExpose>
-  <Include File="./assets.imyatweak.include.xml" Skip="1" /><!-- The skip is intentional here -->
 </ModOps>

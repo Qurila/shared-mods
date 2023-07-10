@@ -11,7 +11,7 @@
                   <Standard>
                     <GUID>1500301320</GUID>
                     <Name>Sawmill_Cherry_Wood_OW</Name>
-                    <IconFilename>data/ui/2kimages/main/kurila/icons/icon_cherry_planks.png</IconFilename>
+                    <IconFilename>data/ui/2kimages/main/kurila/icon_cherry_planks.png</IconFilename>
                   </Standard>
                   <Building>
                     <SkipUnlockMessage>1</SkipUnlockMessage>
@@ -72,7 +72,7 @@
                   </Selection>
                   <Constructable />
                   <Locked>
-                    <DefaultLockedState>0</DefaultLockedState>
+                    <DefaultLockedState>1</DefaultLockedState>
                     <DLCDependency>410085</DLCDependency>
                   </Locked>
                   <SoundEmitter>
@@ -190,7 +190,7 @@
                   <Standard>
                     <GUID>1500301322</GUID>
                     <Name>Recipe_Cherry_Wood_Timber_OW</Name>
-                    <IconFilename>data/ui/2kimages/main/kurila/icons/icon_cherry_planks.png</IconFilename>
+                    <IconFilename>data/ui/2kimages/main/kurila/icon_cherry_planks.png</IconFilename>
                   </Standard>
                   <Recipe>
                     <RecipeBuilding>1500301320</RecipeBuilding>
@@ -216,7 +216,7 @@
                   <Standard>
                     <GUID>1500301323</GUID>
                     <Name>Sawmill_Cherry_Wood_NW</Name>
-                    <IconFilename>data/ui/2kimages/main/kurila/icons/icon_cherry_planks.png</IconFilename>
+                    <IconFilename>data/ui/2kimages/main/kurila/icon_cherry_planks.png</IconFilename>
                   </Standard>
                   <Building>
                     <SkipUnlockMessage>1</SkipUnlockMessage>
@@ -276,7 +276,7 @@
                   </Selection>
                   <Constructable />
                   <Locked>
-                    <DefaultLockedState>0</DefaultLockedState>
+                    <DefaultLockedState>1</DefaultLockedState>
                     <DLCDependency>410085</DLCDependency>
                   </Locked>
                   <SoundEmitter>
@@ -385,7 +385,7 @@
                   <Standard>
                     <GUID>1500301324</GUID>
                     <Name>Recipe_Cherry_Wood_Timber_NW</Name>
-                    <IconFilename>data/ui/2kimages/main/kurila/icons/icon_cherry_planks.png</IconFilename>
+                    <IconFilename>data/ui/2kimages/main/kurila/icon_cherry_planks.png</IconFilename>
                   </Standard>
                   <Recipe>
                     <RecipeBuilding>1500301323</RecipeBuilding>
@@ -411,7 +411,7 @@
                   <Standard>
                     <GUID>1500301336</GUID>
                     <Name>Cherry_Timber_Chain</Name>
-                    <IconFilename>data/ui/2kimages/main/kurila/icons/icon_cherry_planks.png</IconFilename>
+                    <IconFilename>data/ui/2kimages/main/kurila/icon_cherry_planks.png</IconFilename>
                   </Standard>
                   <ProductionChain>
                     <Building>1500301320</Building>
@@ -423,7 +423,7 @@
                     <InfoTipHeight>450</InfoTipHeight>
                   </ProductionChain>
                   <Locked>
-                    <DefaultLockedState>0</DefaultLockedState>
+                    <DefaultLockedState>1</DefaultLockedState>
                   </Locked>
                 </Values>
               </Asset>
@@ -436,7 +436,7 @@
                   <Standard>
                     <GUID>1500301325</GUID>
                     <Name>Industrial_Sawmill_Cherry_Wood_OW</Name>
-                    <IconFilename>data/ui/2kimages/main/kurila/icons/icon_cherry_planks_2.png</IconFilename>
+                    <IconFilename>data/ui/2kimages/main/kurila/icon_cherry_planks_2.png</IconFilename>
                   </Standard>
                   <Building>
                     <SecondPartyRelevant>0</SecondPartyRelevant>
@@ -493,7 +493,7 @@
                   </Selection>
                   <Constructable />
                   <Locked>
-                    <DefaultLockedState>0</DefaultLockedState>
+                    <DefaultLockedState>1</DefaultLockedState>
                     <DLCDependency>410085</DLCDependency>
                   </Locked>
                   <SoundEmitter>
@@ -601,7 +601,7 @@
                   <Standard>
                     <GUID>1500301326</GUID>
                     <Name>Recipe_Industrial_Cherry_Wood_Timber_OW</Name>
-                    <IconFilename>data/ui/2kimages/main/kurila/icons/icon_cherry_planks.png</IconFilename>
+                    <IconFilename>data/ui/2kimages/main/kurila/icon_cherry_planks.png</IconFilename>
                   </Standard>
                   <Recipe>
                     <RecipeBuilding>1500301325</RecipeBuilding>
@@ -627,7 +627,7 @@
                   <Standard>
                     <GUID>1500301327</GUID>
                     <Name>Industrial_Sawmill_Cherry_Wood_NW</Name>
-                    <IconFilename>data/ui/2kimages/main/kurila/icons/icon_cherry_planks_2.png</IconFilename>
+                    <IconFilename>data/ui/2kimages/main/kurila/icon_cherry_planks_2.png</IconFilename>
                   </Standard>
                   <Building>
                     <SecondPartyRelevant>0</SecondPartyRelevant>
@@ -684,7 +684,7 @@
                   </Selection>
                   <Constructable />
                   <Locked>
-                    <DefaultLockedState>0</DefaultLockedState>
+                    <DefaultLockedState>1</DefaultLockedState>
                     <DLCDependency>410085</DLCDependency>
                   </Locked>
                   <SoundEmitter>
@@ -792,7 +792,7 @@
                   <Standard>
                     <GUID>1500301328</GUID>
                     <Name>Recipe_Industrial_Cherry_Wood_Timber_NW</Name>
-                    <IconFilename>data/ui/2kimages/main/kurila/icons/icon_cherry_planks.png</IconFilename>
+                    <IconFilename>data/ui/2kimages/main/kurila/icon_cherry_planks.png</IconFilename>
                   </Standard>
                   <Recipe>
                     <RecipeBuilding>1500301327</RecipeBuilding>
@@ -866,7 +866,7 @@
                     <Standard>
                       <GUID>1500301329</GUID>
                       <Name>River_Sawmill_Cherry_Wood_OW</Name>
-                      <IconFilename>data/ui/2kimages/main/kurila/icons/icon_cherry_planks_river.png</IconFilename>
+                      <IconFilename>data/ui/2kimages/main/kurila/icon_cherry_planks_river.png</IconFilename>
                     </Standard>
                     <Building>
                       <AssociatedRegions>Moderate</AssociatedRegions>
@@ -938,7 +938,7 @@
                     </Text>
                     <Constructable />
                     <Locked>
-                      <DefaultLockedState>0</DefaultLockedState>
+                      <DefaultLockedState>1</DefaultLockedState>
                       <DLCDependency>410085</DLCDependency>
                     </Locked>
                     <SoundEmitter>
@@ -1054,7 +1054,7 @@
                     <Standard>
                       <GUID>1500301330</GUID>
                       <Name>Recipe_River_Cherry_Wood_Timber_OW</Name>
-                      <IconFilename>data/ui/2kimages/main/kurila/icons/icon_cherry_planks.png</IconFilename>
+                      <IconFilename>data/ui/2kimages/main/kurila/icon_cherry_planks.png</IconFilename>
                     </Standard>
                     <Recipe>
                       <RecipeBuilding>1500301329</RecipeBuilding>
@@ -1080,7 +1080,7 @@
                     <Standard>
                       <GUID>1500301331</GUID>
                       <Name>River_Sawmill_Cherry_Wood_NW</Name>
-                      <IconFilename>data/ui/2kimages/main/kurila/icons/icon_cherry_planks_river.png</IconFilename>
+                      <IconFilename>data/ui/2kimages/main/kurila/icon_cherry_planks_river.png</IconFilename>
                     </Standard>
                     <Building>
                       <AssociatedRegions>Colony01</AssociatedRegions>
@@ -1143,7 +1143,7 @@
                     </Selection>
                     <Constructable />
                     <Locked>
-                      <DefaultLockedState>0</DefaultLockedState>
+                      <DefaultLockedState>1</DefaultLockedState>
                       <DLCDependency>410085</DLCDependency>
                     </Locked>
                     <SoundEmitter>
@@ -1259,7 +1259,7 @@
                     <Standard>
                       <GUID>1500301332</GUID>
                       <Name>Recipe_River_Cherry_Wood_Timber_OW</Name>
-                      <IconFilename>data/ui/2kimages/main/kurila/icons/icon_cherry_planks.png</IconFilename>
+                      <IconFilename>data/ui/2kimages/main/kurila/icon_cherry_planks.png</IconFilename>
                     </Standard>
                     <Recipe>
                       <RecipeBuilding>1500301331</RecipeBuilding>
@@ -1433,19 +1433,37 @@
                                   <Asset>1500301151</Asset>
                                 </Item>
                                 <Item>
+                                  <Asset>1500301320</Asset>
+                                </Item>
+                                <Item>
                                   <Asset>1500301322</Asset>
+                                </Item>
+                                <Item>
+                                  <Asset>1500301323</Asset>
                                 </Item>
                                 <Item>
                                   <Asset>1500301324</Asset>
                                 </Item>
                                 <Item>
+                                  <Asset>1500301325</Asset>
+                                </Item>
+                                <Item>
                                   <Asset>1500301326</Asset>
+                                </Item>
+                                <Item>
+                                  <Asset>1500301327</Asset>
                                 </Item>
                                 <Item>
                                   <Asset>1500301328</Asset>
                                 </Item>
                                 <Item>
+                                  <Asset>1500301329</Asset>
+                                </Item>
+                                <Item>
                                   <Asset>1500301330</Asset>
+                                </Item>
+                                <Item>
+                                  <Asset>1500301331</Asset>
                                 </Item>
                                 <Item>
                                   <Asset>1500301332</Asset>
@@ -1562,6 +1580,111 @@
                 </Values>
               </Asset>
             </ModOp>
+            <Group Condition="!@1500301250">
+              <ModOp GUID="135087" Type="addNextSibling" Condition="!@1500301319">
+                <Asset>
+                  <Template>Trigger</Template>
+                  <Values>
+                    <Standard>
+                      <GUID>1500301250</GUID>
+                      <Name>Unlock_Cherry_Wood_1_Skyscraper_Level_1</Name>
+                      <IconFilename>data/ui/2kimages/main/profiles/3rdparty_unknown.png</IconFilename>
+                    </Standard>
+                    <Trigger>
+                      <TriggerCondition>
+                        <Template>ConditionIsDLCActive</Template>
+                        <Values>
+                          <Condition>
+                            <SubConditionCompletionOrder>MutuallyExclusive</SubConditionCompletionOrder>
+                          </Condition>
+                          <ConditionIsDLCActive>
+                            <DLCAssetList>
+                              <Item>
+                                <DLCAsset>410085</DLCAsset>
+                              </Item>
+                            </DLCAssetList>
+                          </ConditionIsDLCActive>
+                          <ConditionPropsNegatable />
+                        </Values>
+                      </TriggerCondition>
+                      <TriggerActions>
+                        <Item>
+                          <TriggerAction>
+                            <Template>ActionUnlockAsset</Template>
+                            <Values>
+                              <Action />
+                              <ActionUnlockAsset>
+                                <UnlockAssets>
+                                  <Item>
+                                    <Asset>135087</Asset>
+                                  </Item>
+                                  <Item>
+                                    <Asset>135088</Asset>
+                                  </Item>
+                                  <Item>
+                                    <Asset>135090</Asset>
+                                  </Item>
+                                </UnlockAssets>
+                              </ActionUnlockAsset>
+                            </Values>
+                          </TriggerAction>
+                        </Item>
+                      </TriggerActions>
+                      <SubTriggers>
+                        <Item>
+                          <SubTrigger>
+                            <Template>AutoCreateTrigger</Template>
+                            <Values>
+                              <Trigger>
+                                <TriggerCondition>
+                                  <Template>ConditionPlayerCounter</Template>
+                                  <Values>
+                                    <Condition />
+                                    <ConditionPlayerCounter>
+                                      <Context>601882</Context>
+                                      <CounterAmount>1</CounterAmount>
+                                    </ConditionPlayerCounter>
+                                  </Values>
+                                </TriggerCondition>
+                              </Trigger>
+                            </Values>
+                          </SubTrigger>
+                        </Item>
+                        <Item>
+                          <SubTrigger>
+                            <Template>AutoCreateTrigger</Template>
+                            <Values>
+                              <Trigger>
+                                <TriggerCondition>
+                                  <Template>ConditionPlayerCounter</Template>
+                                  <Values>
+                                    <Condition />
+                                    <ConditionPlayerCounter>
+                                      <Context>601888</Context>
+                                      <CounterAmount>1</CounterAmount>
+                                    </ConditionPlayerCounter>
+                                  </Values>
+                                </TriggerCondition>
+                              </Trigger>
+                            </Values>
+                          </SubTrigger>
+                        </Item>
+                      </SubTriggers>
+                      <ResetTrigger>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                          <EmptyAutoCreateValue />
+                        </Values>
+                      </ResetTrigger>
+                    </Trigger>
+                    <TriggerSetup />
+                  </Values>
+                </Asset>
+              </ModOp>
+              <ModOp Type="remove" GUID='136067' Path="/Values/AssetPool/AssetList/Item[Asset='135087']"></ModOp>
+              <ModOp Type="remove" GUID='136067' Path="/Values/AssetPool/AssetList/Item[Asset='135088']"></ModOp>
+              <ModOp Type="remove" GUID='136067' Path="/Values/AssetPool/AssetList/Item[Asset='135090']"></ModOp>
+            </Group>
         </Group>
       <!-- Adding to Pools/Buffs/Lists/Menues -->
         <Group>

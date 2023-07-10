@@ -1,0 +1,62 @@
+{
+  "out": "${annoMods}/shared_clay_works_kurila",
+  "Version": "1.1",
+  "ModID": "shared_clay_works_kurila",
+  "DeprecateIds": [
+    "shared_extended_clay_works_kurila"
+  ],
+  "LoadAfterIds": [
+    "Taludas_MineSlotUnification"
+   ],
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "Clay Works (Kurila)",
+    "English": "Clay Works (Kurila)",
+    "French": "Clay Works (Kurila)",
+    "German": "Clay Works (Kurila)",
+    "Italian": "Clay Works (Kurila)",
+    "Japanese": "Clay Works (Kurila)",
+    "Korean": "Clay Works (Kurila)",
+    "Polish": "Clay Works (Kurila)",
+    "Russian": "Clay Works (Kurila)",
+    "Spanish": "Clay Works (Kurila)",
+    "Taiwanese": "Clay Works (Kurila)"
+  },
+  "Description": {
+    "English": "Adds a Clay Sink as an early Clay source and a Clay Mine as a late Clay source.",
+    "German": "Fügt eine Lehmsenke als frühe Lehmquelle sowie eine Lehmmine als späte Lehmquelle ein.",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+    {
+        "DLC": "",
+        "Dependant": ""
+    }
+],
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Image": null
+}

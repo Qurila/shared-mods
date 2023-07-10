@@ -1,0 +1,30 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+  <!-- Vanilla Changes -->
+    <Text>
+      <GUID>1829</GUID><!-- Magazin DropGoodFactory Headline -->
+      <Text>Produktion</Text>
+    </Text>
+  <!-- New Entries -->
+    <Text>
+      <GUID>1500300878</GUID>
+      <Text>Wolle ist die Grundlage vieler Textilien. Sie wird mit großer sorgfallt geschorren und gewaschen.</Text>
+    </Text>
+    <Text>
+      <GUID>1500300879</GUID>
+      <Text>Wolle</Text>
+    </Text>
+    <Text>
+      <GUID>1500300880</GUID>
+      <Text>Alpakawolle</Text>
+    </Text>
+    <Text>
+      <GUID>1500300881</GUID>
+      <Text>Schäfereien züchten die wolligsten Schaffe. Hier fängt die lange Reise der Wolle zur Kleidung an.</Text>
+    </Text>
+    <Text>
+      <GUID>1500300882</GUID>
+      <Text>Alpakafarmen züchten die wolligsten Alpakas. Hier fängt die lange Reise der Wolle zur Kleidung an.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

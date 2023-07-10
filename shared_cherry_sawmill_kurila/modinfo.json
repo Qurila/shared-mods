@@ -1,15 +1,15 @@
 {
   "out": "${annoMods}/shared_cherry_sawmill_kurila",
-  "Version": "1.0",
+  "Version": "1.2",
   "ModID": "shared_cherry_sawmill_kurila",
   "DeprecateIds": [
 
   ],
   "ModDependencies": [
-    "https://github.com/Qurila/shared-mods/releases/download/v3/shared_products_extended_kurila.zip",
-    "https://github.com/Qurila/shared-mods/releases/download/v3/shared_recipe_building_sawmill_kurila.zip",
-    "https://github.com/Qurila/shared-mods/releases/download/v3/shared_recipe_building_sawmill_river_kurila.zip",
-    "https://github.com/Qurila/shared-mods/releases/download/v3/shared_recipe_building_sawmill_industrial_kurila.zip"
+    "shared_products_extended_kurila",
+    "shared_sawmill_kurila",
+    "shared_sawmill_river_kurila",
+    "shared_sawmill_industrial_kurila"
   ],
   "LoadAfterIds": [
 

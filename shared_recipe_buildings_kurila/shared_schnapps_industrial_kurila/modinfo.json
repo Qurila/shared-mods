@@ -1,0 +1,52 @@
+{
+  "out": "${annoMods}/shared_schnapps_industrial_kurila",
+  "Version": "1.1",
+  "ModID": "shared_schnapps_industrial_kurila",
+  "DeprecateIds": [
+    "shared_recipe_building_schnapps_distillery_industrial_kurila"
+  ],
+  "LoadAfterIds": [
+    "IndustrializedLowTierProduction"
+  ],
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "English": "Schnapps Industrial (Kurila)",
+    "Chinese": "Schnapps Industrial (Kurila)",
+    "French": "Schnapps Industrial (Kurila)",
+    "German": "Schnapps Industrial (Kurila)",
+    "Italian": "Schnapps Industrial (Kurila)",
+    "Japanese": "Schnapps Industrial (Kurila)",
+    "Korean": "Schnapps Industrial (Kurila)",
+    "Polish": "Schnapps Industrial (Kurila)",
+    "Russian": "Schnapps Industrial (Kurila)",
+    "Spanish": "Schnapps Industrial (Kurila)",
+    "Taiwanese": "Schnapps Industrial (Kurila)"
+  },
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Description": {
+    "English": null,
+    "Chinese": null,
+    "French": null,
+    "German": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "out": "${annoMods}/shared_beer_brewery_kurila",
+  "Version": "1.1",
+  "ModID": "shared_beer_brewery_kurila",
+  "DeprecateIds": [
+    "shared_recipe_building_beer_brewery_kurila"
+  ],
+  "LoadAfterIds": [
+    "Taludas_TheWholesomeHaciendaHaul"
+  ],
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "English": "Beer Brewery (Kurila)",
+    "Chinese": "Beer Brewery (Kurila)",
+    "French": "Beer Brewery (Kurila)",
+    "German": "Beer Brewery (Kurila)",
+    "Italian": "Beer Brewery (Kurila)",
+    "Japanese": "Beer Brewery (Kurila)",
+    "Korean": "Beer Brewery (Kurila)",
+    "Polish": "Beer Brewery (Kurila)",
+    "Russian": "Beer Brewery (Kurila)",
+    "Spanish": "Beer Brewery (Kurila)",
+    "Taiwanese": "Beer Brewery (Kurila)"
+  },
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Description": {
+    "English": null,
+    "Chinese": null,
+    "French": null,
+    "German": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  }
+}

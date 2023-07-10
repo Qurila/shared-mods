@@ -1,0 +1,597 @@
+<ModOps>
+  <!-- Clay Production -->
+    <!--  Old World -->
+      <!-- New Entries  -->
+        <ModOp GUID='1010309' Type="addNextSibling">
+          <Asset>
+            <Template>Text</Template>
+            <Values>
+              <Standard>
+                <GUID>1500301060</GUID>
+                <Name>Desc_Clay_Sink</Name>
+              </Standard>
+            </Values>
+          </Asset>
+          <Asset>
+            <BaseAssetGUID>100416</BaseAssetGUID>
+            <Values>
+                <Standard>
+                  <GUID>1500301061</GUID>
+                  <Name>Clay_Sink</Name>
+                  <IconFilename>data/ui/2kimages/main/3dicons/icon_clay.png</IconFilename>
+                  <InfoDescription>1500301060</InfoDescription>
+                </Standard>
+                <Building />
+                <Blocking />
+                <Cost>
+                  <Costs>
+                    <Item>
+                      <Ingredient>1010017</Ingredient>
+                      <Amount>250</Amount>
+                    </Item>
+                    <Item>
+                      <Ingredient>1010196</Ingredient>
+                      <Amount>2</Amount>
+                    </Item>
+                  </Costs>
+                </Cost>
+                <Object>
+                  <Variations>
+                    <Item>
+                      <Filename>data/kurila/Clay_Sink/Clay_Sink.cfg</Filename>
+                    </Item>
+                  </Variations>
+                </Object>
+                <Mesh />
+                <Selection>
+                  <ParticipantMessageArcheType>Resident_tier01_atWork</ParticipantMessageArcheType>
+                </Selection>
+                <Constructable />
+                <Locked>
+                  <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <SoundEmitter />
+                <FeedbackController />
+                <Infolayer />
+                <UpgradeList />
+                <Factory7 />
+                <FactoryBase>
+                  <CycleTime>60</CycleTime>
+                  <IsMainFactory>0</IsMainFactory>
+                </FactoryBase>
+                <LogisticNode />
+                <Slot />
+                <AmbientMoodProvider />
+                <Maintenance>
+                  <Maintenances>
+                    <Item>
+                      <Product>1010017</Product>
+                      <Amount>10</Amount>
+                      <InactiveAmount>5</InactiveAmount>
+                    </Item>
+                    <Item>
+                      <Product>1010052</Product>
+                      <Amount>50</Amount>
+                    </Item>
+                  </Maintenances>
+                </Maintenance>
+                <Attackable />
+                <Pausable />
+                <IncidentInfectable />
+                <Culture />
+                <Industrializable>
+                  <BoostedByIndustrialization>0</BoostedByIndustrialization>
+                </Industrializable>
+                <Electrifiable />
+                <Upgradable>
+                  <NextGUID>100416</NextGUID>
+                  <UpgradeCost>
+                    <Item>
+                      <Amount>250</Amount>
+                      <Ingredient>1010017</Ingredient>
+                    </Item>
+                    <Item>
+                      <Amount>2</Amount>
+                      <Ingredient>1010196</Ingredient>
+                    </Item>
+                  </UpgradeCost>
+                  <UpgradeMode>AdvancedIncidentBuilding</UpgradeMode>
+                </Upgradable>
+            </Values>
+          </Asset>
+          <Asset>
+            <BaseAssetGUID>1010309</BaseAssetGUID>
+            <Values>
+              <Standard>
+                <GUID>1500301062</GUID>
+                <Name>Clay Mine</Name>
+                <IconFilename>data/ui/2kimages/main/kurila/icon_clay_02.png</IconFilename>
+              </Standard>
+              <Building />
+              <Blocking />
+              <Cost />
+              <Object>
+                <Variations>
+                  <Item>
+                    <Filename>data/kurila/clay_mine/clay_mine_middle.cfg</Filename>
+                  </Item>
+                </Variations>
+                <Skins>
+                  <DefaultSkinName>1500301069</DefaultSkinName>
+                  <DefaultSkinDescription>23853</DefaultSkinDescription>
+                  <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                  <SkinList>
+                    <Item>
+                      <SkinAssetGuid>1500301074</SkinAssetGuid>
+                    </Item>
+                    <Item>
+                      <SkinAssetGuid>1500301071</SkinAssetGuid>
+                    </Item>
+                  </SkinList>
+                </Skins>
+              </Object>
+              <Mesh />
+              <Selection />
+              <Constructable />
+              <Locked />
+              <SoundEmitter />
+              <FeedbackController />
+              <Infolayer />
+              <UpgradeList />
+              <Factory7 />
+              <FactoryBase>
+                <FactoryOutputs>
+                  <Item>
+                    <Product>1010201</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>8</StorageAmount>
+                  </Item>
+                </FactoryOutputs>
+                <CycleTime>15</CycleTime>
+                <IsMainFactory>0</IsMainFactory>
+              </FactoryBase>
+              <LogisticNode />
+              <Slot>
+                <SlotType>Cement</SlotType>
+                <WorkArea>100418</WorkArea>
+              </Slot>
+              <AmbientMoodProvider />
+              <Maintenance>
+                <Maintenances>
+                  <Item>
+                    <Product>1010017</Product>
+                    <Amount>300</Amount>
+                    <InactiveAmount>150</InactiveAmount>
+                  </Item>
+                  <Item>
+                    <Product>1010115</Product>
+                    <Amount>100</Amount>
+                  </Item>
+                </Maintenances>
+              </Maintenance>
+              <Attackable />
+              <Pausable />
+              <IncidentInfectable />
+              <Culture />
+              <Industrializable />
+              <Electrifiable />
+            </Values>
+          </Asset>
+          <Asset>
+            <Template>Trigger</Template>
+            <Values>
+              <Standard>
+                <GUID>1500301063</GUID>
+                <Name>Trigger_Clay_Mine</Name>
+              </Standard>
+              <Trigger>
+                <TriggerCondition>
+                  <Template>ConditionPlayerCounter</Template>
+                  <Values>
+                    <Condition />
+                    <ConditionPlayerCounter>
+                      <PlayerCounter>PopulationByLevel</PlayerCounter>
+                      <Context>15000003</Context>
+                      <CounterAmount>1</CounterAmount>
+                    </ConditionPlayerCounter>
+                  </Values>
+                </TriggerCondition>
+                <TriggerActions>
+                  <Item>
+                    <TriggerAction>
+                      <Template>ActionResetTrigger</Template>
+                      <Values>
+                        <Action />
+                        <ActionResetTrigger />
+                      </Values>
+                    </TriggerAction>
+                  </Item>
+                  <Item>
+                    <TriggerAction>
+                      <Template>ActionUnlockAsset</Template>
+                      <Values>
+                        <Action />
+                        <ActionUnlockAsset>
+                        <UnlockAssets>
+                          <Item>
+                            <Asset>1500301062</Asset>
+                          </Item>
+                        </UnlockAssets>
+                        </ActionUnlockAsset>
+                      </Values>
+                    </TriggerAction>
+                  </Item>
+                </TriggerActions>
+              </Trigger>
+              <TriggerSetup />
+            </Values>
+          </Asset>
+          <Asset>
+            <Template>Text</Template>
+            <Values>
+              <Standard>
+                <GUID>1500301069</GUID>
+                <Name>SkinName_Clay_Mine_Middle</Name>
+              </Standard>
+            </Values>
+          </Asset>
+          <Asset>
+            <Template>Text</Template>
+            <Values>
+              <Standard>
+                <GUID>1500301070</GUID>
+                <Name>SkinName_Clay_Mine_Right</Name>
+              </Standard>
+            </Values>
+          </Asset>
+          <Asset>
+            <Template>Skin</Template>
+            <Values>
+              <Standard>
+                <GUID>1500301071</GUID>
+                <Name>Clay_Mine_Skin_Right</Name>
+                <IconFilename>data/ui/2kimages/main/kurila/icon_clay_02.png</IconFilename>
+              </Standard>
+              <Skin>
+                <SkinName>1500301070</SkinName>
+                <SkinDescription>23853</SkinDescription>
+                <SkinVariations>
+                  <Item>
+                    <FileName>data/kurila/clay_mine/clay_mine_right.cfg</FileName>
+                  </Item>
+                </SkinVariations>
+                <SkinCategoryDescription>7312</SkinCategoryDescription>
+              </Skin>
+              <Locked>
+                <DefaultLockedState>0</DefaultLockedState>
+                <VisibleWhenLocked>1</VisibleWhenLocked>
+              </Locked>
+              <Text />
+            </Values>
+          </Asset>
+          <Asset>
+            <Template>Text</Template>
+            <Values>
+              <Standard>
+                <GUID>1500301072</GUID>
+                <Name>SkinName_Clay_Mine_Left</Name>
+              </Standard>
+            </Values>
+          </Asset>
+          <Asset>
+            <Template>Skin</Template>
+            <Values>
+              <Standard>
+                <GUID>1500301074</GUID>
+                <Name>Clay_Mine_Skin_Left</Name>
+                <IconFilename>data/ui/2kimages/main/kurila/icon_clay_02.png</IconFilename>
+              </Standard>
+              <Skin>
+                <SkinName>1500301072</SkinName>
+                <SkinDescription>23853</SkinDescription>
+                <SkinVariations>
+                  <Item>
+                    <FileName>data/kurila/clay_mine/clay_mine_left.cfg</FileName>
+                  </Item>
+                </SkinVariations>
+                <SkinCategoryDescription>7312</SkinCategoryDescription>
+              </Skin>
+              <Locked>
+                <DefaultLockedState>0</DefaultLockedState>
+                <VisibleWhenLocked>1</VisibleWhenLocked>
+              </Locked>
+              <Text />
+            </Values>
+          </Asset>
+        </ModOp>
+      <!-- Adding to Pools/Buffs  -->
+        <Group>
+          <ModOp Type="add" Path="//ItemEffectTargetPool/EffectTargetGUIDs[Item/GUID='100416']"><!-- Clay Pit -->
+            <Item>
+              <GUID>1500301061</GUID>
+            </Item>
+          </ModOp>
+
+          <ModOp Type="add" Path="//ItemEffectTargetPool/EffectTargetGUIDs[Item/GUID='1010309']"><!-- Cement Mine -->
+            <Item>
+                <GUID>1500301062</GUID>
+            </Item>
+          </ModOp>
+
+          <ModOp GUID="25000087" Type="add" Path= "/Values/WorkforceMenu/BoostableFactories"><!-- WorkforceMenu -->
+            <Item>
+                <Factory>1500301061</Factory>
+            </Item>
+            <Item>
+                <Factory>1500301062</Factory>
+            </Item>
+          </ModOp>
+
+          <ModOp Type="add" GUID="142311" Path="/Values/FeedbackBuildingGroup/Buildings"><!-- Feedbacks -->
+            <Item>
+              <Building>1500301061</Building>
+            </Item>
+            <Item>
+              <Building>1500301062</Building>
+            </Item>
+          </ModOp>
+        </Group>
+      <!-- Changes to Buildings/Production Chains -->
+        <Group>
+          <ModOp Type="replace" GUID="100418" Path="/Values/Object/Variations/Item/Filename"><!-- WorkArea Clay -->
+            <Filename>data/kurila/clay_mine/clay_mine_workarea.cfg</Filename>
+          </ModOp>
+
+          <ModOp Type="remove" GUID="100416" Path="/Values/Slot/WorkArea"></ModOp><!-- Clay Pit -->
+
+          <Group Condition="@1999002317"><!-- Mod: Mine Slot Unification -->
+            <ModOp Type="replace" GUID="1500301062" Path="/Values/Slot/SlotType"><!-- Clay Mine -->
+              <SlotType>Iron</SlotType>
+            </ModOp>
+          </Group>
+        </Group>
+    <!--  New World -->
+      <!-- New Entries -->
+        <ModOp GUID='1500301062' Type="addNextSibling">
+          <Asset>
+            <Template>WorkArea</Template>
+            <Values>
+              <Standard>
+                <GUID>1500301064</GUID>
+                <Name>Work_Area_Clay_New_World</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/icon_clay.png</IconFilename>
+              </Standard>
+              <Object>
+                <Variations>
+                  <Item>
+                    <Filename>data/kurila/Clay_Mine_Colony01/Clay_Mine_WorkArea_Colony01.cfg</Filename>
+                  </Item>
+                </Variations>
+              </Object>
+              <Mesh />
+              <Slot>
+                <SnapsToSlot>1</SnapsToSlot>
+              </Slot>
+              <SoundEmitter />
+              <FeedbackController />
+              <WorkAreaPath>
+                <AreaPathConfig>data/graphics/buildings/production/mining_01/mining_rail_01.cfg</AreaPathConfig>
+              </WorkAreaPath>
+              <Selection>
+                <OnSelection>
+                  <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                  <Values>
+                      <ActionList />
+                  </Values>
+                </OnSelection>
+              </Selection>
+              <Blocking />
+            </Values>
+          </Asset>
+          <Asset>
+            <Template>TrafficFeedbackUnit</Template>
+            <Values>
+              <Standard>
+                <GUID>1500301065</GUID>
+                <Name>Mine_Lorry_SA_Clay_Full</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/icon_mineral_desposits.png</IconFilename>
+              </Standard>
+              <TrafficFeedbackUnit>
+                <UnitType>MineLorry</UnitType>
+                <CfgPath>data/kurila/Clay_Mine_Colony01/lorry_clay_full.cfg</CfgPath>
+                <SpeedSource>TakeFromAsset</SpeedSource>
+                <OverwriteSpeed>0.15</OverwriteSpeed>
+              </TrafficFeedbackUnit>
+              <Trailer />
+            </Values>
+          </Asset>
+          <Asset>
+            <Template>FeedbackUnitClass</Template>
+            <Values>
+              <Standard>
+                <GUID>1500301066</GUID>
+                <Name>Lorry_SA_Clay_Full_Class</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/icon_beams.png</IconFilename>
+              </Standard>
+              <TrafficFeedbackClass>
+                <DefaultBehaviour>INTERNAL_MineLorry</DefaultBehaviour>
+                <UnitAssets>
+                  <Item>
+                    <UnitAsset>1500301065</UnitAsset>
+                  </Item>
+                </UnitAssets>
+              </TrafficFeedbackClass>
+            </Values>
+          </Asset>
+          <Asset>
+            <BaseAssetGUID>1500301062</BaseAssetGUID>
+            <Values>
+              <Standard>
+                <GUID>1500301067</GUID>
+                <Name>Clay_Mine_NW</Name>
+              </Standard>
+              <Building>
+                <AssociatedRegions>Colony01</AssociatedRegions>
+              </Building>
+              <Blocking />
+              <Cost />
+              <Object>
+                <Variations>
+                  <Item>
+                      <VectorElement>
+                          <InheritedIndex>0</InheritedIndex>
+                          <InheritanceMapV2>
+                              <Entry>
+                                  <TemplateName>SlotFactoryBuilding7</TemplateName>
+                                  <Index>0</Index>
+                              </Entry>
+                          </InheritanceMapV2>
+                      </VectorElement>
+                      <Filename>data/kurila/clay_mine_colony01/clay_mine_colony01.cfg</Filename>
+                  </Item>
+                </Variations>
+              </Object>
+              <Mesh />
+              <Selection>
+                <ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
+              </Selection>
+              <Constructable />
+              <Locked />
+              <SoundEmitter />
+              <FeedbackController />
+              <Infolayer />
+              <UpgradeList />
+              <Factory7 />
+              <FactoryBase />
+              <LogisticNode />
+              <Slot>
+                <SlotType>GoldOre</SlotType>
+                <WorkArea>1500301064</WorkArea>
+              </Slot>
+              <AmbientMoodProvider />
+              <Maintenance>
+                <Maintenances>
+                  <Item>
+                    <Product>1010017</Product>
+                    <Amount>250</Amount>
+                    <InactiveAmount>125</InactiveAmount>
+                  </Item>
+                  <Item>
+                    <Product>1010366</Product>
+                    <Amount>100</Amount>
+                  </Item>
+                </Maintenances>
+              </Maintenance>
+              <Attackable />
+              <Pausable />
+              <IncidentInfectable />
+              <Culture />
+              <Industrializable />
+              <Electrifiable />
+            </Values>
+          </Asset>
+          <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                  <GUID>1500301068</GUID>
+                  <Name>Trigger_Clay_Mine_NW</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionPlayerCounter</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionPlayerCounter>
+                          <PlayerCounter>PopulationByLevel</PlayerCounter>
+                          <Context>15000006</Context>
+                          <CounterAmount>1</CounterAmount>
+                        </ConditionPlayerCounter>
+                      </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                            <Template>ActionResetTrigger</Template>
+                            <Values>
+                                <Action />
+                                <ActionResetTrigger />
+                            </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                            <Template>ActionUnlockAsset</Template>
+                            <Values>
+                                <Action />
+                                <ActionUnlockAsset>
+                                <UnlockAssets>
+                                    <Item>
+                                        <Asset>1500301067</Asset>
+                                    </Item>
+                                </UnlockAssets>
+                                </ActionUnlockAsset>
+                            </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+          </Asset>
+        </ModOp>
+        <ModOp Type="add" GUID='141486' Path="/Values/FeedbackSessionDescription/MineLorryConfig/LorryVariants">
+          <Item>
+            <MineToSpawnAt>1500301064</MineToSpawnAt>
+            <LorryEmpty>7025</LorryEmpty>
+            <LorryFull>1500301066</LorryFull>
+          </Item>
+        </ModOp>
+      <!-- Adding to Pools/Buffs -->
+        <Group>
+          <ModOp Type="add" Path="//ItemEffectTargetPool/EffectTargetGUIDs[Item/GUID='1500301062']"><!-- Clay Mine -->
+              <Item>
+                  <GUID>1500301067</GUID>
+              </Item>
+          </ModOp>
+
+          <ModOp GUID="25000087" Type="add" Path= "/Values/WorkforceMenu/BoostableFactories"><!-- WorkforceMenu -->
+              <Item>
+                  <GUID>1500301067</GUID>
+              </Item>
+          </ModOp>
+
+          <ModOp Type="add" GUID="142311" Path="/Values/FeedbackBuildingGroup/Buildings"><!-- Feedbacks -->
+            <Item>
+              <Building>1500301067</Building>
+            </Item>
+          </ModOp>
+        </Group>
+  <!-- Extended InfoDesciption -->
+    <ModOp GUID="1010294" Type="addNextSibling">
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301075</GUID>
+            <Name>Info_Desc_Clay Mine_OW</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301076</GUID>
+            <Name>Info_Desc_Clay Mine_NW</Name>
+          </Standard>
+        </Values>
+      </Asset>
+    </ModOp>
+    <ModOp Type="add" GUID='1500301062' Path="/Values/Standard" Condition="!@1999002317">
+      <InfoDescription>1500301075</InfoDescription>
+    </ModOp>
+    <ModOp Type="add" GUID='1500301067' Path="/Values/Standard" Condition="!@1999002317">
+      <InfoDescription>1500301076</InfoDescription>
+    </ModOp>
+</ModOps>

@@ -1,0 +1,49 @@
+{
+  "out": "${annoMods}/shared_marquetry_workshop_kurila",
+  "Version": "1.2",
+  "ModID": "shared_marquetry_workshop_kurila",
+  "DeprecateIds": [
+    "shared_recipe_building_marquetry_workshop_kurila"
+  ],
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "English": "Marquetry Workshop (Kurila)",
+    "Chinese": "Marquetry Workshop (Kurila)",
+    "French": "Marquetry Workshop (Kurila)",
+    "German": "Marquetry Workshop (Kurila)",
+    "Italian": "Marquetry Workshop (Kurila)",
+    "Japanese": "Marquetry Workshop (Kurila)",
+    "Korean": "Marquetry Workshop (Kurila)",
+    "Polish": "Marquetry Workshop (Kurila)",
+    "Russian": "Marquetry Workshop (Kurila)",
+    "Spanish": "Marquetry Workshop (Kurila)",
+    "Taiwanese": "Marquetry Workshop (Kurila)"
+  },
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Description": {
+    "English": null,
+    "Chinese": null,
+    "French": null,
+    "German": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  }
+}

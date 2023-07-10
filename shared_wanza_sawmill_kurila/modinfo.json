@@ -1,12 +1,12 @@
 {
   "out": "${annoMods}/shared_wanza_sawmill_kurila",
-  "Version": "1.0",
+  "Version": "1.1",
   "ModID": "shared_wanza_sawmill_kurila",
   "DeprecateIds": [
 
   ],
   "ModDependencies": [
-    "https://github.com/Qurila/shared-mods/releases/download/v3/shared_products_extended_kurila.zip"
+    "shared_products_extended_kurila"
   ],
   "LoadAfterIds": [
     "Enbesa_Spectacles_Production"

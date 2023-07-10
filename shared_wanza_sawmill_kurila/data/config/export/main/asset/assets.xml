@@ -10,7 +10,7 @@
                 <Standard>
                   <GUID>1500301290</GUID>
                   <Name>Enbesa_Sawmill</Name>
-                  <IconFilename>data/ui/2kimages/main/kurila/icons/icon_wanza_planks.png</IconFilename>
+                  <IconFilename>data/ui/2kimages/main/kurila/icon_wanza_planks.png</IconFilename>
                 </Standard>
                 <Building>
                   <SkipUnlockMessage>1</SkipUnlockMessage>
@@ -198,7 +198,7 @@
                 <Standard>
                   <GUID>1500301291</GUID>
                   <Name>Wanza_Timber_Chain</Name>
-                  <IconFilename>data/ui/2kimages/main/kurila/icons/icon_wanza_planks.png</IconFilename>
+                  <IconFilename>data/ui/2kimages/main/kurila/icon_wanza_planks.png</IconFilename>
                 </Standard>
                 <ProductionChain>
                   <Building>1500301290</Building>
@@ -212,6 +212,92 @@
                 <Locked>
                   <DefaultLockedState>0</DefaultLockedState>
                 </Locked>
+              </Values>
+            </Asset>
+            <Asset>
+              <Template>Trigger</Template>
+              <Values>
+                <Standard>
+                  <GUID>1500301288</GUID>
+                  <Name>Unlock_Wanza_Wood_1_Shepherds</Name>
+                </Standard>
+                <Trigger>
+                  <TriggerCondition>
+                    <Template>ConditionPlayerCounter</Template>
+                    <Values>
+                      <Condition />
+                      <ConditionPlayerCounter>
+                        <PlayerCounter>PopulationByLevel</PlayerCounter>
+                        <Context>114329</Context>
+                        <CounterAmount>1</CounterAmount>
+                      </ConditionPlayerCounter>
+                    </Values>
+                  </TriggerCondition>
+                  <TriggerActions>
+                    <Item>
+                      <TriggerAction>
+                        <Template>ActionResetTrigger</Template>
+                        <Values>
+                          <Action />
+                          <ActionResetTrigger />
+                        </Values>
+                      </TriggerAction>
+                    </Item>
+                    <Item>
+                      <TriggerAction>
+                        <Template>ActionUnlockAsset</Template>
+                        <Values>
+                          <Action />
+                          <ActionUnlockAsset>
+                            <UnlockAssets>
+                              <Item>
+                                <Asset>1500301150</Asset>
+                              </Item>
+                            </UnlockAssets>
+                          </ActionUnlockAsset>
+                        </Values>
+                      </TriggerAction>
+                    </Item>
+                  </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+              </Values>
+            </Asset>
+            <Asset>
+              <Template>Trigger</Template>
+              <Values>
+                <Standard>
+                  <GUID>1500301289</GUID>
+                  <Name>Unlock_Creative_Mode</Name>
+                </Standard>
+                <Trigger>
+                  <TriggerCondition>
+                    <Values>
+                      <ConditionPropsNegatable />
+                      <Condition />
+                      <ConditionIsCreativeMode />
+                    </Values>
+                    <Template>ConditionIsCreativeMode</Template>
+                  </TriggerCondition>
+                  <TriggerActions>
+                    <Item>
+                      <TriggerAction>
+                        <Template>ActionUnlockAsset</Template>
+                        <Values>
+                          <Action />
+                          <ActionUnlockAsset>
+                            <UnlockAssets>
+                              <Item>
+                                <Asset>1500301150</Asset>
+                              </Item>
+                            </UnlockAssets>
+                          </ActionUnlockAsset>
+                        </Values>
+                      </TriggerAction>
+                    </Item>
+                  </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
               </Values>
             </Asset>
           </ModOp>

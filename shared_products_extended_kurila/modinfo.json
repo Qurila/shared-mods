@@ -1,7 +1,11 @@
 {
   "out": "${annoMods}/shared_products_extended_kurila",
-  "Version": "1.2",
+  "Version": "1.3",
   "ModID": "shared_products_extended_kurila",
+  "LoadAfterIds": [
+    "[Gameplay] Orchard Rework",
+    "Cattle Needs to be butchered"
+  ],
   "Category": {
     "English": "Shared",
     "Chinese": "Shared",
