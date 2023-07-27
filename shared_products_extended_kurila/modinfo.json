@@ -1,6 +1,6 @@
 {
   "out": "${annoMods}/shared_products_extended_kurila",
-  "Version": "1.3",
+  "Version": "1.4",
   "ModID": "shared_products_extended_kurila",
   "LoadAfterIds": [
     "[Gameplay] Orchard Rework",
@@ -32,13 +32,11 @@
     "Spanish": "Products Extended (Kurila)",
     "Taiwanese": "Products Extended (Kurila)"
   },
-  "CreatorName": "Kurila",
-  "CreatorContact": "https://discord.gg/YTQGDFK",
   "Description": {
-    "English": null,
+    "English": "file::README.md",
+    "German": null,
     "Chinese": null,
     "French": null,
-    "German": null,
     "Italian": null,
     "Japanese": null,
     "Korean": null,
@@ -46,5 +44,7 @@
     "Russian": null,
     "Spanish": null,
     "Taiwanese": null
-  }
+  },
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK"
 }

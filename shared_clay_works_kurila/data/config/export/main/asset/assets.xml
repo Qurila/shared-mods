@@ -15,13 +15,15 @@
           <Asset>
             <BaseAssetGUID>100416</BaseAssetGUID>
             <Values>
-                <Standard>
-                  <GUID>1500301061</GUID>
-                  <Name>Clay_Sink</Name>
-                  <IconFilename>data/ui/2kimages/main/3dicons/icon_clay.png</IconFilename>
-                  <InfoDescription>1500301060</InfoDescription>
-                </Standard>
-                <Building />
+              <Standard>
+                <GUID>1500301061</GUID>
+                <Name>Clay_Sink</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/icon_clay.png</IconFilename>
+                <InfoDescription>1500301060</InfoDescription>
+              </Standard>
+              <Building>
+                <SecondPartyRelevant>0</SecondPartyRelevant>
+              </Building>
                 <Blocking />
                 <Cost>
                   <Costs>
@@ -107,7 +109,9 @@
                 <Name>Clay Mine</Name>
                 <IconFilename>data/ui/2kimages/main/kurila/icon_clay_02.png</IconFilename>
               </Standard>
-              <Building />
+              <Building>
+                <SecondPartyRelevant>0</SecondPartyRelevant>
+              </Building>
               <Blocking />
               <Cost />
               <Object>
@@ -432,6 +436,7 @@
               </Standard>
               <Building>
                 <AssociatedRegions>Colony01</AssociatedRegions>
+                <SecondPartyRelevant>0</SecondPartyRelevant>
               </Building>
               <Blocking />
               <Cost />

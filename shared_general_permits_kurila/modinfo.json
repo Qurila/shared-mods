@@ -1,6 +1,6 @@
 {
   "out": "${annoMods}/shared_general_permits_kurila",
-  "Version": "1.1",
+  "Version": "1.2",
   "ModID": "shared_general_permits_kurila",
   "DeprecateIds": [
 
@@ -37,20 +37,19 @@
     "Taiwanese": "General Permits (Kurila)"
   },
   "Description": {
-    "English": "Adjusts the displays of Permits so that they are more generally applicable",
-    "German": "Passt die Anzeigen von Baugenehmigungen so an das sie allgemeiner anwendbar sind.",
-    "Chinese": "Adjusts the displays of Permits so that they are more generally applicable",
-    "French": "Adjusts the displays of Permits so that they are more generally applicable",
-    "Italian": "Adjusts the displays of Permits so that they are more generally applicable",
-    "Japanese": "Adjusts the displays of Permits so that they are more generally applicable",
-    "Korean": "Adjusts the displays of Permits so that they are more generally applicable",
-    "Polish": "Adjusts the displays of Permits so that they are more generally applicable",
-    "Russian": "Adjusts the displays of Permits so that they are more generally applicable",
-    "Spanish": "Adjusts the displays of Permits so that they are more generally applicable",
-    "Taiwanese": "Adjusts the displays of Permits so that they are more generally applicable"
+    "English": "file::README.md",
+    "German": null,
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
   },
   "KnownIssues": null,
   "CreatorName": "Kurila",
-  "CreatorContact": "https://discord.gg/YTQGDFK",
-  "Image": null
+  "CreatorContact": "https://discord.gg/YTQGDFK"
 }

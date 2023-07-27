@@ -1,6 +1,6 @@
 {
   "out": "${annoMods}/shared_vegetables_integration_kurila",
-  "Version": "1.2",
+  "Version": "1.4",
   "ModID": "shared_vegetables_integration_kurila",
   "DeprecateIds": [
 
@@ -44,17 +44,17 @@
     "Taiwanese": "Vegetables Integration (Kurila)"
   },
   "Description": {
-    "English": "Replaces peppers with vegetables.",
-    "German": "Ersetzt Paprika mit Gemüse.",
-    "Chinese": "Replaces peppers with vegetables.",
-    "French": "Replaces peppers with vegetables.",
-    "Italian": "Replaces peppers with vegetables.",
-    "Japanese": "Replaces peppers with vegetables.",
-    "Korean": "Replaces peppers with vegetables.",
-    "Polish": "Replaces peppers with vegetables.",
-    "Russian": "Replaces peppers with vegetables.",
-    "Spanish": "Replaces peppers with vegetables.",
-    "Taiwanese": "Replaces peppers with vegetables."
+    "English": "file::README.md",
+    "German": null,
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
   },
   "KnownIssues": [
     {
@@ -71,13 +71,7 @@
       "Taiwanese": null
     }
   ],
-  "DLCDependencies": [
-    {
-      "DLC": "",
-      "Dependant": ""
-    }
-],
+  "DLCDependencies": null,
   "CreatorName": "Kurila",
-  "CreatorContact": "https://discord.gg/YTQGDFK",
-  "Image": null
+  "CreatorContact": "https://discord.gg/YTQGDFK"
 }

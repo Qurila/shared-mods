@@ -34,13 +34,13 @@ This would be a text block for an input/output. It is started with the opening t
 Then follows a tag to capitalise the text "1t", it is best to put a space after the end of the capitalisation tag.
 
 ```xml
-&lt;b&gt;1t&lt;/b&gt; 
+&lt;b&gt;1t&lt;/b&gt;
 ```
 
 After that comes the entry for displaying an icon (Bread in this case). It is also best to leave a space after the Icon tag.
 
 ```xml
-&lt;img height='24' width='24' src="[AssetData(1010213) Icon]"/&gt; 
+&lt;img height='24' width='24' src="[AssetData(1010213) Icon]"/&gt;
 
 ```
 

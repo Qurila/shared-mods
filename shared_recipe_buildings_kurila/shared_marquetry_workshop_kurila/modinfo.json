@@ -31,13 +31,11 @@
     "Spanish": "Marquetry Workshop (Kurila)",
     "Taiwanese": "Marquetry Workshop (Kurila)"
   },
-  "CreatorName": "Kurila",
-  "CreatorContact": "https://discord.gg/YTQGDFK",
   "Description": {
-    "English": null,
+    "English": "file::README.md",
+    "German": null,
     "Chinese": null,
     "French": null,
-    "German": null,
     "Italian": null,
     "Japanese": null,
     "Korean": null,
@@ -45,5 +43,7 @@
     "Russian": null,
     "Spanish": null,
     "Taiwanese": null
-  }
+  },
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK"
 }

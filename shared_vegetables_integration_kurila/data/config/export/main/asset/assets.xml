@@ -25,6 +25,12 @@
         <Product>1500010836</Product>
       </ModOp>
 
+      <ModOp Type="remove" GUID="120055" Path="/Values/ProductStorageList/ProductList/Item[Product='1500010836']"></ModOp>
+
+      <ModOp Type="replace" GUID="120055" Path="/Values/ProductStorageList/ProductList/Item[Product='1010198']/Product">
+        <Product>1500010836</Product>
+      </ModOp>
+
       <ModOp Type="remove" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1500010836']"></ModOp>
 
       <ModOp Type="replace" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item/TradeLevels/Item/Trades/Item[Good='1010198']/Good">

@@ -1,6 +1,6 @@
 {
   "out": "${annoMods}/shared_products_kurila",
-  "Version": "1.2",
+  "Version": "1.3",
   "ModID": "shared_products_kurila",
   "Category": {
     "English": "Shared",
@@ -31,10 +31,10 @@
   "CreatorName": "Kurila",
   "CreatorContact": "https://discord.gg/YTQGDFK",
   "Description": {
-    "English": "# Shared Products\n\nPlease only add products that are of the same quality as the vanilla game, useful to many and really shared between mods.\n\nAlternatively, if you have different requirements for your products you can use this mod as a template and create another shared products mod.\n",
+    "English": "file::README.md",
+    "German": null,
     "Chinese": null,
     "French": null,
-    "German": null,
     "Italian": null,
     "Japanese": null,
     "Korean": null,

@@ -1,6 +1,6 @@
 {
   "out": "${annoMods}/shared_clay_works_kurila",
-  "Version": "1.1",
+  "Version": "1.3",
   "ModID": "shared_clay_works_kurila",
   "DeprecateIds": [
     "shared_extended_clay_works_kurila"
@@ -37,8 +37,8 @@
     "Taiwanese": "Clay Works (Kurila)"
   },
   "Description": {
-    "English": "Adds a Clay Sink as an early Clay source and a Clay Mine as a late Clay source.",
-    "German": "Fügt eine Lehmsenke als frühe Lehmquelle sowie eine Lehmmine als späte Lehmquelle ein.",
+    "English": "file::README.md",
+    "German": null,
     "Chinese": null,
     "French": null,
     "Italian": null,
@@ -50,13 +50,7 @@
     "Taiwanese": null
   },
   "KnownIssues": null,
-  "DLCDependencies": [
-    {
-        "DLC": "",
-        "Dependant": ""
-    }
-],
+  "DLCDependencies": null,
   "CreatorName": "Kurila",
-  "CreatorContact": "https://discord.gg/YTQGDFK",
-  "Image": null
+  "CreatorContact": "https://discord.gg/YTQGDFK"
 }

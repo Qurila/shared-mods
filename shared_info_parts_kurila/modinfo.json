@@ -1,6 +1,6 @@
 {
   "out": "${annoMods}/shared_info_parts_kurila",
-  "Version": "1.2",
+  "Version": "1.3",
   "ModID": "shared_info_parts_kurila",
   "DeprecateIds": [
     "shared_info_description_parts_kurila"
@@ -37,26 +37,20 @@
     "Taiwanese": "Info Parts (Kurila)"
   },
   "Description": {
-    "English": "Provides text blocks for extended Info Descriptions.",
-    "German": "Stellt Textbausteine für erweiterte Info Beschreibungen zur verfügung.",
-    "Chinese": "Provides text blocks for extended Info Descriptions.",
-    "French": "Provides text blocks for extended Info Descriptions.",
-    "Italian": "Provides text blocks for extended Info Descriptions.",
-    "Japanese": "Provides text blocks for extended Info Descriptions.",
-    "Korean": "Provides text blocks for extended Info Descriptions.",
-    "Polish": "Provides text blocks for extended Info Descriptions.",
-    "Russian": "Provides text blocks for extended Info Descriptions.",
-    "Spanish": "Provides text blocks for extended Info Descriptions.",
-    "Taiwanese": "Provides text blocks for extended Info Descriptions."
+    "English": "file::README.md",
+    "German": null,
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
   },
   "KnownIssues": null,
-  "DLCDependencies": [
-    {
-      "DLC": "",
-      "Dependant": ""
-    }
-],
+  "DLCDependencies": null,
   "CreatorName": "Kurila",
-  "CreatorContact": "https://discord.gg/YTQGDFK",
-  "Image": null
+  "CreatorContact": "https://discord.gg/YTQGDFK"
 }

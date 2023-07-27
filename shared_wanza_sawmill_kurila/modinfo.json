@@ -1,6 +1,6 @@
 {
   "out": "${annoMods}/shared_wanza_sawmill_kurila",
-  "Version": "1.1",
+  "Version": "1.2",
   "ModID": "shared_wanza_sawmill_kurila",
   "DeprecateIds": [
 
@@ -39,8 +39,8 @@
     "Taiwanese": "Wanza Sawmill (Kurila)"
   },
   "Description": {
-    "English": "Adds wanza wood as a pre-stage  to wanza timber, including a sawmill for Enbesa.",
-    "German": "Fügt Wanza-Holz als Vorstufe zu Wanza-Brettern ein, inklusive eines Sägewerks für Enbesa",
+    "English": "file::README.md",
+    "German": null,
     "Chinese": null,
     "French": null,
     "Italian": null,
@@ -59,6 +59,5 @@
     }
 ],
   "CreatorName": "Kurila",
-  "CreatorContact": "https://discord.gg/YTQGDFK",
-  "Image": null
+  "CreatorContact": "https://discord.gg/YTQGDFK"
 }
