@@ -168,15 +168,6 @@
                   </Values>
                 </TriggerAction>
               </Item>
-              <Item>
-                <TriggerAction>
-                  <Template>ActionResetTrigger</Template>
-                  <Values>
-                    <Action />
-                    <ActionResetTrigger />
-                  </Values>
-                </TriggerAction>
-              </Item>
             </TriggerActions>
           </Trigger>
           <TriggerSetup />

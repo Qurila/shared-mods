@@ -14,7 +14,7 @@ Add the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v5/shared_general_modules_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_general_modules_kurila.zip"
 ]
 ```
 
@@ -30,7 +30,7 @@ Add the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v5/shared_general_permits_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_general_permits_kurila.zip"
 ]
 ```
 
@@ -51,7 +51,7 @@ Add the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v5/shared_info_parts_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_info_parts_kurila.zip"
 ]
 ```
 
@@ -96,8 +96,8 @@ Add one/all of the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v5/shared_products_kurila.zip",
-  "https://github.com/Qurila/shared-mods/releases/download/v5/shared_products_extended_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_products_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_products_extended_kurila.zip"
 ]
 ```
 
@@ -124,20 +124,20 @@ Add the desired dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v5/shared_lumberjack_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_lumberjack_kurila.zip"
 
-  "https://github.com/Qurila/shared-mods/releases/download/v5/shared_sawmill_kurila.zip"
-  "https://github.com/Qurila/shared-mods/releases/download/v5/shared_sawmill_river_kurila.zip"
-  "https://github.com/Qurila/shared-mods/releases/download/v5/shared_sawmill_industrial_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_sawmill_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_sawmill_river_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_sawmill_industrial_kurila.zip"
 
-  "https://github.com/Qurila/shared-mods/releases/download/v5/shared_marquetry_workshop_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_marquetry_workshop_kurila.zip"
 
-  "https://github.com/Qurila/shared-mods/releases/download/v5/shared_beer_brewery_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_beer_brewery_kurila.zip"
 
-  "https://github.com/Qurila/shared-mods/releases/download/v5/shared_schnapps_kurila.zip"
-  "https://github.com/Qurila/shared-mods/releases/download/v5/shared_schnapps_industrial_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_schnapps_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_schnapps_industrial_kurila.zip"
 
-  "https://github.com/Qurila/shared-mods/releases/download/v5/shared_wool_farms_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_wool_farms_kurila.zip"
 ]
 ```
 
@@ -153,8 +153,26 @@ Add following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v5/shared_vegetables_integration_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_vegetables_integration_kurila.zip",
   "https://github.com/jakobharder/anno1800-shared-mods/releases/download/v3.2.4/shared-products-jakob.zip"
+]
+```
+
+## Shared UI Change
+
+This mod makes it possible to switch between two different UIs on buildings ingame.
+
+- An example is found in the assets.xml
+
+It should be noted that during the change selected buildings must be selected again to see the new UI.
+
+### Use UI Change in your Mod
+
+Add following dependencies to your `modinfo.json`:
+
+```json
+"ModDependencies": [
+  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_ui_change_kurila.zip"
 ]
 ```
 
@@ -168,11 +186,11 @@ Add the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v5/shared_cherry_sawmill_kurila.zip",
-  "https://github.com/Qurila/shared-mods/releases/download/v5/shared_products_extended_kurila.zip",
-  "https://github.com/Qurila/shared-mods/releases/download/v5/shared_sawmill_kurila.zip",
-  "https://github.com/Qurila/shared-mods/releases/download/v5/shared_sawmill_river_kurila.zip",
-  "https://github.com/Qurila/shared-mods/releases/download/v5/shared_sawmill_industrial_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_cherry_sawmill_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_products_extended_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_sawmill_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_sawmill_river_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_sawmill_industrial_kurila.zip"
 ]
 ```
 
@@ -186,8 +204,8 @@ Add the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v5/shared_wanza_sawmill_kurila.zip",
-  "https://github.com/Qurila/shared-mods/releases/download/v5/shared_products_extended_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_wanza_sawmill_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_products_extended_kurila.zip"
 ]
 ```
 
@@ -201,7 +219,7 @@ Add the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v5/shared_clay_works_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_clay_works_kurila.zip"
 ]
 ```
 

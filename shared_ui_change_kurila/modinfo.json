@@ -1,0 +1,59 @@
+{
+  "out": "${annoMods}/shared_ui_change_kurila",
+  "Version": "1.0",
+  "ModID": "shared_ui_change_kurila",
+  "DeprecateIds": [
+
+  ],
+  "ModDependencies": [
+
+  ],
+  "LoadAfterIds": [
+
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "UI Change (Kurila)",
+    "English": "UI Change (Kurila)",
+    "French": "UI Change (Kurila)",
+    "German": "UI Change (Kurila)",
+    "Italian": "UI Change (Kurila)",
+    "Japanese": "UI Change (Kurila)",
+    "Korean": "UI Change (Kurila)",
+    "Polish": "UI Change (Kurila)",
+    "Russian": "UI Change (Kurila)",
+    "Spanish": "UI Change (Kurila)",
+    "Taiwanese": "UI Change (Kurila)"
+  },
+  "Description": {
+    "English": "file::README.md",
+    "German": null,
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Image": null
+}

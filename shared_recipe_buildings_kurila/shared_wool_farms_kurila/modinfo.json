@@ -1,6 +1,6 @@
 {
   "out": "${annoMods}/shared_wool_farms_kurila",
-  "Version": "1.0",
+  "Version": "1.2",
   "ModID": "shared_wool_farms_kurila",
   "LoadAfterIds": [
     "shared_products_extended_kurila"

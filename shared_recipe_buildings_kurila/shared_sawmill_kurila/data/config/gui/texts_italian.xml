@@ -4,23 +4,23 @@
     <Text>
       <GUID>1829</GUID><!-- Magazin DropGoodFactory Headline -->
       <Text>Produzione</Text>
-    </Text>  
-  <!-- New Entries -->    
+    </Text>
+  <!-- New Entries -->
     <Text>
       <GUID>1500300850</GUID>
       <Text>Il legno è alla base di molti edifici e oggetti. Che sia spesso, sottile o largo, è disponibile per tutte le esigenze.</Text>
-    </Text>  
+    </Text>
     <Text>
       <GUID>1500300851</GUID>
       <Text>Legname</Text>
-    </Text>  
+    </Text>
     <Text>
       <GUID>1500300852</GUID>
       <Text>Legname</Text>
-    </Text>     
+    </Text>
     <Text>
       <GUID>1500300853</GUID>
       <Text>Le segherie sono la base della lavorazione del legno. Qui si segano tutti i tipi di legno dai tronchi.</Text>
-    </Text>           
+    </Text>
   </ModOp>
 </ModOps>
