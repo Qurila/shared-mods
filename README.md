@@ -166,6 +166,8 @@ This mod makes it possible to switch between two different UIs on buildings inga
 
 It should be noted that during the change selected buildings must be selected again to see the new UI.
 
+The trigger code was created by [Serp](https://github.com/Serpens66).
+
 ### Use UI Change in your Mod
 
 Add following dependencies to your `modinfo.json`:
