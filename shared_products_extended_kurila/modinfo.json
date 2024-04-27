@@ -1,6 +1,6 @@
 {
   "out": "${annoMods}/shared_products_extended_kurila",
-  "Version": "1.4",
+  "Version": "1.5",
   "ModID": "shared_products_extended_kurila",
   "LoadAfterIds": [
     "[Gameplay] Orchard Rework",

@@ -1,0 +1,56 @@
+{
+  "out": "${annoMods}/shared_range_distinction_kurila",
+  "Version": "1.1",
+  "ModID": "shared_range_distinction_kurila",
+  "DeprecateIds": [
+
+  ],
+  "LoadAfterIds": [
+
+  ],
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "Range Distinction (Kurila)",
+    "English": "Range Distinction (Kurila)",
+    "French": "Range Distinction (Kurila)",
+    "German": " Range Distinction (Kurila)",
+    "Italian": "Range Distinction (Kurila)",
+    "Japanese": "Range Distinction (Kurila)",
+    "Korean": "Range Distinction (Kurila)",
+    "Polish": "Range Distinction (Kurila)",
+    "Russian": "Range Distinction (Kurila)",
+    "Spanish": "Range Distinction (Kurila)",
+    "Taiwanese": "Range Distinction (Kurila)"
+  },
+  "Description": {
+    "English": "file::README.ENG.md",
+    "German": "file::README.GER.md",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK"
+}

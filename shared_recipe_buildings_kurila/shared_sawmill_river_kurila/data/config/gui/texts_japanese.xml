@@ -1,26 +1,12 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
-  <!-- Vanilla Changes -->
-    <Text>
-      <GUID>1829</GUID><!-- Magazin DropGoodFactory Headline -->
-      <Text>生産</Text>
-    </Text>  
-  <!-- New Entries -->    
     <Text>
       <GUID>1500300850</GUID>
       <Text>多くの建物やモノの土台となる木材。厚いもの、薄いもの、広いものなど、あらゆる要求に応えることができます。</Text>
-    </Text>  
-    <Text>
-      <GUID>1500300860</GUID>
-      <Text>木板</Text>
-    </Text>  
-    <Text>
-      <GUID>1500300861</GUID>
-      <Text>木板</Text>
-    </Text>     
+    </Text>
     <Text>
       <GUID>1500300853</GUID>
       <Text>製材所は、木工の基本です。ここでは、あらゆる種類の木材が丸太から製材される。</Text>
-    </Text>           
+    </Text>
   </ModOp>
 </ModOps>

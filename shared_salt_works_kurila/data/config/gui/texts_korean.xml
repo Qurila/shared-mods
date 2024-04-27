@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+      <Text>
+        <GUID>1500302161</GUID>
+        <Text>산업용 소금 작품</Text>
+      </Text>
+  </ModOp>
+</ModOps>

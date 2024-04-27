@@ -6,10 +6,5 @@
         <GUID>1500301290</GUID>
         <Text>Лесопилка дерева кордии</Text>
       </Text>
-      <Text>
-        <!-- TODO translation -->
-        <GUID>1500301291</GUID>
-        <Text>[AssetData(114356) Text]</Text>
-      </Text>
   </ModOp>
 </ModOps>

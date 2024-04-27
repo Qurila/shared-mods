@@ -1,6 +1,6 @@
 {
   "out": "${annoMods}/shared_info_parts_kurila",
-  "Version": "1.3",
+  "Version": "1.7",
   "ModID": "shared_info_parts_kurila",
   "DeprecateIds": [
     "shared_info_description_parts_kurila"

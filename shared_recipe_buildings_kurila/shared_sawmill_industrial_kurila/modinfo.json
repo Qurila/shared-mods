@@ -1,6 +1,6 @@
 {
   "out": "${annoMods}/shared_sawmill_industrial_kurila",
-  "Version": "1.3",
+  "Version": "1.4",
   "ModID": "shared_sawmill_industrial_kurila",
   "DeprecateIds": [
     "shared_recipe_building_sawmill_industrial_kurila"

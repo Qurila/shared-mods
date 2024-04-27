@@ -1,22 +1,8 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
-  <!-- Vanilla Changes -->
-    <Text>
-      <GUID>1829</GUID><!-- Magazin DropGoodFactory Headline -->
-      <Text>Produzione</Text>
-    </Text>
-  <!-- New Entries -->
     <Text>
       <GUID>1500300850</GUID>
       <Text>Il legno è alla base di molti edifici e oggetti. Che sia spesso, sottile o largo, è disponibile per tutte le esigenze.</Text>
-    </Text>
-    <Text>
-      <GUID>1500300851</GUID>
-      <Text>Legname</Text>
-    </Text>
-    <Text>
-      <GUID>1500300852</GUID>
-      <Text>Legname</Text>
     </Text>
     <Text>
       <GUID>1500300853</GUID>

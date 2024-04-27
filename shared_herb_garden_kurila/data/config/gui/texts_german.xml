@@ -1,0 +1,16 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+      <Text>
+        <GUID>1500302202</GUID>
+        <Text>Kräutersaatgut</Text>
+      </Text>
+      <Text>
+        <GUID>1500302203</GUID>
+        <Text>Qualitäts-Kräutersaatgut</Text>
+      </Text>
+      <Text>
+        <GUID>1500302204</GUID>
+        <Text>Gekreuztes-Kräutersaatgut</Text>
+      </Text>
+  </ModOp>
+</ModOps>

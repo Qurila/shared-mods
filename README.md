@@ -14,7 +14,7 @@ Add the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_general_modules_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_general_modules_kurila.zip"
 ]
 ```
 
@@ -30,7 +30,89 @@ Add the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_general_permits_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_general_permits_kurila.zip"
+]
+```
+
+## Shared UI Change
+
+This mod makes it possible to switch between two different UIs on buildings ingame.
+
+- An example is found in the assets.xml
+
+It should be noted that during the change selected buildings must be selected again to see the new UI.
+
+### Use UI Change in your Mod
+
+Add following dependencies to your `modinfo.json`:
+
+```json
+"ModDependencies": [
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_ui_change_kurila.zip"
+]
+```
+
+## Shared Vegetables Integration
+
+This mod replaces peppers with vegetables instead of having vegetables and peppers separately.
+
+The pepper farm has been changed to a vegetable farm. The vegetable icon has been extended with paprika.
+
+### Use Vegetables Integration in your Mod
+
+Add following dependencies to your `modinfo.json`:
+
+```json
+"ModDependencies": [
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_vegetables_integration_kurila.zip",
+  "https://github.com/jakobharder/anno1800-shared-mods/releases/download/v3.2.4/shared-products-jakob.zip"
+]
+```
+
+## Shared Combi Allocation
+
+Contains a new allocation.
+This means that the same item can be used in different buildings.
+
+For example, an item can be used in both the Arctic Lodge and the Trade Union.
+
+### Use Combi Allocation
+
+Add the following dependencies to your `modinfo.json`:
+
+```json
+"ModDependencies": [
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_combi_allocations_kurila.zip"
+]
+```
+
+## Shared Range Distinction
+
+Contains a change to the "Range" display of items.
+
+These now distinguish between Puplic Services and Institutions (Fire/Police/Hospital)
+
+### Use Range Distinction
+
+Add the following dependencies to your `modinfo.json`:
+
+```json
+"ModDependencies": [
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_range_distinction_kurila.zip"
+]
+```
+
+## Shared Scroll Hint
+
+Contains a hint for the UI of Residences that indicates if there are more Needs than the UI directly displays.
+
+### Use Scroll Hint
+
+Add the following dependencies to your `modinfo.json`:
+
+```json
+"ModDependencies": [
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_scroll_hint_kurila.zip"
 ]
 ```
 
@@ -51,7 +133,7 @@ Add the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_info_parts_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_info_parts_kurila.zip"
 ]
 ```
 
@@ -89,6 +171,7 @@ Icon | GUID | Name |
 <img src="./shared_products_extended_kurila/data/products/barrels/icon_barrels.png" width="20" /> | 1500300000 | Barrels |
 <img src="./doc/icon_wansa_wood_16.png" width="20" /> | 1500301150 | Wanza Wood |
 <img src="./shared_products_extended_kurila/data/products/cherry-timber/icon_cherry_planks.png" width="20" /> | 1500301151 | Cherry Timber |
+<img src="./shared_products_extended_kurila/data/products/spice-powder/icon_spice_powder.png" width="20" /> | 1500301148 | Spice Powder |
 
 ### Use Products in your Mod
 
@@ -96,8 +179,8 @@ Add one/all of the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_products_kurila.zip",
-  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_products_extended_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_products_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_products_extended_kurila.zip"
 ]
 ```
 
@@ -124,55 +207,20 @@ Add the desired dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_lumberjack_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_lumberjack_kurila.zip"
 
-  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_sawmill_kurila.zip"
-  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_sawmill_river_kurila.zip"
-  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_sawmill_industrial_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_sawmill_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_sawmill_river_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_sawmill_industrial_kurila.zip"
 
-  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_marquetry_workshop_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_marquetry_workshop_kurila.zip"
 
-  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_beer_brewery_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_beer_brewery_kurila.zip"
 
-  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_schnapps_kurila.zip"
-  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_schnapps_industrial_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_schnapps_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_schnapps_industrial_kurila.zip"
 
-  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_wool_farms_kurila.zip"
-]
-```
-
-## Shared Vegetables Integration
-
-This mod replaces peppers with vegetables instead of having vegetables and peppers separately.
-
-The pepper farm has been changed to a vegetable farm. The vegetable icon has been extended with paprika.
-
-### Use Vegetables Integration in your Mod
-
-Add following dependencies to your `modinfo.json`:
-
-```json
-"ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_vegetables_integration_kurila.zip",
-  "https://github.com/jakobharder/anno1800-shared-mods/releases/download/v3.2.4/shared-products-jakob.zip"
-]
-```
-
-## Shared UI Change
-
-This mod makes it possible to switch between two different UIs on buildings ingame.
-
-- An example is found in the assets.xml
-
-It should be noted that during the change selected buildings must be selected again to see the new UI.
-
-### Use UI Change in your Mod
-
-Add following dependencies to your `modinfo.json`:
-
-```json
-"ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_ui_change_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_wool_farms_kurila.zip"
 ]
 ```
 
@@ -186,11 +234,11 @@ Add the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_cherry_sawmill_kurila.zip",
-  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_products_extended_kurila.zip",
-  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_sawmill_kurila.zip",
-  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_sawmill_river_kurila.zip",
-  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_sawmill_industrial_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_cherry_sawmill_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_products_extended_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_sawmill_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_sawmill_river_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_sawmill_industrial_kurila.zip"
 ]
 ```
 
@@ -204,8 +252,8 @@ Add the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_wanza_sawmill_kurila.zip",
-  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_products_extended_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_wanza_sawmill_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_products_extended_kurila.zip"
 ]
 ```
 
@@ -219,7 +267,64 @@ Add the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_clay_works_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_clay_works_kurila.zip"
+]
+```
+
+## Shared Herb Garden
+
+This mod provides a Herb Garden for the Old World
+
+### Use Herb Garden
+
+Add the following dependencies to your `modinfo.json`:
+
+```json
+"ModDependencies": [
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_herb_garden_kurila.zip"
+]
+```
+
+## Shared Advanced Lumberjack
+
+This mod provides an ingineer-level Advanced Lumberjack as a late source of Wood.
+
+### Use Lumberjack
+
+Add the following dependencies to your `modinfo.json`:
+
+```json
+"ModDependencies": [
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_lumberjack_kurila.zip"
+]
+```
+
+## Shared Salt Works
+
+This mod provides a worker/jornalero-level Salt Works for the Old/New World and an ingineer-level Advanced Salt Works for the Old World
+
+### Use Salt Works
+
+Add the following dependencies to your `modinfo.json`:
+
+```json
+"ModDependencies": [
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_salt_works_kurila.zip"
+]
+```
+
+## Shared Spice Mill
+
+This mod provides a Spice Mill for Enbesa. Its produce the new good "Spice Powder"
+
+### Use Spice Mill
+
+Add the following dependencies to your `modinfo.json`:
+
+```json
+"ModDependencies": [
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_spice_mill_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_products_extended_kurila.zip"
 ]
 ```
 

@@ -1,0 +1,58 @@
+{
+  "out": "${annoMods}/shared_salt_works_kurila",
+  "Version": "1.0",
+  "ModID": "shared_salt_works_kurila",
+  "DeprecateIds": [
+  ],
+  "LoadAfterIds": [
+    "shared-pools-and-definitions"
+   ],
+  "IncompatibleIds": null,
+  "ModDependencies": [
+    "shared-pools-and-definitions",
+    "shared_TT_MenuInputOutputAmounts_Serp"
+  ],
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "Salt Works (Kurila)",
+    "English": "Salt Works (Kurila)",
+    "French": "Salt Works (Kurila)",
+    "German": "Salt Works (Kurila)",
+    "Italian": "Salt Works (Kurila)",
+    "Japanese": "Salt Works (Kurila)",
+    "Korean": "Salt Works (Kurila)",
+    "Polish": "Salt Works (Kurila)",
+    "Russian": "Salt Works (Kurila)",
+    "Spanish": "Salt Works (Kurila)",
+    "Taiwanese": "Salt Works (Kurila)"
+  },
+  "Description": {
+    "English": "file::README.md",
+    "German": null,
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK"
+}

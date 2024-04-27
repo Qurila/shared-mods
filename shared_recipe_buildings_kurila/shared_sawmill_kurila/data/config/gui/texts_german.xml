@@ -1,22 +1,8 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
-  <!-- Vanilla Changes -->
-    <Text>
-      <GUID>1829</GUID><!-- Magazin DropGoodFactory Headline -->
-      <Text>Produktion</Text>
-    </Text>
-  <!-- New Entries -->
     <Text>
       <GUID>1500300850</GUID>
       <Text>Bretter sind die Grundlage vieler Gebäude und Gegenständen. Ob Dick, Dünn oder Breit, es gibt sie für alle anforderungen.</Text>
-    </Text>
-    <Text>
-      <GUID>1500300851</GUID>
-      <Text>Bretter</Text>
-    </Text>
-    <Text>
-      <GUID>1500300852</GUID>
-      <Text>Bretter</Text>
     </Text>
     <Text>
       <GUID>1500300853</GUID>

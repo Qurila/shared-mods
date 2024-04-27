@@ -1,0 +1,14 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1500302220</GUID>
+      <Text>伐木工营地</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1500302221</GUID>
+      <Text>伐木工营地</Text>
+    </Text>
+  </ModOp>
+</ModOps>

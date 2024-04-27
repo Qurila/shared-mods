@@ -1,26 +1,12 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
-  <!-- Vanilla Changes -->
-    <Text>
-      <GUID>1829</GUID><!-- Magazin DropGoodFactory Headline -->
-      <Text>생산</Text>
-    </Text>  
-  <!-- New Entries -->    
     <Text>
       <GUID>1500300844</GUID>
       <Text>우드 베니어는 원목에 대한 저렴한 대안입니다. 단순한 특성에도 불구하고 보기에도 아름답습니다.</Text>
-    </Text>  
-    <Text>
-      <GUID>1500300845</GUID>
-      <Text>합판</Text>
-    </Text>  
-    <Text>
-      <GUID>1500300846</GUID>
-      <Text>합판</Text>
-    </Text>     
+    </Text>
     <Text>
       <GUID>1500300847</GUID>
       <Text>마키트리 공방은 목공 기술이 뛰어난 재능 있는 장인들을 고용하고 있습니다. 이들에게서 안전한 목재는 없습니다.</Text>
-    </Text>           
+    </Text>
   </ModOp>
 </ModOps>

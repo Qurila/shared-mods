@@ -1,0 +1,58 @@
+{
+  "out": "${annoMods}/shared_lumberjack_kurila",
+  "Version": "1.0",
+  "ModID": "shared_lumberjack_kurila",
+  "DeprecateIds": [
+  ],
+  "LoadAfterIds": [
+    "shared-pools-and-definitions"
+   ],
+  "IncompatibleIds": null,
+  "ModDependencies": [
+    "shared-pools-and-definitions",
+    "shared_TT_MenuInputOutputAmounts_Serp"
+  ],
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "Advanced Lumberjack (Kurila)",
+    "English": "Advanced Lumberjack (Kurila)",
+    "French": "Advanced Lumberjack (Kurila)",
+    "German": "Advanced Lumberjack (Kurila)",
+    "Italian": "Advanced Lumberjack (Kurila)",
+    "Japanese": "Advanced Lumberjack (Kurila)",
+    "Korean": "Advanced Lumberjack (Kurila)",
+    "Polish": "Advanced Lumberjack (Kurila)",
+    "Russian": "Advanced Lumberjack (Kurila)",
+    "Spanish": "Advanced Lumberjack (Kurila)",
+    "Taiwanese": "Advanced Lumberjack (Kurila)"
+  },
+  "Description": {
+    "English": "file::README.md",
+    "German": null,
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK"
+}

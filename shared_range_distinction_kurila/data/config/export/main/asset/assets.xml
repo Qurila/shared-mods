@@ -1,0 +1,7 @@
+<ModOps>
+  <ModOp Type="Replace" GUID="140057" Path="/Values/StreetOverlayFeature/FactorySelection/RangeHighlight/PathColors/Regular">
+    <Regular>
+      <PathColor>-654245931</PathColor>
+    </Regular>
+  </ModOp>
+</ModOps>

@@ -68,4 +68,10 @@
         </RecipeBuilding>
       </Values>
     </ModOp>
+  <!-- Text Changes -->
+    <ModOp Type="merge" GUID="1829" Path="/Values">
+      <Text>
+        <TextOverride>25756</TextOverride>
+      </Text>
+    </ModOp>
 </ModOps>

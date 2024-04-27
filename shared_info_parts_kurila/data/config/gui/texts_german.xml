@@ -1,12 +1,8 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
 		<Text>
-			<GUID>11143</GUID>
-			<Text>&lt;font overrideTextColor="true" color='#edc891'&gt;[AssetData(10824) Text] je Zyklus: 1t&lt;/font&gt;</Text>
-		</Text>
-		<Text>
 			<GUID>1500300044</GUID>
-			<Text>[AssetData(132783) Text]&#xD;&#xA;&#xD;&#xA;[AssetData(11143) Text]</Text>
+			<Text>Eins der folgenden</Text>
 		</Text>
 		<Text>
 			<GUID>1500300045</GUID>

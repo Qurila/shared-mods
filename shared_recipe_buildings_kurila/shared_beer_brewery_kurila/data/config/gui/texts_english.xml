@@ -1,18 +1,8 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
-  <!-- Vanilla Changes -->
-    <Text>
-      <GUID>1829</GUID><!-- Magazin DropGoodFactory Headline -->
-      <Text>Production</Text>
-    </Text>
-  <!-- New Entries -->
     <Text>
       <GUID>1500300872</GUID>
       <Text>No celebration is conceivable without Beer. It is full-bodied, tasty and lightens the mood, but you should not overdo it...</Text>
-    </Text>
-    <Text>
-      <GUID>1500300873</GUID>
-      <Text>Beer</Text>
     </Text>
     <Text>
       <GUID>1500300874</GUID>

@@ -1,11 +1,5 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
-  <!-- Vanilla Changes -->
-    <Text>
-      <GUID>1829</GUID><!-- Magazin DropGoodFactory Headline -->
-      <Text>Produktion</Text>
-    </Text>
-  <!-- New Entries -->
     <Text>
       <GUID>1500300864</GUID>
       <Text>Aus Kartoffeln gebrannter Schnapps. Er ist für weite Teile der Bevölkerung ein regelmässiger Genuss, aber er ist mit Vorsicht zu geniesen um ihm nicht zu verfallen.</Text>
@@ -13,10 +7,6 @@
     <Text>
       <GUID>1500300866</GUID>
       <Text>Schnappsbrennereien sind überall zu finden, ob in kleinen Dörfern oder großen Städten, sie stellen hochprozentigen Schnapps für die Bevökerung her.</Text>
-    </Text>
-    <Text>
-      <GUID>1500300870</GUID>
-      <Text>Schnaps</Text>
     </Text>
   </ModOp>
 </ModOps>

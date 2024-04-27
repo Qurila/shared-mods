@@ -1,26 +1,12 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
-  <!-- Vanilla Changes -->
-    <Text>
-      <GUID>1829</GUID><!-- Magazin DropGoodFactory Headline -->
-      <Text>생산</Text>
-    </Text>  
-  <!-- New Entries -->    
     <Text>
       <GUID>1500300850</GUID>
       <Text>목재는 많은 건물과 물체의 기초가 됩니다. 두껍거나 얇거나 넓은 목재는 모든 요구 사항에 맞게 사용할 수 있습니다.</Text>
-    </Text>  
-    <Text>
-      <GUID>1500300860</GUID>
-      <Text>목재</Text>
-    </Text>  
-    <Text>
-      <GUID>1500300861</GUID>
-      <Text>목재</Text>
-    </Text>     
+    </Text>
     <Text>
       <GUID>1500300853</GUID>
       <Text>제재소는 목재 작업의 기본입니다. 이곳에서는 모든 종류의 목재가 통나무에서 톱질됩니다.</Text>
-    </Text>           
+    </Text>
   </ModOp>
 </ModOps>

@@ -18,6 +18,9 @@
             <Name>Recipe_Schnapps_OW</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/icon_schnapps_4.png</IconFilename>
           </Standard>
+          <Text>
+            <TextOverride>1010216</TextOverride>
+          </Text>
           <Recipe>
             <RecipeBuilding>1010294</RecipeBuilding>
             <RecipeDescriptionText>1500300864</RecipeDescriptionText>
@@ -134,5 +137,11 @@
         <Building>25350</Building>
         <IgnoreUnlockStateForCategoryVisibility>1</IgnoreUnlockStateForCategoryVisibility>
       </Item>
+    </ModOp>
+  <!-- Text Changes -->
+    <ModOp Type="merge" GUID="1829" Path="/Values">
+      <Text>
+        <TextOverride>25756</TextOverride>
+      </Text>
     </ModOp>
 </ModOps>

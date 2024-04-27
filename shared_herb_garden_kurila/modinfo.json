@@ -1,0 +1,57 @@
+{
+  "out": "${annoMods}/shared_herb_garden_kurila",
+  "Version": "1.0",
+  "ModID": "shared_herb_garden_kurila",
+  "DeprecateIds": [
+  ],
+  "LoadAfterIds": [
+    "shared-pools-and-definitions"
+   ],
+  "IncompatibleIds": null,
+  "ModDependencies": [
+    "shared-pools-and-definitions"
+  ],
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "Herb Garden (Kurila)",
+    "English": "Herb Garden (Kurila)",
+    "French": "Herb Garden (Kurila)",
+    "German": "Herb Garden (Kurila)",
+    "Italian": "Herb Garden (Kurila)",
+    "Japanese": "Herb Garden (Kurila)",
+    "Korean": "Herb Garden (Kurila)",
+    "Polish": "Herb Garden (Kurila)",
+    "Russian": "Herb Garden (Kurila)",
+    "Spanish": "Herb Garden (Kurila)",
+    "Taiwanese": "Herb Garden (Kurila)"
+  },
+  "Description": {
+    "English": "file::README.md",
+    "German": null,
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK"
+}

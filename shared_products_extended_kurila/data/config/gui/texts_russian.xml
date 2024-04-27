@@ -22,11 +22,15 @@
     </Text>
     <Text>
       <GUID>1500301150</GUID>
-      <Text>Древесина из кордия</Text>
+      <Text>Древесина кордии</Text>
     </Text>
     <Text>
       <GUID>1500301151</GUID>
-      <Text>Древесина вишневого Доски</Text>
+      <Text>Доски из вишни</Text>
+    </Text>
+    <Text>
+      <GUID>1500301148</GUID>
+      <Text>Порошок специй</Text>
     </Text>
   </ModOp>
 </ModOps>

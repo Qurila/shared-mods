@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+      <Text>
+        <GUID>1500302230</GUID>
+        <Text>스파이스 밀</Text>
+      </Text>
+  </ModOp>
+</ModOps>

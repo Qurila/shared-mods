@@ -7,7 +7,7 @@
           <Values>
             <Standard>
               <GUID>1500300044</GUID>
-              <Name>Info_Description_Multi_Factories</Name>
+              <Name>Chooseable_Input</Name>
             </Standard>
           </Values>
         </Asset>
@@ -29,38 +29,11 @@
             </Standard>
           </Values>
         </Asset>
-        <Asset>
-          <Template>Text</Template>
-          <Values>
-            <Standard>
-              <GUID>1500300092</GUID>
-              <Name>Info_Description_Start</Name>
-            </Standard>
-          </Values>
-        </Asset>
-        <Asset>
-          <Template>Text</Template>
-          <Values>
-            <Standard>
-              <GUID>1500300093</GUID>
-              <Name>Info_Description_End</Name>
-            </Standard>
-          </Values>
-        </Asset>
       </ModOp>
-      <ModOp Type="replace" GUID="11143">
-        <Asset>
-          <Template>Text</Template>
-          <Values>
-            <Standard>
-              <GUID>11143</GUID>
-              <Name>Production_Building_Infocorner</Name>
-            </Standard>
-          </Values>
-        </Asset>
-      </ModOp>
-      <ModOp Type="replace" Path="//Standard[InfoDescription='132783']/InfoDescription">
-        <InfoDescription>1500300044</InfoDescription>
+      <ModOp Type="merge" GUID="132783" Path="/Values">
+        <Text>
+          <TextOverride>11143</TextOverride>
+        </Text>
       </ModOp>
     </Group>
 </ModOps>

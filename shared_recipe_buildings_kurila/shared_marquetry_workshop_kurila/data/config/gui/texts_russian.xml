@@ -1,26 +1,12 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
-  <!-- Vanilla Changes -->
-    <Text>
-      <GUID>1829</GUID><!-- Magazin DropGoodFactory Headline -->
-      <Text>Производство</Text>
-    </Text>  
-  <!-- New Entries -->    
     <Text>
       <GUID>1500300844</GUID>
       <Text>Древесный шпон - это доступная альтернатива массиву дерева. Несмотря на свою простоту, он прекрасен на вид.</Text>
-    </Text>  
-    <Text>
-      <GUID>1500300845</GUID>
-      <Text>Шпон</Text>
-    </Text>  
-    <Text>
-      <GUID>1500300846</GUID>
-      <Text>Шпон</Text>
-    </Text>     
+    </Text>
     <Text>
       <GUID>1500300847</GUID>
       <Text>В мастерских Marquetry работают талантливые мастера, чьи навыки обработки дерева не имеют себе равных. От них не укроется ни одно дерево.</Text>
-    </Text>           
+    </Text>
   </ModOp>
 </ModOps>

@@ -23,7 +23,7 @@
                     <Costs>
                       <Item>
                         <Ingredient>1010017</Ingredient>
-                        <Amount>100</Amount>
+                        <Amount>550</Amount>
                       </Item>
                       <Item>
                         <Ingredient>1010196</Ingredient>
@@ -38,7 +38,6 @@
                       </Item>
                       <Item>
                         <Ingredient>1010207</Ingredient>
-                        <Amount>10</Amount>
                       </Item>
                       <Item>
                         <Ingredient>1010202</Ingredient>
@@ -124,12 +123,12 @@
                     <Maintenances>
                       <Item>
                         <Product>1010017</Product>
-                        <Amount>100</Amount>
-                        <InactiveAmount>50</InactiveAmount>
+                        <Amount>10</Amount>
+                        <InactiveAmount>5</InactiveAmount>
                       </Item>
                       <Item>
-                        <Product>1010116</Product>
-                        <Amount>50</Amount>
+                        <Product>1010052</Product>
+                        <Amount>10</Amount>
                       </Item>
                     </Maintenances>
                   </Maintenance>
@@ -228,7 +227,7 @@
                     <Costs>
                       <Item>
                         <Ingredient>1010017</Ingredient>
-                        <Amount>100</Amount>
+                        <Amount>550</Amount>
                       </Item>
                       <Item>
                         <Ingredient>1010196</Ingredient>
@@ -328,12 +327,12 @@
                     <Maintenances>
                       <Item>
                         <Product>1010017</Product>
-                        <Amount>100</Amount>
-                        <InactiveAmount>50</InactiveAmount>
+                        <Amount>10</Amount>
+                        <InactiveAmount>5</InactiveAmount>
                       </Item>
                       <Item>
-                        <Product>1010367</Product>
-                        <Amount>50</Amount>
+                        <Product>1010366</Product>
+                        <Amount>20</Amount>
                       </Item>
                     </Maintenances>
                   </Maintenance>
@@ -533,7 +532,7 @@
                         <StorageAmount>24</StorageAmount>
                       </Item>
                     </FactoryOutputs>
-                    <CycleTime>5</CycleTime>
+                    <CycleTime>10</CycleTime>
                     <IsMainFactory>0</IsMainFactory>
                   </FactoryBase>
                   <LogisticNode />
@@ -724,7 +723,7 @@
                         <StorageAmount>24</StorageAmount>
                       </Item>
                     </FactoryOutputs>
-                    <CycleTime>5</CycleTime>
+                    <CycleTime>10</CycleTime>
                     <IsMainFactory>0</IsMainFactory>
                   </FactoryBase>
                   <LogisticNode />
@@ -927,15 +926,6 @@
                         <WeakSelectionColorType>NoColor</WeakSelectionColorType>
                       </Colors>
                     </Selection>
-                    <Text>
-                      <LocaText>
-                        <English>
-                          <Text>River Saw Mill</Text>
-                          <Status>Exported</Status>
-                        </English>
-                      </LocaText>
-                      <LineID>3725</LineID>
-                    </Text>
                     <Constructable />
                     <Locked>
                       <DefaultLockedState>1</DefaultLockedState>
@@ -1797,4 +1787,10 @@
             </ModOp>
         </Group>
     </Group>
+  <!-- Text Changes -->
+    <ModOp Type="merge" GUID="1829" Path="/Values">
+      <Text>
+        <TextOverride>25756</TextOverride>
+      </Text>
+    </ModOp>
 </ModOps>

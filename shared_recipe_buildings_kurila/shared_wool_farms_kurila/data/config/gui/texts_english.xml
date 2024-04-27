@@ -1,11 +1,5 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
-  <!-- Vanilla Changes -->
-    <Text>
-      <GUID>1829</GUID><!-- Magazin DropGoodFactory Headline -->
-      <Text>Production</Text>
-    </Text>
-  <!-- New Entries -->
     <Text>
       <GUID>1500300878</GUID>
       <Text>Wool is the basis of many textiles. It is sheared and washed with great care.</Text>

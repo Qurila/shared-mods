@@ -1,6 +1,6 @@
 {
   "out": "${annoMods}/shared_ui_change_kurila",
-  "Version": "1.0",
+  "Version": "1.1",
   "ModID": "shared_ui_change_kurila",
   "DeprecateIds": [
 
@@ -53,7 +53,7 @@
   },
   "KnownIssues": null,
   "DLCDependencies": null,
-  "CreatorName": "Kurila",
+  "CreatorName": "Kurila and Serp",
   "CreatorContact": "https://discord.gg/YTQGDFK",
   "Image": null
 }

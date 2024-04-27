@@ -1,0 +1,182 @@
+<ModOps>
+  <!-- New Entries -->
+    <ModOp GUID="5464" Type="addNextSibling">
+      <Asset>
+        <BaseAssetGUID>114459</BaseAssetGUID>
+        <Values>
+          <Standard>
+            <GUID>1500302230</GUID>
+            <Name>Spice_Mill</Name>
+            <IconFilename>data/ui/2kimages/main/kurila/icon_spice_powder.png</IconFilename>
+          </Standard>
+          <Building>
+            <AllowChangeVariation>1</AllowChangeVariation>
+            <BuildModeStartVariation>0</BuildModeStartVariation>
+          </Building>
+          <Selection>
+            <ParticipantMessageArcheType>Africa_Resident_tier02</ParticipantMessageArcheType>
+          </Selection>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/kurila/spice_mill/spice_mill.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/kurila/spice_mill/spice_mill_var1.cfg</Filename>
+              </Item>
+            </Variations>
+            <Skins>
+              <DefaultSkinName>1500302230</DefaultSkinName>
+            </Skins>
+          </Object>
+          <Locked>
+            <DefaultLockedState>1</DefaultLockedState>
+          </Locked>
+          <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>114369</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+              <Item>
+                <Product>114364</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryInputs>
+            <FactoryOutputs>
+              <Item>
+                <Product>1500301148</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>60</CycleTime>
+            <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+            <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+            <IsMainFactory>0</IsMainFactory>
+          </FactoryBase>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>75</Amount>
+                <InactiveAmount>38</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>114341</Product>
+                <Amount>50</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Trigger</Template>
+        <Values>
+          <Standard>
+            <GUID>1500302231</GUID>
+            <Name>Unlock_Trigger_1_Elders</Name>
+          </Standard>
+          <Trigger>
+            <TriggerCondition>
+              <Template>ConditionPlayerCounter</Template>
+              <Values>
+                <Condition />
+                <ConditionPlayerCounter>
+                  <PlayerCounter>PopulationByLevel</PlayerCounter>
+                  <Context>114330</Context>
+                  <CounterAmount>1</CounterAmount>
+                </ConditionPlayerCounter>
+              </Values>
+            </TriggerCondition>
+            <TriggerActions>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionUnlockAsset</Template>
+                  <Values>
+                    <Action />
+                    <ActionUnlockAsset>
+                      <UnlockAssets>
+                        <Item>
+                          <Asset>1500302230</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>1500301148</Asset>
+                        </Item>
+                      </UnlockAssets>
+                    </ActionUnlockAsset>
+                  </Values>
+                </TriggerAction>
+              </Item>
+            </TriggerActions>
+          </Trigger>
+          <TriggerSetup />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Trigger</Template>
+        <Values>
+          <Standard>
+            <GUID>1500302232</GUID>
+            <Name>Unlock_Creative_Mode</Name>
+          </Standard>
+          <Trigger>
+            <TriggerCondition>
+              <Values>
+                <ConditionPropsNegatable />
+                <Condition />
+                <ConditionIsCreativeMode />
+              </Values>
+              <Template>ConditionIsCreativeMode</Template>
+            </TriggerCondition>
+            <TriggerActions>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionUnlockAsset</Template>
+                  <Values>
+                    <Action />
+                    <ActionUnlockAsset>
+                      <UnlockAssets>
+                        <Item>
+                          <Asset>1500302230</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>1500301148</Asset>
+                        </Item>
+                      </UnlockAssets>
+                    </ActionUnlockAsset>
+                  </Values>
+                </TriggerAction>
+              </Item>
+            </TriggerActions>
+          </Trigger>
+          <TriggerSetup />
+        </Values>
+      </Asset>
+    </ModOp>
+  <!-- Adding to Pools / Buffs / Lists -->
+    <Group>
+      <!-- WorkforceMenu -->
+        <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+          <Item>
+            <Factory>1500302230</Factory>
+          </Item>
+        </ModOp>
+      <!-- Feedbacks -->
+        <ModOp Type="add" GUID="142311" Path="/Values/FeedbackBuildingGroup/Buildings">
+          <Item>
+            <Building>1500302230</Building>
+          </Item>
+        </ModOp>
+      <!-- Effect Pools -->
+        <Group>
+          <ModOp Type="add" Path="//ItemEffectTargetPool/EffectTargetGUIDs[Item/GUID='114459']">
+            <Item>
+              <GUID>1500302230</GUID>
+            </Item>
+          </ModOp>
+        </Group>
+    </Group>
+</ModOps>

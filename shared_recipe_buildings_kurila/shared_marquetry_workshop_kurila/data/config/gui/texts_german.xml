@@ -1,26 +1,12 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
-  <!-- Vanilla Changes -->
-    <Text>
-      <GUID>1829</GUID><!-- Magazin DropGoodFactory Headline -->
-      <Text>Produktion</Text>
-    </Text>  
-  <!-- New Entries -->    
     <Text>
       <GUID>1500300844</GUID>
       <Text>Holzfurnier ist eine günstige Alternative zu Vollholz. Trotz seines einfachen charakters ist es schön anzusehen.</Text>
-    </Text>  
-    <Text>
-      <GUID>1500300845</GUID>
-      <Text>Holzfurnier</Text>
-    </Text>  
-    <Text>
-      <GUID>1500300846</GUID>
-      <Text>Holzfurnier</Text>
-    </Text>     
+    </Text>
     <Text>
       <GUID>1500300847</GUID>
       <Text>Kunstschreinereien beschäftigen talentierte Handwerker deren Fertigkeiten in der Holzverarbeitung ohne gleichen sind. Kein Holz ist vor ihnen sicher.</Text>
-    </Text>           
+    </Text>
   </ModOp>
 </ModOps>

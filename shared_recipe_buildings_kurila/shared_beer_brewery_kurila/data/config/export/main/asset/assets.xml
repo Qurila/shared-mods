@@ -1,6 +1,7 @@
 <ModOps>
   <!-- New Entries -->
     <ModOp GUID="1010266" Type="addNextSibling">
+    
       <Asset>
         <Template>Text</Template>
         <Values>
@@ -18,6 +19,9 @@
             <Name>Recipe_Beer_OW</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/icon_beer.png</IconFilename>
           </Standard>
+          <Text>
+            <TextOverride>1010214</TextOverride>
+          </Text>
           <Recipe>
             <RecipeBuilding>1010292</RecipeBuilding>
             <RecipeDescriptionText>1500300872</RecipeDescriptionText>
@@ -144,5 +148,11 @@
         <Building>25064</Building>
         <IgnoreUnlockStateForCategoryVisibility>1</IgnoreUnlockStateForCategoryVisibility>
       </Item>
+    </ModOp>
+  <!-- Text Changes -->
+    <ModOp Type="merge" GUID="1829" Path="/Values">
+      <Text>
+        <TextOverride>25756</TextOverride>
+      </Text>
     </ModOp>
 </ModOps>

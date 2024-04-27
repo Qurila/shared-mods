@@ -26,7 +26,6 @@
                     </Item>
                     <Item>
                       <Ingredient>1500301150</Ingredient>
-                      <Amount>5</Amount>
                     </Item>
                     <Item>
                       <Ingredient>1010205</Ingredient>
@@ -200,6 +199,9 @@
                   <Name>Wanza_Timber_Chain</Name>
                   <IconFilename>data/ui/2kimages/main/kurila/icon_wanza_planks.png</IconFilename>
                 </Standard>
+                <Text>
+                  <TextOverride>114356</TextOverride>
+                </Text>
                 <ProductionChain>
                   <Building>1500301290</Building>
                   <Tier1>
@@ -368,8 +370,41 @@
         </Group>
     </Group>
 	<!-- Adjust Woodworkings -->
-    <!-- Enbesa Glasses Lion -->
-      <ModOp Type="replace" GUID="2100115706" Path="/Values/FactoryBase/FactoryInputs/Item[Product='114356']/Product" Condition="@2100115706">
-        <Product>1500301150</Product>
+    <ModOp Type="replace" Path="//Values/ProductionChain/Tier1/Item[Building='122963']" Condition="/Values/ProductionChain/Tier1/Item[Building='122963']">
+      <Item>
+        <Building>1500301290</Building>
+        <Tier2>
+          <Item>
+            <Building>122963</Building>
+          </Item>
+        </Tier2>
+      </Item>
+    </ModOp>
+    <ModOp Type="replace" Path="//Values/ProductionChain/Tier1/Item/Tier2/Item[Building='122963']" Condition="/Values/ProductionChain/Tier1/Item/Tier2/Item[Building='122963']">
+      <Item>
+        <Building>1500301290</Building>
+        <Tier3>
+          <Item>
+            <Building>122963</Building>
+          </Item>
+        </Tier3>
+      </Item>
+    </ModOp>
+    <ModOp Type="replace" Path="//Values/ProductionChain/Tier1/Item/Tier2/Item/Tier3/Item[Building='122963']" Condition="/Values/ProductionChain/Tier1/Item/Tier2/Item/Tier3/Item[Building='122963']">
+      <Item>
+        <Building>1500301290</Building>
+      </Item>
+    </ModOp>
+  <!-- Mod: Enbesa Car Station -->
+    <Group Condition="@1500300080">
+      <ModOp Type="merge" GUID='1500301290' Path="/Values">
+        <Electrifiable>
+          <ElectricityBoost>0</ElectricityBoost>
+          <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+        </Electrifiable>
+        <Industrializable>
+          <BoostedByIndustrialization>1</BoostedByIndustrialization>
+        </Industrializable>
       </ModOp>
+    </Group>
 </ModOps>

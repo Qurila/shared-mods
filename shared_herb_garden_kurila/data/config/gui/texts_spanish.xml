@@ -1,0 +1,16 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+      <Text>
+        <GUID>1500302202</GUID>
+        <Text>Semillas de hierbas</Text>
+      </Text>
+      <Text>
+        <GUID>1500302203</GUID>
+        <Text>Semillas de hierbas de calidad</Text>
+      </Text>
+      <Text>
+        <GUID>1500302204</GUID>
+        <Text>Semillas de hierbas hÃbridas</Text>
+      </Text>
+  </ModOp>
+</ModOps>

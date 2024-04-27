@@ -15,6 +15,7 @@ Products
 - Barrles
 - Wanza Wood
 - Cherry Timber
+- Spice Powder
 
 Please only add products that are of the same quality as the vanilla game, useful to many and really shared between mods.
 

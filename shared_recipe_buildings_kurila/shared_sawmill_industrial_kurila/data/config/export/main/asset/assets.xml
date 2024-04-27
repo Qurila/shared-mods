@@ -18,6 +18,9 @@
             <Name>Recipe_Timber_OW_Industrial</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/icon_wooden_planks.png</IconFilename>
           </Standard>
+          <Text>
+            <TextOverride>1010196</TextOverride>
+          </Text>
           <Recipe>
             <RecipeBuilding>1404423025</RecipeBuilding>
             <RecipeDescriptionText>1500300850</RecipeDescriptionText>
@@ -43,6 +46,9 @@
             <Name>Recipe_Timber_NW_Industrial</Name>
             <IconFilename>data/ui/2kimages/main/3dicons/icon_wooden_planks.png</IconFilename>
           </Standard>
+          <Text>
+            <TextOverride>1010196</TextOverride>
+          </Text>
           <Recipe>
             <RecipeBuilding>1404423027</RecipeBuilding>
             <RecipeDescriptionText>1500300850</RecipeDescriptionText>
@@ -121,5 +127,11 @@
       <RecipeBuilding>
         <RecipeList>1500300859</RecipeList>
       </RecipeBuilding>
+    </ModOp>
+  <!-- Text Changes -->
+    <ModOp Type="merge" GUID="1829" Path="/Values">
+      <Text>
+        <TextOverride>25756</TextOverride>
+      </Text>
     </ModOp>
 </ModOps>

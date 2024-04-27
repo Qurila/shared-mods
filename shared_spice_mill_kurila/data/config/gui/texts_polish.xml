@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+      <Text>
+        <GUID>1500302230</GUID>
+        <Text>Młynek do przypraw</Text>
+      </Text>
+  </ModOp>
+</ModOps>

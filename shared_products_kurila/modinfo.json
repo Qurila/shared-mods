@@ -1,6 +1,6 @@
 {
   "out": "${annoMods}/shared_products_kurila",
-  "Version": "1.3",
+  "Version": "1.4",
   "ModID": "shared_products_kurila",
   "Category": {
     "English": "Shared",

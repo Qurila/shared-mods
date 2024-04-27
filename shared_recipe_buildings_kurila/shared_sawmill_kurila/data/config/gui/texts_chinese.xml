@@ -1,22 +1,8 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
-  <!-- Vanilla Changes -->
-    <Text>
-      <GUID>1829</GUID><!-- Magazin DropGoodFactory Headline -->
-      <Text>生产</Text>
-    </Text>
-  <!-- New Entries -->
     <Text>
       <GUID>1500300850</GUID>
       <Text>木材是许多建筑和物体的基础。无论是厚的、薄的还是宽的，它都可以满足所有的要求。</Text>
-    </Text>
-    <Text>
-      <GUID>1500300851</GUID>
-      <Text>木材</Text>
-    </Text>
-    <Text>
-      <GUID>1500300852</GUID>
-      <Text>木材</Text>
     </Text>
     <Text>
       <GUID>1500300853</GUID>

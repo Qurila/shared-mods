@@ -1,0 +1,14 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <!-- TODO translation -->
+      <GUID>12014</GUID>
+      <Text>Range of Emergency Forces</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>2321</GUID>
+      <Text>Range of Public Services</Text>
+    </Text>
+	</ModOp>
+</ModOps>

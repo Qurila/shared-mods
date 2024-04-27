@@ -1,26 +1,12 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
-  <!-- Vanilla Changes -->
-    <Text>
-      <GUID>1829</GUID><!-- Magazin DropGoodFactory Headline -->
-      <Text>Production</Text>
-    </Text>  
-  <!-- New Entries -->    
     <Text>
       <GUID>1500300844</GUID>
       <Text>Le placage de bois est une alternative abordable au bois massif. Malgré son caractère simple, il est beau à regarder.</Text>
-    </Text>  
-    <Text>
-      <GUID>1500300845</GUID>
-      <Text>Placages de bois</Text>
-    </Text>  
-    <Text>
-      <GUID>1500300846</GUID>
-      <Text>Placages de bois</Text>
-    </Text>     
+    </Text>
     <Text>
       <GUID>1500300847</GUID>
       <Text>Les ateliers de marqueterie emploient des artisans talentueux dont les compétences en matière de travail du bois sont inégalées. Aucun bois n'est à l'abri.</Text>
-    </Text>           
+    </Text>
   </ModOp>
 </ModOps>

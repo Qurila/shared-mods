@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500302220</GUID>
+      <Text>Лагерь дровосеков</Text>
+    </Text>
+    <Text>
+      <GUID>1500302221</GUID>
+      <Text>Лагерь дровосеков</Text>
+    </Text>
+  </ModOp>
+</ModOps>
