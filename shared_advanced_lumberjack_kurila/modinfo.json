@@ -1,7 +1,7 @@
 {
-  "out": "${annoMods}/shared_lumberjack_kurila",
+  "out": "${annoMods}/shared_advanced_lumberjack_kurila",
   "Version": "1.0",
-  "ModID": "shared_lumberjack_kurila",
+  "ModID": "shared_advanced_lumberjack_kurila",
   "DeprecateIds": [
   ],
   "LoadAfterIds": [

@@ -220,7 +220,7 @@ Add the desired dependencies to your `modinfo.json`:
   "https://github.com/Qurila/shared-mods/releases/download/v7/shared_schnapps_kurila.zip"
   "https://github.com/Qurila/shared-mods/releases/download/v7/shared_schnapps_industrial_kurila.zip"
 
-  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_wool_farms_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_wool_farms_kurila.zip"
 ]
 ```
 
@@ -330,7 +330,7 @@ Add the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_lumberjack_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_advanced_lumberjack_kurila.zip"
 ]
 ```
 
