@@ -220,7 +220,42 @@ Add the desired dependencies to your `modinfo.json`:
   "https://github.com/Qurila/shared-mods/releases/download/v7/shared_schnapps_kurila.zip"
   "https://github.com/Qurila/shared-mods/releases/download/v7/shared_schnapps_industrial_kurila.zip"
 
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_wool_farms_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_wool_farms_kurila.zip"
+]
+```
+
+## Shared Vegetables Integration
+
+This mod replaces peppers with vegetables instead of having vegetables and peppers separately.
+
+The pepper farm has been changed to a vegetable farm. The vegetable icon has been extended with paprika.
+
+### Use Vegetables Integration in your Mod
+
+Add following dependencies to your `modinfo.json`:
+
+```json
+"ModDependencies": [
+  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_vegetables_integration_kurila.zip",
+  "https://github.com/jakobharder/anno1800-shared-mods/releases/download/v3.2.4/shared-products-jakob.zip"
+]
+```
+
+## Shared UI Change
+
+This mod makes it possible to switch between two different UIs on buildings ingame.
+
+- An example is found in the assets.xml
+
+It should be noted that during the change selected buildings must be selected again to see the new UI.
+
+### Use UI Change in your Mod
+
+Add following dependencies to your `modinfo.json`:
+
+```json
+"ModDependencies": [
+  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_ui_change_kurila.zip"
 ]
 ```
 
