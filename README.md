@@ -103,10 +103,6 @@ Add the following dependencies to your `modinfo.json`:
 
 Contains text modules for an extended InfoDescription
 
-There are also some minor changes to vanilla texts.
-
-<img src="./doc/infodescription.jpg" alt="If you are reading this, there is an error." />
-
 ### Use Info Parts in your Mod
 
 For more information on the use of extended InfoDescription, read the mod's readme.
