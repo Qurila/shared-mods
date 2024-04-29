@@ -52,23 +52,6 @@ Add following dependencies to your `modinfo.json`:
 ]
 ```
 
-## Shared Vegetables Integration
-
-This mod replaces peppers with vegetables instead of having vegetables and peppers separately.
-
-The pepper farm has been changed to a vegetable farm. The vegetable icon has been extended with paprika.
-
-### Use Vegetables Integration in your Mod
-
-Add following dependencies to your `modinfo.json`:
-
-```json
-"ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_vegetables_integration_kurila.zip",
-  "https://github.com/jakobharder/anno1800-shared-mods/releases/download/v3.2.4/shared-products-jakob.zip"
-]
-```
-
 ## Shared Combi Allocation
 
 Contains a new allocation.
@@ -122,7 +105,7 @@ Contains text modules for an extended InfoDescription
 
 There are also some minor changes to vanilla texts.
 
-![](./doc/infodescription.jpg alt="If you are reading this, there is an error." )
+<img src="./doc/infodescription.jpg" alt="If you are reading this, there is an error." />
 
 ### Use Info Parts in your Mod
 
