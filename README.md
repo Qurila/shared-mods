@@ -122,7 +122,7 @@ Contains text modules for an extended InfoDescription
 
 There are also some minor changes to vanilla texts.
 
-![](./doc/infodescription.jpg)
+![](./doc/infodescription.jpg alt="If you are reading this, there is an error." )
 
 ### Use Info Parts in your Mod
 
@@ -147,12 +147,12 @@ Contains products with definition, icon and Docklands information.
 
 Icon | GUID | Name |
 ---|---|---|
-<img src="./shared_products_kurila/data/products/apples/icon_apples.png" width="20" /> | 1404420032 | Apples |
-<img src="./shared_products_kurila/data/products/coloured-tiles/icon_tiles.png" width="20" /> | 1500301073 | Coloured Tiles |
-<img src="./shared_products_kurila/data/products/liqueur/icon_liqueur.png" width="20" /> | 1500300040 | Liqueur |
-<img src="./shared_products_kurila/data/products/sandwiches/icon_sandwich.png" width="20" /> | 1500300060 | Sandwiches |
-<img src="./shared_products_kurila/data/products/smoked-fish/icon_smoked_fish.png" width="20" /> | 1500300020 | Smoked Fish |
-<img src="./doc/icon_wooden_ring_16.png" width="20" /> | 1500010150 | Wooden Jewelry |
+<img src="./shared_products_kurila/data/products/apples/icon_apples.png" width="20" alt="If you are reading this, there is an error." /> | 1404420032 | Apples |
+<img src="./shared_products_kurila/data/products/coloured-tiles/icon_tiles.png" width="20" alt="If you are reading this, there is an error." /> | 1500301073 | Coloured Tiles |
+<img src="./shared_products_kurila/data/products/liqueur/icon_liqueur.png" width="20" alt="If you are reading this, there is an error." /> | 1500300040 | Liqueur |
+<img src="./shared_products_kurila/data/products/sandwiches/icon_sandwich.png" width="20" alt="If you are reading this, there is an error." /> | 1500300060 | Sandwiches |
+<img src="./shared_products_kurila/data/products/smoked-fish/icon_smoked_fish.png" width="20" alt="If you are reading this, there is an error." /> | 1500300020 | Smoked Fish |
+<img src="./doc/icon_wooden_ring_16.png" width="20" alt="If you are reading this, there is an error." /> | 1500010150 | Wooden Jewelry |
 
 ## Shared Products Extended
 
@@ -164,14 +164,14 @@ Contains products with definition, icon and Docklands information.
 
 Icon | GUID | Name |
 ---|---|---|
-<img src="./doc/icon_cattle_16.png" width="20" /> | 1404422300 | Cattle |
-<img src="./shared_products_extended_kurila/data/products/cherries/icon_cherries.png" width="20" /> | 1404420030 | Cherries |
-<img src="./doc/icon_cloth_16.png" width="20" /> | 1500020000 | Wool Fabric |
-<img src="./doc/icon_wool_16.png" width="20" /> | 1500020010 | Sewing Thread |
-<img src="./shared_products_extended_kurila/data/products/barrels/icon_barrels.png" width="20" /> | 1500300000 | Barrels |
-<img src="./doc/icon_wansa_wood_16.png" width="20" /> | 1500301150 | Wanza Wood |
-<img src="./shared_products_extended_kurila/data/products/cherry-timber/icon_cherry_planks.png" width="20" /> | 1500301151 | Cherry Timber |
-<img src="./shared_products_extended_kurila/data/products/spice-powder/icon_spice_powder.png" width="20" /> | 1500301148 | Spice Powder |
+<img src="./doc/icon_cattle_16.png" width="20" alt="If you are reading this, there is an error." /> | 1404422300 | Cattle |
+<img src="./shared_products_extended_kurila/data/products/cherries/icon_cherries.png" width="20" alt="If you are reading this, there is an error." /> | 1404420030 | Cherries |
+<img src="./doc/icon_cloth_16.png" width="20" alt="If you are reading this, there is an error." /> | 1500020000 | Wool Fabric |
+<img src="./doc/icon_wool_16.png" width="20" alt="If you are reading this, there is an error." /> | 1500020010 | Sewing Thread |
+<img src="./shared_products_extended_kurila/data/products/barrels/icon_barrels.png" width="20" alt="If you are reading this, there is an error." /> | 1500300000 | Barrels |
+<img src="./doc/icon_wansa_wood_16.png" width="20" alt="If you are reading this, there is an error." /> | 1500301150 | Wanza Wood |
+<img src="./shared_products_extended_kurila/data/products/cherry-timber/icon_cherry_planks.png" width="20" alt="If you are reading this, there is an error." /> | 1500301151 | Cherry Timber |
+<img src="./shared_products_extended_kurila/data/products/spice-powder/icon_spice_powder.png" width="20" alt="If you are reading this, there is an error." /> | 1500301148 | Spice Powder |
 
 ### Use Products in your Mod
 
@@ -221,41 +221,6 @@ Add the desired dependencies to your `modinfo.json`:
   "https://github.com/Qurila/shared-mods/releases/download/v7/shared_schnapps_industrial_kurila.zip"
 
   "https://github.com/Qurila/shared-mods/releases/download/v7/shared_wool_farms_kurila.zip"
-]
-```
-
-## Shared Vegetables Integration
-
-This mod replaces peppers with vegetables instead of having vegetables and peppers separately.
-
-The pepper farm has been changed to a vegetable farm. The vegetable icon has been extended with paprika.
-
-### Use Vegetables Integration in your Mod
-
-Add following dependencies to your `modinfo.json`:
-
-```json
-"ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_vegetables_integration_kurila.zip",
-  "https://github.com/jakobharder/anno1800-shared-mods/releases/download/v3.2.4/shared-products-jakob.zip"
-]
-```
-
-## Shared UI Change
-
-This mod makes it possible to switch between two different UIs on buildings ingame.
-
-- An example is found in the assets.xml
-
-It should be noted that during the change selected buildings must be selected again to see the new UI.
-
-### Use UI Change in your Mod
-
-Add following dependencies to your `modinfo.json`:
-
-```json
-"ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v6/shared_ui_change_kurila.zip"
 ]
 ```
 
@@ -377,7 +342,7 @@ Install the plugin, open a mod folder and press `F1` and choose `Build Anno Mod`
 
 Run the following commands:
 
-```
+```json
 npm install .
 npm run build
 npm run package
