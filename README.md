@@ -321,7 +321,7 @@ Install the plugin, open a mod folder and press `F1` and choose `Build Anno Mod`
 
 Run the following commands:
 
-```json
+```xml
 npm install .
 npm run build
 npm run package
