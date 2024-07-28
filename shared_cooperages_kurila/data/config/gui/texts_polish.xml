@@ -1,0 +1,124 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+  	<!-- Cooperages -->
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301340</GUID>
+        <Text>Cooperage</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301341</GUID>
+        <Text>Cooperage: Timber</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301342</GUID>
+        <Text>Barrels can be used in many ways. Whether solid or liquid, they protect their contents from external influences.</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301343</GUID>
+        <Text>Barrels: 2t</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301344</GUID>
+        <Text>Cooperage: Cherry Wood</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301345</GUID>
+        <Text>Cherry barrels are particularly well suited for storing spirits. They give them a special aroma.</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301346</GUID>
+        <Text>Cherry Barrels: 4t</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301347</GUID>
+        <Text>Cooperage: Wanza Timber</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301348</GUID>
+        <Text>Wanza barrels are not widely available because importing wood is expensive. But their quality is incomparable.</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301349</GUID>
+        <Text>Wanza Barrels: 6t</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301350</GUID>
+        <Text>Cooperage: Timber</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301351</GUID>
+        <Text>Barrels: 2t</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301352</GUID>
+        <Text>Cooperage: Cherry Wood</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301353</GUID>
+        <Text>Cherry Barrels: 4t</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301354</GUID>
+        <Text>Cooperage: Wanza Timber</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301355</GUID>
+        <Text>Wanza Barrels: 6t</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301371</GUID>
+        <Text>Cooperages produce barrels in every shape and size. Whether for domestic use or for factories, the experienced craftsmen handle every order.</Text>
+      </Text>
+      <Text>
+        <!-- TODO translation -->
+        <GUID>1500301374</GUID>
+        <Text>Cooperage</Text>
+      </Text>
+    <!-- Extended InfoDesciption -->
+      <Text>
+        <GUID>1500301357</GUID>
+        <Text>[AssetData(1500300044) Text]&#xD;&#xA;[AssetData(1500301359) Text]&#xD;&#xA;[AssetData(1500301360) Text]&#xD;&#xA;[AssetData(1500301361) Text]</Text>
+      </Text>
+      <Text>
+        <GUID>1500301359</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(1010196) Icon]"/&gt; [AssetData(1010196) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301360</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(1500301151) Icon]"/&gt; [AssetData(1500301151) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301361</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(114356) Icon]"/&gt; [AssetData(114356) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301362</GUID>
+        <Text>[AssetData(1500300000) Text] &lt;b&gt;&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(1010196) Icon]"/&gt;&lt;b&gt;&lt;/b&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301363</GUID>
+        <Text>[AssetData(1500300000) Text] &lt;b&gt;&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(1500301151) Icon]"/&gt;&lt;b&gt;&lt;/b&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301364</GUID>
+        <Text>[AssetData(1500300000) Text] &lt;b&gt;&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(114356) Icon]"/&gt;&lt;b&gt;&lt;/b&gt;</Text>
+      </Text>
+  </ModOp>
+</ModOps>

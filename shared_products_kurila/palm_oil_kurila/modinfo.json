@@ -1,0 +1,35 @@
+{
+  "out": "${annoMods}/palm_oil_kurila",
+  "Version": "1.0",
+  "ModID": "palm_oil_kurila",
+  "LoadAfterIds": [
+  ],
+  "Category": {
+    "English": "Product",
+    "Chinese": "Product",
+    "French": "Product",
+    "German": "Product",
+    "Italian": "Product",
+    "Japanese": "Product",
+    "Korean": "Product",
+    "Polish": "Product",
+    "Russian": "Product",
+    "Spanish": "Product",
+    "Taiwanese": "Product"
+  },
+  "ModName": {
+    "English": "Palm Oil (Kurila)",
+    "Chinese": "Palm Oil (Kurila)",
+    "French": "Palm Oil (Kurila)",
+    "German": "Palm Oil (Kurila)",
+    "Italian": "Palm Oil (Kurila)",
+    "Japanese": "Palm Oil (Kurila)",
+    "Korean": "Palm Oil (Kurila)",
+    "Polish": "Palm Oil (Kurila)",
+    "Russian": "Palm Oil (Kurila)",
+    "Spanish": "Palm Oil (Kurila)",
+    "Taiwanese": "Palm Oil (Kurila)"
+  },
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK"
+}

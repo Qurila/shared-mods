@@ -95,9 +95,9 @@
             <IconFilename>data/ui/2kimages/main/kurila/icon_salt_2.png</IconFilename>
           </Standard>
           <Blocking />
-          <Text>
-            <TextOverride>114440</TextOverride>
-          </Text>
+					<Building>
+						<SecondPartyRelevant>0</SecondPartyRelevant>
+					</Building>
           <Cost>
             <Costs>
               <Item>
@@ -458,33 +458,20 @@
         </ModOp>
       <!-- Effect Pools -->
         <Group>
-          <ModOp Type="add" GUID="6000018,193856,193400,191508,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+          <ModOp Type="add" Path="//ItemEffectTargetPool/EffectTargetGUIDs[Item/GUID='114440']">
             <Item>
               <GUID>1500302160</GUID>
-            </Item>
-            <Item>
-              <GUID>1500302161</GUID>
             </Item>
             <Item>
               <GUID>1500302162</GUID>
             </Item>
           </ModOp>
-          <ModOp Type="add" GUID="193875" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+          <ModOp Type="add" Path="//ItemEffectTargetPool/EffectTargetGUIDs[Item/GUID='1010310']">
             <Item>
               <GUID>1500302161</GUID>
             </Item>
           </ModOp>
-          <ModOp Type="add" GUID="1500301024" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs" Condition="#shared-pools-and-definitions">
-            <Item>
-              <GUID>1500302160</GUID>
-            </Item>
-            <Item>
-              <GUID>1500302161</GUID>
-            </Item>
-            <Item>
-              <GUID>1500302162</GUID>
-            </Item>
-          </ModOp>
+          <ModOp Type="remove" GUID="191593" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1500302161']"></ModOp>
         </Group>
     </Group>
   <!-- Adding to Dockland -->
@@ -514,108 +501,5 @@
           </FactoryOutputs>
         </FactoryBase>
       </ModOp>
-    </Group>
-  <!-- Adjust Items -->
-    <Group>
-      <!-- Seasoned Salter -->
-        <Group>
-          <ModOp Type="merge" GUID="125135" Path="/Values">
-            <Item>
-              <Rarity>Legendary</Rarity>
-              <TradePrice>845000</TradePrice>
-              <TradePriceOnlineCurrency>500</TradePriceOnlineCurrency>
-            </Item>
-            <ItemEffect>
-              <EffectTargets>
-                <Item>
-                  <GUID>1500301024</GUID>
-                </Item>
-              </EffectTargets>
-            </ItemEffect>
-            <FactoryUpgrade>
-              <ProductivityUpgrade>
-                <Value>50</Value>
-                <Percental>1</Percental>
-              </ProductivityUpgrade>
-              <AdditionalOutput>
-                <Item>
-                  <Product>1010232</Product>
-                  <AdditionalOutputCycle>5</AdditionalOutputCycle>
-                  <Amount>1</Amount>
-                </Item>
-              </AdditionalOutput>
-            </FactoryUpgrade>
-            <BuildingUpgrade>
-              <MaintenanceUpgrade>
-                <Value>0</Value>
-                <Percental>1</Percental>
-              </MaintenanceUpgrade>
-            </BuildingUpgrade>
-          </ModOp>
-          <ModOp Type="remove" GUID="125135" Path="/Values/ItemEffect/EffectTargets/Item[GUID='118729']"></ModOp>
-        </Group>
-      <!-- Biniam's Floodgate -->
-        <ModOp Type="merge" GUID="125053" Path="/Values">
-          <Item>
-            <Allocation>Mod1</Allocation>
-          </Item>
-          <ItemEffect>
-            <EffectTargets>
-              <Item />
-              <Item>
-                <GUID>1500301024</GUID>
-              </Item>
-            </EffectTargets>
-            <AllowStacking>0</AllowStacking>
-          </ItemEffect>
-          <FactoryUpgrade>
-            <ProductivityUpgrade>
-              <Value>40</Value>
-              <Percental>1</Percental>
-            </ProductivityUpgrade>
-          </FactoryUpgrade>
-        </ModOp>
-      <!-- Advanced Sluice Gate -->
-        <ModOp Type="merge" GUID="125052" Path="/Values">
-          <Item>
-            <Allocation>Mod1</Allocation>
-          </Item>
-          <ItemEffect>
-            <EffectTargets>
-              <Item />
-              <Item>
-                <GUID>1500301024</GUID>
-              </Item>
-            </EffectTargets>
-            <AllowStacking>0</AllowStacking>
-          </ItemEffect>
-          <FactoryUpgrade>
-            <ProductivityUpgrade>
-              <Value>35</Value>
-              <Percental>1</Percental>
-            </ProductivityUpgrade>
-          </FactoryUpgrade>
-        </ModOp>
-      <!-- Stop Gate -->
-        <ModOp Type="merge" GUID="125051" Path="/Values">
-          <Item>
-            <Allocation>Mod1</Allocation>
-          </Item>
-          <ItemEffect>
-            <EffectTargets>
-              <Item />
-              <Item>
-                <GUID>1500301024</GUID>
-              </Item>
-            </EffectTargets>
-            <AllowStacking>0</AllowStacking>
-          </ItemEffect>
-          <FactoryUpgrade>
-            <ProductivityUpgrade>
-              <Value>25</Value>
-              <Percental>1</Percental>
-            </ProductivityUpgrade>
-          </FactoryUpgrade>
-        </ModOp>
     </Group>
 </ModOps>

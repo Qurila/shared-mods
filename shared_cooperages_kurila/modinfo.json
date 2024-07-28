@@ -1,0 +1,68 @@
+{
+  "out": "${annoMods}/shared_cooperages_kurila",
+  "Version": "1.0",
+  "ModID": "shared_cooperages_kurila",
+  "DeprecateIds": [
+
+  ],
+  "ModDependencies": [
+    "shared-pools-and-definitions",
+    "shared_cherry_sawmill_kurila",
+    "barrels_kurila",
+    "shared_TT_MenuInputOutputAmounts_Serp"
+  ],
+  "LoadAfterIds": [
+    "shared-pools-and-definitions"
+
+  ],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "Cooperages (Kurila)",
+    "English": "Cooperages (Kurila)",
+    "French": "Cooperages (Kurila)",
+    "German": "Cooperages (Kurila)",
+    "Italian": "Cooperages (Kurila)",
+    "Japanese": "Cooperages (Kurila)",
+    "Korean": "Cooperages (Kurila)",
+    "Polish": "Cooperages (Kurila)",
+    "Russian": "Cooperages (Kurila)",
+    "Spanish": "Cooperages (Kurila)",
+    "Taiwanese": "Cooperages (Kurila)"
+  },
+  "Description": {
+    "English": "file::README.ENG.md",
+    "German": "file::README.GER.md",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+    {
+        "DLC": "HighLife",
+        "Dependant": "partly"
+    }
+],
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Image": null
+}

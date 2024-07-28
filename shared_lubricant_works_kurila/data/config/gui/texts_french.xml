@@ -1,0 +1,25 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500302480</GUID>
+      <Text />
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1500302481</GUID>
+      <Text>As industrialisation progressed and the use of machinery increased, it became important to use better products than raw fats to reduce friction.
+            Industrial Lubricants are made from various fats and binders and ensure the effective operation of many machines.
+       </Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1500302480']/Text" Content="/TextExport/Texts/Text[GUID='132771']/Text/text()">
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1500302480']/Text">: </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1500302480']/Text" Content="/TextExport/Texts/Text[GUID='1414']/Text/text()">
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID='1418']/Text" Content="/TextExport/Texts/Text[GUID='132933']/Text">
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1418']/Text">: </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1418']/Text" Content="/TextExport/Texts/Text[GUID='1500301158']/Text/text()">
+  </ModOp>
+</ModOps>

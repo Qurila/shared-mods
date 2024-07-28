@@ -2,7 +2,7 @@
   <ModOp Type="add" Path="/TextExport/Texts">
       <Text>
         <GUID>1500302161</GUID>
-        <Text>工业盐厂</Text>
+        <Text>大型盐厂</Text>
       </Text>
   </ModOp>
 </ModOps>

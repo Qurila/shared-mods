@@ -76,7 +76,7 @@
   </ModOp>
 
   <!-- # Docklands: Tattershire -->
-  <Group Condition="!//TradeLevels/Item/Trades[Item/Good='1404422300']">
+  <Group Condition="!@131764/.//TradeLevels/Item/Trades[Item/Good='1404422300']">
     <ModOp Type="addNextSibling" GUID="1010199"
       Condition="!//FactoryBase[FactoryOutputs/Item/Product='1404422300']/IsMainFactory[text()='1']">
       <Asset>
@@ -134,14 +134,21 @@
     </ModOp>
 
     <ModOp Type="addPrevSibling" GUID="131764"
-      Path="/Values/TradeContractFeature/Traders/Item[TraderName='131819']/TradeLevels/Item/Trades/Item[Good='1010193']">
+      Path="/Values/TradeContractFeature/Traders/Item[TraderName='131819']/TradeLevels/Item/Trades/Item[Good='114357']">
       <Item>
         <Good>1404422300</Good>
       </Item>
     </ModOp>
 
-    <ModOp Type="addPrevSibling" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131819']/TradeLevels/Item/Trades/Item[Good='1010193']/Good">
-      <Level>Uncommon</Level>
+    <ModOp Type="remove" GUID="131764"
+      Path="/Values/TradeContractFeature/Traders/Item[TraderName='131819']/TradeLevels/Item/Trades/Item[Good='1010193']"></ModOp>
+
+    <ModOp Type="addPrevSibling" GUID="131764"
+      Path="/Values/TradeContractFeature/Traders/Item[TraderName='131819']/TradeLevels/Item/Trades/Item[Level='Uncommon'][1]">
+      <Item>
+        <Level>Uncommon</Level>
+        <Good>1010193</Good>
+      </Item>
     </ModOp>
 
     <ModOp Type="add" GUID="502233" Path="/Values/ProductList/List">

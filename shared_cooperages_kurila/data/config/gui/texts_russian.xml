@@ -1,0 +1,111 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+  	<!-- Cooperages -->
+      <Text>
+        <GUID>1500301340</GUID>
+        <Text>Бондарня</Text>
+      </Text>
+      <Text>
+        <GUID>1500301341</GUID>
+        <Text>Бондарня: Доски</Text>
+      </Text>
+      <Text>
+        <GUID>1500301342</GUID>
+        <Text>Бочки можно использовать по-разному. Будь то твёрдое или жидкое - они защищают своё содержимое от внешних воздействий.</Text>
+      </Text>
+      <Text>
+        <GUID>1500301343</GUID>
+        <Text>Бочки: 1т</Text>
+      </Text>
+      <Text>
+        <GUID>1500301344</GUID>
+        <Text>Бондарня: Доски из вишнёвой древисины</Text>
+      </Text>
+      <Text>
+        <GUID>1500301345</GUID>
+        <Text>Бочки из вишнёвой древесины особенно хорошо подходят для хранения крепких напитков. Они придают им особый оттенок вкуса и аромата.</Text>
+      </Text>
+      <Text>
+        <GUID>1500301346</GUID>
+        <Text>Бочки из вишневого дерева: 2т</Text>
+      </Text>
+      <Text>
+        <GUID>1500301347</GUID>
+        <Text>Бондарня: Доски из дерева ванза</Text>
+      </Text>
+      <Text>
+        <GUID>1500301348</GUID>
+        <Text>>Бочки из дерева ванза не получили широкого распространения из-за непростого и чрезмерно дорогого импорта. Но их качество несравненно!</Text>
+      </Text>
+      <Text>
+        <GUID>1500301349</GUID>
+        <Text>Бочки из дерева ванза: 3т</Text>
+      </Text>
+      <Text>
+        <GUID>1500301350</GUID>
+        <Text>Бондарня: Доски</Text>
+      </Text>
+      <Text>
+        <GUID>1500301351</GUID>
+        <Text>Бочки: 1т</Text>
+      </Text>
+      <Text>
+        <GUID>1500301352</GUID>
+        <Text>Бондарня: Доски из вишнёвой древисины</Text>
+      </Text>
+      <Text>
+        <GUID>1500301353</GUID>
+        <Text>Бочки из вишнёвого дерева: 2т</Text>
+      </Text>
+      <Text>
+        <GUID>1500301354</GUID>
+        <Text>Бондарня: Доски из дерева ванза</Text>
+      </Text>
+      <Text>
+        <GUID>1500301355</GUID>
+        <Text>Бочки из дерева ванза: 3т</Text>
+      </Text>
+      <Text>
+        <GUID>1500301371</GUID>
+        <Text>Бондарни производят бочки любых форм и размеров. Опытные мастера выполняют любой заказ, как для домашнего использования, так и для фабрик.</Text>
+      </Text>
+      <Text>
+        <GUID>1500301374</GUID>
+        <Text>Бондарня</Text>
+      </Text>
+    <!-- Extended InfoDesciption -->
+      <Text>
+        <GUID>1500301357</GUID>
+        <Text>[AssetData(1500300044) Text]&#xD;&#xA;[AssetData(1500301359) Text]&#xD;&#xA;[AssetData(1500301360) Text]&#xD;&#xA;[AssetData(1500301361) Text]</Text>
+      </Text>
+      <Text>
+        <GUID>1500301359</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(1010196) Icon]"/&gt; [AssetData(1010196) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301360</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(1500301151) Icon]"/&gt; [AssetData(1500301151) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301361</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(114356) Icon]"/&gt; [AssetData(114356) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301362</GUID>
+        <Text>[AssetData(1500300000) Text] &lt;b&gt;&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(1010196) Icon]"/&gt;&lt;b&gt;&lt;/b&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301363</GUID>
+        <Text>[AssetData(1500300000) Text] &lt;b&gt;&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(1500301151) Icon]"/&gt;&lt;b&gt;&lt;/b&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301364</GUID>
+        <Text>[AssetData(1500300000) Text] &lt;b&gt;&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(114356) Icon]"/&gt;&lt;b&gt;&lt;/b&gt;</Text>
+      </Text>
+    <!-- Old Content -->
+      <Text>
+        <GUID>1500300005</GUID>
+        <Text>Квалифицированный бондарь</Text>
+      </Text>
+  </ModOp>
+</ModOps>

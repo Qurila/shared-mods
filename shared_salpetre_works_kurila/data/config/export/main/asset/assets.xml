@@ -1,0 +1,356 @@
+<ModOps>
+    <!-- New Entries -->
+      <Group>
+        <ModOp Type="addNextSibling" GUID="101267">
+          <Asset>
+            <BaseAssetGUID>101267</BaseAssetGUID>
+            <Values>
+              <Standard>
+                <GUID>1500302330</GUID>
+                <Name>Salpetre_Pit</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/icon_niter.png</IconFilename>
+						    <InfoDescription>1500302331</InfoDescription>
+              </Standard>
+              <Object>
+                <Variations>
+                  <Item>
+                    <Filename>data/kurila/saltpetre_pit/saltpetre_pit.cfg</Filename>
+                  </Item>
+                </Variations>
+                <Skins>
+                  <DefaultSkinName>1500302330</DefaultSkinName>
+                </Skins>
+              </Object>
+              <Selection>
+                <ParticipantMessageArcheType>SA_Resident_tier02_atWork</ParticipantMessageArcheType>
+              </Selection>
+              <Locked>
+                <DefaultLockedState>1</DefaultLockedState>
+              </Locked>
+              <FactoryBase>
+                <FactoryOutputs>
+                  <Item>
+                    <Product>1010232</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>8</StorageAmount>
+                  </Item>
+                </FactoryOutputs>
+                <CycleTime>30</CycleTime>
+                <IsMainFactory>0</IsMainFactory>
+              </FactoryBase>
+              <Maintenance>
+                <Maintenances>
+                  <Item>
+                    <Product>1010017</Product>
+                    <Amount>200</Amount>
+                    <InactiveAmount>100</InactiveAmount>
+                  </Item>
+                  <Item>
+                    <Product>1010367</Product>
+                    <Amount>25</Amount>
+                  </Item>
+                </Maintenances>
+              </Maintenance>
+            </Values>
+          </Asset>
+          <Asset>
+            <Template>Text</Template>
+            <Values>
+              <Standard>
+                <GUID>1500302331</GUID>
+                <Name>Buildable on Clay Deposit</Name>
+              </Standard>
+            </Values>
+          </Asset>
+          <Asset>
+            <Template>Trigger</Template>
+            <Values>
+              <Standard>
+                <GUID>1500302332</GUID>
+                <Name>Unlock_Trigger_1_Obrero</Name>
+              </Standard>
+              <Trigger>
+                <TriggerCondition>
+                  <Template>ConditionPlayerCounter</Template>
+                  <Values>
+                    <Condition />
+                    <ConditionPlayerCounter>
+                      <PlayerCounter>PopulationByLevel</PlayerCounter>
+                      <Context>15000006</Context>
+                      <CounterAmount>1</CounterAmount>
+                    </ConditionPlayerCounter>
+                  </Values>
+                </TriggerCondition>
+                <TriggerActions>
+                  <Item>
+                    <TriggerAction>
+                      <Template>ActionUnlockAsset</Template>
+                      <Values>
+                        <Action />
+                        <ActionUnlockAsset>
+                          <UnlockAssets>
+                            <Item>
+                              <Asset>1500302330</Asset>
+                            </Item>
+                          </UnlockAssets>
+                        </ActionUnlockAsset>
+                      </Values>
+                    </TriggerAction>
+                  </Item>
+                </TriggerActions>
+              </Trigger>
+              <TriggerSetup />
+            </Values>
+          </Asset>
+        </ModOp>
+        <ModOp Type="addNextSibling" GUID="24805">
+          <Asset>
+            <Template>Text</Template>
+            <Values>
+              <Standard>
+                <GUID>1500302336</GUID>
+                <Name>Desc_Salpetre_Hut</Name>
+              </Standard>
+            </Values>
+          </Asset>
+          <Asset>
+            <BaseAssetGUID>24805</BaseAssetGUID>
+            <Values>
+              <Standard>
+                <GUID>1500302333</GUID>
+                <Name>Salpetre_Hut</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/icon_niter.png</IconFilename>
+                <InfoDescription>1500302336</InfoDescription>
+              </Standard>
+              <Building>
+                <AssociatedRegions>Moderate</AssociatedRegions>
+              </Building>
+              <Cost>
+                <Costs>
+                  <Item>
+                    <Ingredient>1010017</Ingredient>
+                    <Amount>500</Amount>
+                  </Item>
+                  <Item>
+                    <Ingredient>1010196</Ingredient>
+                    <Amount>10</Amount>
+                  </Item>
+                  <Item>
+                    <Ingredient>1010205</Ingredient>
+                    <Amount>10</Amount>
+                  </Item>
+                  <Item>
+                    <Ingredient>1010218</Ingredient>
+                    <Amount>5</Amount>
+                  </Item>
+                  <Item>
+                    <Ingredient>1010207</Ingredient>
+                  </Item>
+                  <Item>
+                    <Ingredient>1010202</Ingredient>
+                  </Item>
+                </Costs>
+              </Cost>
+              <Object>
+                <Variations>
+                  <Item>
+                    <Filename>data/kurila/saltpetre_hut/saltpetre_hut.cfg</Filename>
+                  </Item>
+                </Variations>
+                <Skins>
+                  <DefaultSkinName>1500302333</DefaultSkinName>
+                </Skins>
+              </Object>
+              <Selection>
+                <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+              </Selection>
+              <Locked>
+                <DefaultLockedState>1</DefaultLockedState>
+              </Locked>
+              <FactoryBase>
+                <FactoryInputs>
+                  <Item>
+                    <Product>24807</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>10</StorageAmount>
+                  </Item>
+                  <Item>
+                    <Product>1010231</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>10</StorageAmount>
+                  </Item>
+                  <Item>
+                    <Product>120008</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>10</StorageAmount>
+                  </Item>
+                </FactoryInputs>
+                <FactoryOutputs>
+                  <Item>
+                    <Product>1010232</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>4</StorageAmount>
+                  </Item>
+                </FactoryOutputs>
+                <CycleTime>120</CycleTime>
+                <IsMainFactory>0</IsMainFactory>
+              </FactoryBase>
+              <Industrializable>
+                <BoostedByIndustrialization>0</BoostedByIndustrialization>
+              </Industrializable>
+              <Maintenance>
+                <Maintenances>
+                  <Item>
+                    <Product>1010017</Product>
+                    <Amount>100</Amount>
+                    <InactiveAmount>50</InactiveAmount>
+                  </Item>
+                  <Item>
+                    <Product>1010115</Product>
+                    <Amount>50</Amount>
+                  </Item>
+                </Maintenances>
+              </Maintenance>
+              <Pausable>
+                <IsHaciendaDependent>0</IsHaciendaDependent>
+              </Pausable>
+            </Values>
+          </Asset>
+          <Asset>
+            <Template>Trigger</Template>
+            <Values>
+              <Standard>
+                <GUID>1500302334</GUID>
+                <Name>Unlock_Trigger_1_Worker</Name>
+              </Standard>
+              <Trigger>
+                <TriggerCondition>
+                  <Template>ConditionPlayerCounter</Template>
+                  <Values>
+                    <Condition />
+                    <ConditionPlayerCounter>
+                      <PlayerCounter>PopulationByLevel</PlayerCounter>
+                      <Context>15000001</Context>
+                      <CounterAmount>1</CounterAmount>
+                    </ConditionPlayerCounter>
+                  </Values>
+                </TriggerCondition>
+                <TriggerActions>
+                  <Item>
+                    <TriggerAction>
+                      <Template>ActionUnlockAsset</Template>
+                      <Values>
+                        <Action />
+                        <ActionUnlockAsset>
+                          <UnlockAssets>
+                            <Item>
+                              <Asset>1500302333</Asset>
+                            </Item>
+                            <Item>
+                              <Asset>1010309</Asset>
+                            </Item>
+                            <Item>
+                              <Asset>1010231</Asset>
+                            </Item>
+                            <Item>
+                              <Asset>24807</Asset>
+                            </Item>
+                            <Item>
+                              <Asset>1010232</Asset>
+                            </Item>
+                          </UnlockAssets>
+                        </ActionUnlockAsset>
+                      </Values>
+                    </TriggerAction>
+                  </Item>
+                </TriggerActions>
+              </Trigger>
+              <TriggerSetup />
+            </Values>
+          </Asset>
+        </ModOp>
+        <Group Condition="#Taludas_MineSlotUnification">
+          <ModOp Type="replace" GUID="1500302330" Path="Values/Standard/InfoDescription">
+					  <InfoDescription>11143</InfoDescription>
+          </ModOp>
+        </Group>
+      </Group>
+    <!-- Adjust Pools /Lists  -->
+      <Group>
+        <!-- WorkforceMenu -->
+          <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+            <Item>
+              <Factory>1500302330</Factory>
+            </Item>
+            <Item>
+              <Factory>1500302333</Factory>
+            </Item>
+          </ModOp>
+        <!-- Feedbacks -->
+          <ModOp Type="add" GUID="142311" Path="/Values/FeedbackBuildingGroup/Buildings">
+            <Item>
+              <Building>1500302330</Building>
+            </Item>
+            <Item>
+              <Building>1500302333</Building>
+            </Item>
+          </ModOp>
+        <!-- Effect Pools -->
+          <Group>
+            <ModOp Type="add" Path="//ItemEffectTargetPool/EffectTargetGUIDs[Item/GUID='101267']">
+              <Item>
+                <GUID>1500302330</GUID>
+              </Item>
+            </ModOp>
+            <ModOp Type="add" GUID="368,193856,6000018,25599" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+              <Item>
+                <GUID>1500302333</GUID>
+              </Item>
+            </ModOp>
+          </Group>
+        <!-- Items -->
+          <Group>
+            <ModOp Type="add" GUID="190874,190873,190875,190847,190848,190849" Path="/Values/ItemEffect/EffectTargets">
+              <Item>
+                <GUID>1500302333</GUID>
+              </Item>
+            </ModOp>
+          </Group>
+      </Group>
+    <!-- Adjust Products  -->
+      <Group>
+        <!-- Salpetre  -->
+          <Group>
+            <ModOp Type="add" GUID="1010232" Path="/Values/Product/AssociatedRegion">;Colony01</ModOp>
+            <ModOp Type="add" GUID="1010232" Path="/Values/Product/ProductionRegions">
+              <Item>
+                <RegionType>Colony01</RegionType>
+              </Item>
+            </ModOp>
+          </Group>
+        <!-- Storage List  -->
+          <Group>
+            <ModOp Type="remove" GUID="120055" Path="/Values/ProductStorageList/ProductList/Item[Product='1010232']"></ModOp>
+            <ModOp Type="addNextSibling" GUID="120055" Path="/Values/ProductStorageList/ProductList/Item[Product='1010234']">
+              <Item>
+                <Product>1010232</Product>
+              </Item>
+            </ModOp>
+            <ModOp Type="remove" GUID="502049" Path="/Values/ProductList/List/Item[Product='1010232']"></ModOp>
+            <ModOp Type="addNextSibling" GUID="502049" Path="/Values/ProductList/List/Item[Product='1010226']">
+              <Item>
+                <Product>1010232</Product>
+              </Item>
+            </ModOp>
+          </Group>
+        <!-- Good List  -->
+          <Group>
+            <ModOp Type="remove" GUID="502020,502066" Path="/Values/ProductList/List/Item[Product='1010232']"></ModOp>
+            <ModOp Type="addNextSibling" GUID="502018" Path="/Values/ProductList/List/Item[Product='1010234']">
+              <Item>
+                <Product>1010232</Product>
+              </Item>
+            </ModOp>
+          </Group>
+      </Group>
+</ModOps>

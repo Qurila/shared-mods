@@ -307,29 +307,38 @@
       <!-- Adding to Pools/Buffs/Lists -->
         <Group>
           <!-- WorkforceMenu -->
-          <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
-            <Item>
-              <Factory>1500301290</Factory>
-            </Item>
-          </ModOp>
+            <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+              <Item>
+                <Factory>1500301290</Factory>
+              </Item>
+            </ModOp>
           <!-- Feedbacks -->
-          <ModOp Type="add" GUID="142311" Path="/Values/FeedbackBuildingGroup/Buildings">
-            <Item>
-              <Building>1500301290</Building>
-            </Item>
-          </ModOp>
+            <ModOp Type="add" GUID="142311" Path="/Values/FeedbackBuildingGroup/Buildings">
+              <Item>
+                <Building>1500301290</Building>
+              </Item>
+            </ModOp>
           <!-- Effect Pools -->
-          <ModOp Type="add" GUID="6000018,193856,193875,368,190914" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
-            <Item>
-              <GUID>1500301290</GUID>
-            </Item>
-          </ModOp>
+            <ModOp Type="add" GUID="6000018,193856,193875,368,190914" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+              <Item>
+                <GUID>1500301290</GUID>
+              </Item>
+            </ModOp>
           <!-- ProductList -->
-          <ModOp Type="add" GUID="502049" Path="/Values/ProductList/List">
-            <Item>
-              <Product>1500301150</Product>
-            </Item>
-          </ModOp>
+            <ModOp Type="addPrevSibling" GUID="502069,502071"
+              Condition="!/Values/ProductList/List/Item[Product='1500301150']"
+              Path="/Values/ProductList/List/Item[Product='114356']">
+              <Item>
+                <Product>1500301150</Product>
+              </Item>
+            </ModOp>
+            <ModOp Type="addPrevSibling" GUID="502075"
+              Condition="!/Values/ProductList/List/Item[Product='1500301150']"
+              Path="/Values/ProductList/List/Item[1]">
+              <Item>
+                <Product>1500301150</Product>
+              </Item>
+            </ModOp>
         </Group>
       <!-- Build Menus -->
         <Group>

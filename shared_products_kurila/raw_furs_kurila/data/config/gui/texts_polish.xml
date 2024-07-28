@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500301154</GUID>
+      <Text>Surowe futra</Text>
+    </Text>
+  </ModOp>
+</ModOps>

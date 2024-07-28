@@ -1,0 +1,33 @@
+{
+  "out": "${annoMods}/coloured_tiles_kurila",
+  "Version": "1.0",
+  "ModID": "coloured_tiles_kurila",
+  "Category": {
+    "English": "Product",
+    "Chinese": "Product",
+    "French": "Product",
+    "German": "Product",
+    "Italian": "Product",
+    "Japanese": "Product",
+    "Korean": "Product",
+    "Polish": "Product",
+    "Russian": "Product",
+    "Spanish": "Product",
+    "Taiwanese": "Product"
+  },
+  "ModName": {
+    "English": "Coloured Tiles (Kurila)",
+    "Chinese": "Coloured Tiles (Kurila)",
+    "French": "Coloured Tiles (Kurila)",
+    "German": "Coloured Tiles (Kurila)",
+    "Italian": "Coloured Tiles (Kurila)",
+    "Japanese": "Coloured Tiles (Kurila)",
+    "Korean": "Coloured Tiles (Kurila)",
+    "Polish": "Coloured Tiles (Kurila)",
+    "Russian": "Coloured Tiles (Kurila)",
+    "Spanish": "Coloured Tiles (Kurila)",
+    "Taiwanese": "Coloured Tiles (Kurila)"
+  },
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK"
+}

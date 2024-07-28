@@ -1,0 +1,15 @@
+<ModOps>
+  <!-- Building Changes -->
+    <Group>
+      <ModOp Type="add" GUID="1999003210" Path="/Values" Condition="@1999003210">
+        <RecipeBuilding>
+          <RecipeList>1500300862</RecipeList>
+        </RecipeBuilding>
+      </ModOp>
+      <ModOp Type="add" GUID="1999003214" Path="/Values" Condition="@1999003214">
+        <RecipeBuilding>
+          <RecipeList>1500300863</RecipeList>
+        </RecipeBuilding>
+      </ModOp>
+    </Group>
+</ModOps>

@@ -1,0 +1,20 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500302330</GUID>
+      <Text>Salpetergrube</Text>
+    </Text>
+    <Text>
+      <GUID>1500302331</GUID>
+      <Text>[AssetData(11143) Text]&#xD;&#xA;&#xD;&#xA;Baubar auf &lt;img height='24' width='24' src="[AssetData(101061) Icon]"/&gt; [AssetData(101061) Text].</Text>
+    </Text>
+    <Text>
+      <GUID>1500302333</GUID>
+      <Text>Salpeterhütte</Text>
+    </Text>
+    <Text>
+      <GUID>1500302336</GUID>
+      <Text>[AssetData(11143) Text]&#xD;&#xA;&#xD;&#xA;Tierhöfe die im Radius stehen,erzeugen Dung.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

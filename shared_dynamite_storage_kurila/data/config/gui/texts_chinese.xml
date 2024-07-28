@@ -1,0 +1,24 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500302360</GUID>
+      <Text>炸药仓库</Text>
+    </Text>
+    <Text>
+      <GUID>1500302366</GUID>
+      <Text>本建筑生产力 1-100%时：</Text>
+    </Text>
+    <Text>
+      <GUID>1500302367</GUID>
+      <Text>本建筑生产力 102-200%时：</Text>
+    </Text>
+    <Text>
+      <GUID>1500302371</GUID>
+      <Text>所有炸药仓库</Text>
+    </Text>
+    <Text>
+      <GUID>1500302376</GUID>
+      <Text>储存炸药以提高所有矿场的生产力。</Text>
+    </Text>
+  </ModOp>
+</ModOps>

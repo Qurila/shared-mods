@@ -1,0 +1,21 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500302330</GUID>
+      <Text>Карьер селитры</Text>
+    </Text>
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1500302331</GUID>
+      <Text>[AssetData(11143) Text]&#xD;&#xA;&#xD;&#xA;Buildable on &lt;img height='24' width='24' src="[AssetData(101061) Icon]"/&gt; [AssetData(101061) Text].</Text>
+    </Text>
+    <Text>
+      <GUID>1500302333</GUID>
+      <Text>Помещение селитры</Text>
+    </Text>
+    <Text>
+      <GUID>1500302336</GUID>
+      <Text>[AssetData(11143) Text]&#xD;&#xA;&#xD;&#xA;Животноводческие фермы, расположенные в радиусе, производят навоз.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

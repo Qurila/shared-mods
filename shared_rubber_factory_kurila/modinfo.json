@@ -1,0 +1,58 @@
+{
+  "out": "${annoMods}/shared_rubber_factory_kurila",
+  "Version": "1.0",
+  "ModID": "shared_rubber_factory_kurila",
+  "DeprecateIds": [
+  ],
+  "LoadAfterIds": [
+    "shared-pools-and-definitions"
+   ],
+  "IncompatibleIds": null,
+  "ModDependencies": [
+    "shared-pools-and-definitions",
+    "rubber_kurila"
+  ],
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "Rubber Factory (Kurila)",
+    "English": "Rubber Factory (Kurila)",
+    "French": "Rubber Factory (Kurila)",
+    "German": "Rubber Factory (Kurila)",
+    "Italian": "Rubber Factory (Kurila)",
+    "Japanese": "Rubber Factory (Kurila)",
+    "Korean": "Rubber Factory (Kurila)",
+    "Polish": "Rubber Factory (Kurila)",
+    "Russian": "Rubber Factory (Kurila)",
+    "Spanish": "Rubber Factory (Kurila)",
+    "Taiwanese": "Rubber Factory (Kurila)"
+  },
+  "Description": {
+    "English": "file::README.md",
+    "German": null,
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK"
+}

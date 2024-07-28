@@ -1,0 +1,63 @@
+{
+  "out": "${annoMods}/shared_cherry_sawmill_kurila/mod_adjustments",
+  "Version": "1.0",
+  "ModID": "mod_adjustments_cherry_sawmill_kurila",
+  "DeprecateIds": [
+
+  ],
+  "ModDependencies": [
+
+  ],
+  "LoadAfterIds": [
+    "*",
+    "Taludas_VanillaRiverSlotBuildingsNW",
+    "Taludas_VanillaRiverSlotBuildingsOW"
+   ],
+   "IncompatibleIds": [
+
+   ],
+   "Category": {
+    "English": "Sub-Mod",
+    "Chinese": "Sub-Mod",
+    "French": "Sub-Mod",
+    "German": "Sub-Mod",
+    "Italian": "Sub-Mod",
+    "Japanese": "Sub-Mod",
+    "Korean": "Sub-Mod",
+    "Polish": "Sub-Mod",
+    "Russian": "Sub-Mod",
+    "Spanish": "Sub-Mod",
+    "Taiwanese": "Sub-Mod"
+  },
+  "ModName": {
+    "Chinese": "Mod Adjustment (Kurila)",
+    "English": "Mod Adjustment (Kurila)",
+    "French": "Mod Adjustment (Kurila)",
+    "German": "Mod Adjustment (Kurila)",
+    "Italian": "Mod Adjustment (Kurila)",
+    "Japanese": "Mod Adjustment (Kurila)",
+    "Korean": "Mod Adjustment (Kurila)",
+    "Polish": "Mod Adjustment (Kurila)",
+    "Russian": "Mod Adjustment (Kurila)",
+    "Spanish": "Mod Adjustment (Kurila)",
+    "Taiwanese": "Mod Adjustment (Kurila)"
+  },
+  "Description": {
+    "English": "file::README.ENG.md",
+    "German": "file::README.GER.md",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Image": null
+}

@@ -1,0 +1,22 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500302480</GUID>
+      <Text />
+    </Text>
+    <Text>
+      <GUID>1500302481</GUID>
+      <Text>随着工业化的发展和机械使用的增加，用天然脂质被越来越多地被用来润滑机器。因此，工业润滑剂应运而生。其由各种油脂和粘合剂制成，可以确保许多机器高效运行。</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1500302480']/Text" Content="/TextExport/Texts/Text[GUID='132771']/Text/text()">
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1500302480']/Text">: </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1500302480']/Text" Content="/TextExport/Texts/Text[GUID='1414']/Text/text()">
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID='1418']/Text" Content="/TextExport/Texts/Text[GUID='132933']/Text">
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1418']/Text">: </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1418']/Text" Content="/TextExport/Texts/Text[GUID='1500301158']/Text/text()">
+  </ModOp>
+</ModOps>

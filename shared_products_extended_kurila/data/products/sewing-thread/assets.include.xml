@@ -72,7 +72,7 @@
   </Group>
 
   <!-- # Docklands: Old Levant -->
-  <Group Condition="!//TradeLevels/Item/Trades[Item/Good='1500020010']">
+  <Group Condition="!@131764/.//TradeLevels/Item/Trades[Item/Good='1500020010']">
     <ModOp Type="addNextSibling" GUID="1010197"
       Condition="!//FactoryBase[FactoryOutputs/Item/Product='1500020010']/IsMainFactory[text()='1']">
       <Asset>

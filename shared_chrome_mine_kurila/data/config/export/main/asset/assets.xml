@@ -1,0 +1,342 @@
+<ModOps>
+  <!-- New Entries -->
+    <ModOp GUID="5464" Type="addNextSibling">
+      <Asset>
+        <Template>WorkArea</Template>
+        <Values>
+          <Standard>
+            <GUID>1500302284</GUID>
+            <Name>Work_Area_Chrome_Mine</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_clay.png</IconFilename>
+          </Standard>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/kurila/chrome_mine/chrome_mine_work_area.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Mesh />
+          <Slot>
+            <SnapsToSlot>1</SnapsToSlot>
+          </Slot>
+          <SoundEmitter />
+          <FeedbackController />
+          <WorkAreaPath>
+            <AreaPathConfig>data/graphics/buildings/production/mining_01/mining_rail_01.cfg</AreaPathConfig>
+          </WorkAreaPath>
+          <Selection>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                  <ActionList />
+              </Values>
+            </OnSelection>
+          </Selection>
+          <Blocking />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>TrafficFeedbackUnit</Template>
+        <Values>
+          <Standard>
+            <GUID>1500302285</GUID>
+            <Name>Mine_Lorry_Chrome_Full</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_mineral_desposits.png</IconFilename>
+          </Standard>
+          <TrafficFeedbackUnit>
+            <UnitType>MineLorry</UnitType>
+            <CfgPath>data/kurila/chrome_mine/lorry_chrome_full.cfg</CfgPath>
+            <SpeedSource>TakeFromAsset</SpeedSource>
+            <OverwriteSpeed>0.15</OverwriteSpeed>
+          </TrafficFeedbackUnit>
+          <Trailer />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>FeedbackUnitClass</Template>
+        <Values>
+          <Standard>
+            <GUID>1500302286</GUID>
+            <Name>Lorry_Chrome_Full_Class</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_beams.png</IconFilename>
+          </Standard>
+          <TrafficFeedbackClass>
+            <DefaultBehaviour>INTERNAL_MineLorry</DefaultBehaviour>
+            <UnitAssets>
+              <Item>
+                <UnitAsset>1500302285</UnitAsset>
+              </Item>
+            </UnitAssets>
+          </TrafficFeedbackClass>
+        </Values>
+      </Asset>
+      <Asset>
+        <BaseAssetGUID>116029</BaseAssetGUID>
+        <Values>
+          <Standard>
+            <GUID>1500302280</GUID>
+            <Name>Chrome_Mine</Name>
+            <IconFilename>data/ui/2kimages/main/kurila/icon_chrome.png</IconFilename>
+						<InfoDescription>1500302283</InfoDescription>
+          </Standard>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/kurila/chrome_mine/chrome_mine.cfg</Filename>
+              </Item>
+            </Variations>
+            <Skins>
+              <DefaultSkinName>1500302280</DefaultSkinName>
+            </Skins>
+          </Object>
+          <Locked>
+            <DefaultLockedState>1</DefaultLockedState>
+          </Locked>
+          <FactoryBase>
+            <FactoryOutputs>
+              <Item>
+                <Product>1500301156</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>30</CycleTime>
+            <IsMainFactory>0</IsMainFactory>
+          </FactoryBase>
+          <Slot>
+            <SlotType>GoldOre</SlotType>
+            <WorkArea>1500302284</WorkArea>
+          </Slot>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>1500302283</GUID>
+            <Name>Buildable on Gold Deposit</Name>
+          </Standard>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Trigger</Template>
+        <Values>
+          <Standard>
+            <GUID>1500302281</GUID>
+            <Name>Unlock_Chrome_Mine_Trigger_1_Technican</Name>
+          </Standard>
+          <Trigger>
+            <TriggerCondition>
+              <Template>ConditionPlayerCounter</Template>
+              <Values>
+                <Condition />
+                <ConditionPlayerCounter>
+                  <PlayerCounter>PopulationByLevel</PlayerCounter>
+                  <Context>112643</Context>
+                  <CounterAmount>1</CounterAmount>
+                </ConditionPlayerCounter>
+              </Values>
+            </TriggerCondition>
+            <TriggerActions>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionUnlockAsset</Template>
+                  <Values>
+                    <Action />
+                    <ActionUnlockAsset>
+                      <UnlockAssets>
+                        <Item>
+                          <Asset>1500301156</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>1500302280</Asset>
+                        </Item>
+                      </UnlockAssets>
+                    </ActionUnlockAsset>
+                  </Values>
+                </TriggerAction>
+              </Item>
+            </TriggerActions>
+          </Trigger>
+          <TriggerSetup />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Trigger</Template>
+        <Values>
+          <Standard>
+            <GUID>1500302282</GUID>
+            <Name>Unlock_Chrome_Mine__Creative_Mode</Name>
+          </Standard>
+          <Trigger>
+            <TriggerCondition>
+              <Values>
+                <ConditionPropsNegatable />
+                <Condition />
+                <ConditionIsCreativeMode />
+              </Values>
+              <Template>ConditionIsCreativeMode</Template>
+            </TriggerCondition>
+            <TriggerActions>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionUnlockAsset</Template>
+                  <Values>
+                    <Action />
+                    <ActionUnlockAsset>
+                      <UnlockAssets>
+                        <Item>
+                          <Asset>1500301156</Asset>
+                        </Item>
+                        <Item>
+                          <Asset>1500302280</Asset>
+                        </Item>
+                      </UnlockAssets>
+                    </ActionUnlockAsset>
+                  </Values>
+                </TriggerAction>
+              </Item>
+            </TriggerActions>
+          </Trigger>
+          <TriggerSetup />
+        </Values>
+      </Asset>
+    </ModOp>
+    <Group Condition="#Taludas_MineSlotUnification">
+      <ModOp Type="replace" GUID="1500302280" Path="Values/Standard/InfoDescription">
+        <InfoDescription>11143</InfoDescription>
+      </ModOp>
+    </Group>
+  <!-- Adding to Pools / Lists / Menues / Buffs  -->
+    <Group>
+      <!-- Feedbacks -->
+        <ModOp Type="add" GUID="142311" Path="/Values/FeedbackBuildingGroup/Buildings">
+          <Item>
+            <Building>1500302280</Building>
+          </Item>
+        </ModOp>
+        <ModOp Type="add" GUID='2001096' Path="/Values/FeedbackSessionDescription/MineLorryConfig/LorryVariants">
+          <Item>
+            <MineToSpawnAt>1500302284</MineToSpawnAt>
+            <LorryEmpty>141574</LorryEmpty>
+            <LorryFull>1500302286</LorryFull>
+          </Item>
+        </ModOp>
+        <ModOp Type="addNextSibling" GUID="112791,116344" Path="/Values/ConstructionCategory/BuildingList/Item[Building='116029']">
+          <Item>
+            <Building>1500302280</Building>
+          </Item>
+        </ModOp>
+      <!-- Effect Pools -->
+        <Group>
+          <ModOp Type="add" Path="//ItemEffectTargetPool/EffectTargetGUIDs[Item/GUID='116029']">
+            <Item>
+              <GUID>1500302280</GUID>
+            </Item>
+          </ModOp>
+        </Group>
+      <!-- Lists -->
+        <Group>
+          <ModOp Type="addNextSibling" GUID="502011,502025,502219"
+            Condition="!~/Values/ProductList/List/Item[Product='1500301156']"
+            Path="/Values/ProductList/List/Item[Product='112706']">
+            <Item>
+              <Product>1500301156</Product>
+            </Item>
+          </ModOp>
+
+          <ModOp Type="add" GUID="502020,502066,502051"
+            Condition="!~/Values/ProductList/List/Item[Product='1500301156']"
+            Path="/Values/ProductList/List">
+            <Item>
+              <Product>1500301156</Product>
+            </Item>
+          </ModOp>
+        </Group>
+      <!-- Items -->
+        <Group>
+          <ModOp Type="add" GUID="1772" Path="/Values/ItemEffect/EffectTargets">
+            <Item>
+              <GUID>1500302280</GUID>
+            </Item>
+          </ModOp>
+          <ModOp Type="add" GUID="112916" Path="/Values/FactoryUpgrade/AdditionalOutput">
+            <Item>
+              <Product>1500301156</Product>
+              <AdditionalOutputCycle>10</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </ModOp>
+          <ModOp Type="add" GUID="112917" Path="/Values/FactoryUpgrade/AdditionalOutput">
+            <Item>
+              <Product>1500301156</Product>
+              <AdditionalOutputCycle>8</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </ModOp>
+          <ModOp Type="add" GUID="112918" Path="/Values/FactoryUpgrade/AdditionalOutput">
+            <Item>
+              <Product>1500301156</Product>
+              <AdditionalOutputCycle>4</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </ModOp>
+        </Group>
+    </Group>
+  <!-- More Mining Slots Arctic -->
+    <Group>
+      <ModOp Type="replace" GUID="2002538" Path="/Values/MapGenerator/MineSlotCountPerResourceAmount/Low/Region/Arctic">
+        <Arctic>
+          <IslandSize>
+            <Small>
+              <Max>1</Max>
+            </Small>
+            <Medium>
+              <Min>1</Min>
+              <Max>2</Max>
+            </Medium>
+            <Large>
+              <Min>2</Min>
+              <Max>3</Max>
+            </Large>
+          </IslandSize>
+        </Arctic>
+      </ModOp>
+      <ModOp Type="replace" GUID="2002538" Path="/Values/MapGenerator/MineSlotCountPerResourceAmount/Medium/Region/Arctic">
+        <Arctic>
+          <IslandSize>
+            <Small>
+              <Max>2</Max>
+            </Small>
+            <Medium>
+              <Min>2</Min>
+              <Max>3</Max>
+            </Medium>
+            <Large>
+              <Min>2</Min>
+              <Max>4</Max>
+            </Large>
+          </IslandSize>
+        </Arctic>
+      </ModOp>
+      <ModOp Type="replace" GUID="2002538" Path="/Values/MapGenerator/MineSlotCountPerResourceAmount/High/Region/Arctic">
+        <Arctic>
+          <IslandSize>
+            <Small>
+              <Min>2</Min>
+              <Max>2</Max>
+            </Small>
+            <Medium>
+              <Min>3</Min>
+              <Max>3</Max>
+            </Medium>
+            <Large>
+              <Min>3</Min>
+              <Max>4</Max>
+            </Large>
+          </IslandSize>
+        </Arctic>
+      </ModOp>
+    </Group>
+</ModOps>

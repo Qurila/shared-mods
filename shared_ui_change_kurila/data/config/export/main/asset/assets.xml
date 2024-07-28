@@ -2,7 +2,7 @@
   <ModOp Type="add" GUID='2001271' Path="/Values/GUIConfig/KeyBindings">
     <Item>
       <KeyTypes>Shift;C</KeyTypes>
-      <Command>ts.Conditions.RegisterTriggerForCurrentParticipant(1500300093)</Command>
+      <Command>ts.Conditions.RegisterTriggerForCurrentParticipant(1500300093); system.start(function() coroutine.yield()  coroutine.yield() session.getSelectedFactory():select()  end)</Command>
       <Active>Session</Active>
       <AvailableOnPlatforms>PC;Xbox;PS;Stadia</AvailableOnPlatforms>
       <AudioEvent>200634</AudioEvent>

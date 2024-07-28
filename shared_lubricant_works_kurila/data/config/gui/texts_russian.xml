@@ -1,0 +1,29 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500302480</GUID>
+      <Text></Text>
+    </Text>
+    <Text>
+      <GUID>1500302481</GUID>
+      <Text>По мере развития индустриализации и увеличения использования оборудования, использование продуктов лучшего качества на производстве стало иметь особое значение.
+ Промышленные смазочные материалы повышенного качества производятся из различных жиров и связующих веществ и обеспечивают эффективную работу многих машин.</Text>
+    </Text>
+    <Text>
+      <GUID>1500302486</GUID>
+      <Text>Блестящий сок прессованных масличных плодов, тонко отфильтрованный и готовый к дальнейшему использованию.</Text>
+    </Text>
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1500302480']/Text"
+    Content="/TextExport/Texts/Text[GUID='132771']/Text/text()">
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1500302480']/Text">: </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1500302480']/Text"
+    Content="/TextExport/Texts/Text[GUID='1414']/Text/text()">
+  </ModOp>
+  <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID='1418']/Text" Content="/TextExport/Texts/Text[GUID='132933']/Text">
+  </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1418']/Text">: </ModOp>
+  <ModOp Type="add" Path="/TextExport/Texts/Text[GUID='1418']/Text" Content="/TextExport/Texts/Text[GUID='1500301158']/Text/text()">
+  </ModOp>
+</ModOps>

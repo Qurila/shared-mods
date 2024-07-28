@@ -32,5 +32,17 @@
       <GUID>1500301148</GUID>
       <Text>Przyprawa w proszku</Text>
     </Text>
+    <Text>
+      <GUID>1500301152</GUID>
+      <Text>Skóry</Text>
+    </Text>
+    <Text>
+      <GUID>1500301154</GUID>
+      <Text>Surowe futra</Text>
+    </Text>
+    <Text>
+      <GUID>1500301158</GUID>
+      <Text>Olej palmowy</Text>
+    </Text>
   </ModOp>
 </ModOps>

@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500301151</GUID>
+      <Text>チェリー材ボード</Text>
+    </Text>
+  </ModOp>
+</ModOps>

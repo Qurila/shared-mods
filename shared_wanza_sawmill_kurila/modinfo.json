@@ -1,16 +1,16 @@
 {
   "out": "${annoMods}/shared_wanza_sawmill_kurila",
-  "Version": "1.5.1",
+  "Version": "1.7",
   "ModID": "shared_wanza_sawmill_kurila",
   "DeprecateIds": [
 
   ],
   "ModDependencies": [
-    "shared_products_extended_kurila"
+    "wanza_wood_kurila"
   ],
   "LoadAfterIds": [
-    "*",
     "Enbesa_Spectacles_Production",
+    "enbesa_car_station_kurila",
     "[Boost] [Fasul2k] Production (2x)",
     "[Boost] [Fasul2k] Production (4x)"
   ],

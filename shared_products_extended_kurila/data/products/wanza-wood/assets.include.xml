@@ -73,7 +73,7 @@
     </ModOp>
   </Group>
   <!-- # Docklands: Tattershire -->
-  <Group Condition="!//TradeLevels/Item/Trades[Item/Good='1500301150']">
+  <Group Condition="!@131764/.//TradeLevels/Item/Trades[Item/Good='1500301150']">
     <ModOp Type="addNextSibling" GUID="120008"
       Condition="!//FactoryBase[FactoryOutputs/Item/Product='1500301150']/IsMainFactory[text()='1']">
       <Asset>

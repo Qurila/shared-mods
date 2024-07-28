@@ -6,7 +6,9 @@
 
   ],
   "LoadAfterIds": [
-    "*"
+    "*",
+    "mod_adjustments_production_works_kurila",
+    "mod_adjustments_early_game_kurila"
   ],
   "IncompatibleIds": null,
   "ModDependencies": null,

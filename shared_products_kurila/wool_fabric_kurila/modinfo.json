@@ -1,0 +1,35 @@
+{
+  "out": "${annoMods}/wool_fabric_kurila",
+  "Version": "1.0",
+  "ModID": "wool_fabric_kurila",
+  "LoadAfterIds": [
+  ],
+  "Category": {
+    "English": "Product",
+    "Chinese": "Product",
+    "French": "Product",
+    "German": "Product",
+    "Italian": "Product",
+    "Japanese": "Product",
+    "Korean": "Product",
+    "Polish": "Product",
+    "Russian": "Product",
+    "Spanish": "Product",
+    "Taiwanese": "Product"
+  },
+  "ModName": {
+    "English": "Wool Fabric (Kurila)",
+    "Chinese": "Wool Fabric (Kurila)",
+    "French": "Wool Fabric (Kurila)",
+    "German": "Wool Fabric (Kurila)",
+    "Italian": "Wool Fabric (Kurila)",
+    "Japanese": "Wool Fabric (Kurila)",
+    "Korean": "Wool Fabric (Kurila)",
+    "Polish": "Wool Fabric (Kurila)",
+    "Russian": "Wool Fabric (Kurila)",
+    "Spanish": "Wool Fabric (Kurila)",
+    "Taiwanese": "Wool Fabric (Kurila)"
+  },
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK"
+}

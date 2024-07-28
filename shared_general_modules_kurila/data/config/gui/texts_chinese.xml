@@ -1,19 +1,16 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
-      <!-- TODO translation -->
       <GUID>1500300830</GUID>
-      <Text>Module supply</Text>
+      <Text>模块供应</Text>
     </Text>
     <Text>
-      <!-- TODO translation -->
       <GUID>1500300831</GUID>
-      <Text>Module supply</Text>
+      <Text>模块供应</Text>
     </Text>
     <Text>
-      <!-- TODO translation -->
       <GUID>1500300832</GUID>
-      <Text>Module supply</Text>
+      <Text>模块供应</Text>
     </Text>
   </ModOp>
 </ModOps>

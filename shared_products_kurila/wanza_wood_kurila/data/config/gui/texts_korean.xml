@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500301150</GUID>
+      <Text>완자 나무</Text>
+    </Text>
+  </ModOp>
+</ModOps>

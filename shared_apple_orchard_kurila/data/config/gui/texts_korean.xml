@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404420046</GUID>
+      <Text>과수원: 사과</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,14 +1,12 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
-      <!-- TODO translation -->
       <GUID>12014</GUID>
-      <Text>Range of Emergency Forces</Text>
+      <Text>应急服务（消防局、医院、警局、消防救护站）范围</Text>
     </Text>
     <Text>
-      <!-- TODO translation -->
       <GUID>2321</GUID>
-      <Text>Range of Public Services</Text>
+      <Text>公共服务范围</Text>
     </Text>
 	</ModOp>
 </ModOps>

@@ -25,16 +25,24 @@
       <Text>Madera de wanza</Text>
     </Text>
     <Text>
-      <GUID>114356</GUID>
-      <Text>Tablones de wanza</Text>
-    </Text>
-    <Text>
       <GUID>1500301151</GUID>
       <Text>Tablones de cerezo</Text>
     </Text>
     <Text>
       <GUID>1500301148</GUID>
       <Text>Especias en polvo</Text>
+    </Text>
+    <Text>
+      <GUID>1500301152</GUID>
+      <Text>Pieles</Text>
+    </Text>
+    <Text>
+      <GUID>1500301154</GUID>
+      <Text>Pieles crudas</Text>
+    </Text>
+    <Text>
+      <GUID>1500301158</GUID>
+      <Text>Aceite de palma</Text>
     </Text>
   </ModOp>
 </ModOps>

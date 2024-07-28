@@ -1,6 +1,6 @@
 {
   "out": "${annoMods}/shared_spice_mill_kurila",
-  "Version": "1.0",
+  "Version": "1.1",
   "ModID": "shared_spice_mill_kurila",
   "DeprecateIds": [
   ],
@@ -10,7 +10,7 @@
   "IncompatibleIds": null,
   "ModDependencies": [
     "shared-pools-and-definitions",
-    "shared_products_kurila"
+    "spice_powder_kurila"
   ],
   "Category": {
     "English": "Shared",

@@ -1,0 +1,35 @@
+{
+  "out": "${annoMods}/cherry_timber_kurila",
+  "Version": "1.0",
+  "ModID": "cherry_timber_kurila",
+  "LoadAfterIds": [
+  ],
+  "Category": {
+    "English": "Product",
+    "Chinese": "Product",
+    "French": "Product",
+    "German": "Product",
+    "Italian": "Product",
+    "Japanese": "Product",
+    "Korean": "Product",
+    "Polish": "Product",
+    "Russian": "Product",
+    "Spanish": "Product",
+    "Taiwanese": "Product"
+  },
+  "ModName": {
+    "English": "Cherry Timber (Kurila)",
+    "Chinese": "Cherry Timber (Kurila)",
+    "French": "Cherry Timber (Kurila)",
+    "German": "Cherry Timber (Kurila)",
+    "Italian": "Cherry Timber (Kurila)",
+    "Japanese": "Cherry Timber (Kurila)",
+    "Korean": "Cherry Timber (Kurila)",
+    "Polish": "Cherry Timber (Kurila)",
+    "Russian": "Cherry Timber (Kurila)",
+    "Spanish": "Cherry Timber (Kurila)",
+    "Taiwanese": "Cherry Timber (Kurila)"
+  },
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK"
+}

@@ -536,7 +536,7 @@
         </Group>
       </Group>
     </Group>
-  <!-- Shephers -->
+  <!-- Shepherds -->
     <Group>
       <Group Condition="@114329/PopulationLevel7/PopulationInputs/Item[SupplyWeight and not(IsBonusNeed) and (not(RequiredBuildings) or RequiredBuildings/Item/RequiredBuilding='114436')][13]">
         <ModOp Type="addPrevSibling" GUID="114329" Path="/Values/PopulationLevel7/PopulationInputs/Item[SupplyWeight and not(IsBonusNeed) and (not(RequiredBuildings) or RequiredBuildings/Item/RequiredBuilding='114436')][12]">

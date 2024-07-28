@@ -2,9 +2,8 @@
   <ModOp Type="add" Path="/TextExport/Texts">
   	<!-- Enbesa Sawmill -->
       <Text>
-        <!-- TODO translation -->
         <GUID>1500301290</GUID>
-        <Text>Лесопилка дерева кордии</Text>
+        <Text>Лесопилка дерева ванза</Text>
       </Text>
   </ModOp>
 </ModOps>

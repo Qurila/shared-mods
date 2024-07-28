@@ -1,0 +1,17 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+      <Text>
+        <GUID>1500302280</GUID>
+        <Text>铬矿</Text>
+      </Text>
+      <Text>
+        <GUID>1500302283</GUID>
+        <Text>[AssetData(11143) Text]&#xD;&#xA;&#xD;&#xA;可建造在 &lt;img height='24' width='24' src="[AssetData(1010507) Icon]"/&gt; [AssetData(1010507) Text].</Text>
+      </Text>
+  </ModOp>
+  <Group Condition="#Taludas_MineSlotUnification">
+    <ModOp Type="replace" Path="/TextExport/Texts/Text[GUID='1500302283']/Text">
+      <Text>[AssetData(11143) Text]</Text>
+    </ModOp>
+  </Group>
+</ModOps>

@@ -1,0 +1,58 @@
+{
+  "out": "${annoMods}/shared_dynamite_storage_kurila",
+  "Version": "1.1",
+  "ModID": "shared_dynamite_storage_kurila",
+  "DeprecateIds": [
+  ],
+  "LoadAfterIds": [
+    "shared-pools-and-definitions"
+   ],
+  "IncompatibleIds": null,
+  "ModDependencies": [
+    "shared-pools-and-definitions",
+    "TooltipBugFixes_Serp"
+  ],
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "Dynamite Storage (Kurila)",
+    "English": "Dynamite Storage (Kurila)",
+    "French": "Dynamite Storage (Kurila)",
+    "German": "Dynamite Storage (Kurila)",
+    "Italian": "Dynamite Storage (Kurila)",
+    "Japanese": "Dynamite Storage (Kurila)",
+    "Korean": "Dynamite Storage (Kurila)",
+    "Polish": "Dynamite Storage (Kurila)",
+    "Russian": "Dynamite Storage (Kurila)",
+    "Spanish": "Dynamite Storage (Kurila)",
+    "Taiwanese": "Dynamite Storage (Kurila)"
+  },
+  "Description": {
+    "English": "file::README.md",
+    "German": null,
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK"
+}

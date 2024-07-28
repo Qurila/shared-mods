@@ -71,7 +71,7 @@
     </ModOp>
   </Group>
   <!-- # Docklands: Kitea -->
-  <Group Condition="!//TradeLevels/Item/Trades[Item/Good='1500301151']">
+  <Group Condition="!@131764/.//TradeLevels/Item/Trades[Item/Good='1500301151']">
     <ModOp Type="addNextSibling" GUID="1010196"
       Condition="!//FactoryBase[FactoryOutputs/Item/Product='1500301151']/IsMainFactory[text()='1']">
       <Asset>

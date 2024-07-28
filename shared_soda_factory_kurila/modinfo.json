@@ -1,0 +1,61 @@
+{
+  "out": "${annoMods}/soda_factory_kurila",
+  "Version": "2.0",
+  "ModID": "shared_soda_factory_kurila",
+  "DeprecateIds": [
+
+  ],
+  "LoadAfterIds": [
+    "Taludas_sharedproduct_soda",
+    "shared-pools-and-definitions",
+    "lion053_Enbesa_Spectacles_Production"
+   ],
+  "IncompatibleIds": null,
+  "ModDependencies": [
+    "Taludas_sharedproduct_soda",
+    "shared-sulfur-production-lion053"
+  ],
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "Soda Factory (Kurila)",
+    "English": "Soda Factory (Kurila)",
+    "French": "Soda Factory (Kurila)",
+    "German": "Soda Factory (Kurila)",
+    "Italian": "Soda Factory (Kurila)",
+    "Japanese": "Soda Factory (Kurila)",
+    "Korean": "Soda Factory (Kurila)",
+    "Polish": "Soda Factory (Kurila)",
+    "Russian": "Soda Factory (Kurila)",
+    "Spanish": "Soda Factory (Kurila)",
+    "Taiwanese": "Soda Factory (Kurila)"
+  },
+  "Description": {
+    "English": "file::README.md",
+    "German": null,
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK"
+}

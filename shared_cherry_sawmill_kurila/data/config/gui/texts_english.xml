@@ -1,6 +1,14 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
       <Text>
+        <GUID>1500300850</GUID>
+        <Text>Timber is the foundation of many buildings and objects. Whether thick, thin or wide, it is available for all requirements.</Text>
+      </Text>
+      <Text>
+        <GUID>1500300853</GUID>
+        <Text>Sawmills are the basis of wood working. Here, all kinds of timber are sawn from logs.</Text>
+      </Text>
+      <Text>
         <GUID>1500301320</GUID>
         <Text>Sawmill: Cherry Wood</Text>
       </Text>
@@ -59,14 +67,6 @@
       <Text>
         <GUID>1500301352</GUID>
         <Text>Cooperage: Cherry Timber</Text>
-      </Text>
-      <Text>
-        <GUID>1500301360</GUID>
-        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;b&gt;2t&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(1500301151) Icon]"/&gt; [AssetData(1500301151) Text]&lt;/font&gt;&#xD;&#xA;</Text>
-      </Text>
-      <Text>
-        <GUID>1500301363</GUID>
-        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(1500301151) Icon]"/&gt; [AssetData(1500301151) Text] &lt;b&gt;= 4t &lt;/b&gt;&lt;/font&gt;&#xD;&#xA;</Text>
       </Text>
       <Text>
         <GUID>1500301336</GUID>

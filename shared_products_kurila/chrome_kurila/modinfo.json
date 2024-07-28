@@ -1,0 +1,33 @@
+{
+  "out": "${annoMods}/chrome_kurila",
+  "Version": "1.0",
+  "ModID": "chrome_kurila",
+  "Category": {
+    "English": "Product",
+    "Chinese": "Product",
+    "French": "Product",
+    "German": "Product",
+    "Italian": "Product",
+    "Japanese": "Product",
+    "Korean": "Product",
+    "Polish": "Product",
+    "Russian": "Product",
+    "Spanish": "Product",
+    "Taiwanese": "Product"
+  },
+  "ModName": {
+    "English": "Chrome (Kurila)",
+    "Chinese": "Chrome (Kurila)",
+    "French": "Chrome (Kurila)",
+    "German": "Chrome (Kurila)",
+    "Italian": "Chrome (Kurila)",
+    "Japanese": "Chrome (Kurila)",
+    "Korean": "Chrome (Kurila)",
+    "Polish": "Chrome (Kurila)",
+    "Russian": "Chrome (Kurila)",
+    "Spanish": "Chrome (Kurila)",
+    "Taiwanese": "Chrome (Kurila)"
+  },
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK"
+}

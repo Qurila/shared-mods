@@ -1,6 +1,6 @@
 {
   "out": "${annoMods}/shared_salt_works_kurila",
-  "Version": "1.0",
+  "Version": "1.1",
   "ModID": "shared_salt_works_kurila",
   "DeprecateIds": [
   ],

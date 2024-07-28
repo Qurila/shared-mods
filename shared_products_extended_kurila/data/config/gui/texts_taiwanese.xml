@@ -25,16 +25,24 @@
       <Text>万扎原木</Text>
     </Text>
     <Text>
-      <GUID>114356</GUID>
-      <Text>万扎木材</Text>
-    </Text>
-    <Text>
       <GUID>1500301151</GUID>
       <Text>樱桃木材</Text>
     </Text>
     <Text>
       <GUID>1500301148</GUID>
       <Text>香料粉</Text>
+    </Text>
+    <Text>
+      <GUID>1500301152</GUID>
+      <Text>兽皮</Text>
+    </Text>
+    <Text>
+      <GUID>1500301154</GUID>
+      <Text>生裘皮</Text>
+    </Text>
+    <Text>
+      <GUID>1500301158</GUID>
+      <Text>棕榈油</Text>
     </Text>
   </ModOp>
 </ModOps>

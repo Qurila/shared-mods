@@ -14,7 +14,7 @@ Add the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_general_modules_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v8/shared_general_modules_kurila.zip"
 ]
 ```
 
@@ -30,7 +30,7 @@ Add the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_general_permits_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v8/shared_general_permits_kurila.zip"
 ]
 ```
 
@@ -40,15 +40,13 @@ This mod makes it possible to switch between two different UIs on buildings inga
 
 - An example is found in the assets.xml
 
-It should be noted that during the change selected buildings must be selected again to see the new UI.
-
 ### Use UI Change in your Mod
 
 Add following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_ui_change_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v8/shared_ui_change_kurila.zip"
 ]
 ```
 
@@ -65,7 +63,7 @@ Add the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_combi_allocations_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v8/shared_combi_allocations_kurila.zip"
 ]
 ```
 
@@ -81,7 +79,7 @@ Add the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_range_distinction_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v8/shared_range_distinction_kurila.zip"
 ]
 ```
 
@@ -95,7 +93,7 @@ Add the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_scroll_hint_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v8/shared_scroll_hint_kurila.zip"
 ]
 ```
 
@@ -112,7 +110,7 @@ Add the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_info_parts_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v8/shared_info_parts_kurila.zip"
 ]
 ```
 
@@ -126,82 +124,57 @@ Contains products with definition, icon and Docklands information.
 
 Icon | GUID | Name |
 ---|---|---|
-<img src="./shared_products_kurila/data/products/apples/icon_apples.png" width="20" alt="If you are reading this, there is an error." /> | 1404420032 | Apples |
-<img src="./shared_products_kurila/data/products/coloured-tiles/icon_tiles.png" width="20" alt="If you are reading this, there is an error." /> | 1500301073 | Coloured Tiles |
-<img src="./shared_products_kurila/data/products/liqueur/icon_liqueur.png" width="20" alt="If you are reading this, there is an error." /> | 1500300040 | Liqueur |
-<img src="./shared_products_kurila/data/products/sandwiches/icon_sandwich.png" width="20" alt="If you are reading this, there is an error." /> | 1500300060 | Sandwiches |
-<img src="./shared_products_kurila/data/products/smoked-fish/icon_smoked_fish.png" width="20" alt="If you are reading this, there is an error." /> | 1500300020 | Smoked Fish |
-<img src="./doc/icon_wooden_ring_16.png" width="20" alt="If you are reading this, there is an error." /> | 1500010150 | Wooden Jewelry |
-
-## Shared Products Extended
-
-Shared extended products from Kurila and Lrds42.
-
-These products are planned as intermediate stages to existing production chains and have a greater impact on the vanilla game.
-
-Contains products with definition, icon and Docklands information.
-
-Icon | GUID | Name |
----|---|---|
+<img src="./shared_products_kurila/apples_kurila/data/ui/kurila/icon_apples.png" width="20" alt="If you are reading this, there is an error." /> | 1404420032 | Apples |
+<img src="./shared_products_kurila/barrels_kurila/data/ui/kurila/icon_barrels.png" width="20" alt="If you are reading this, there is an error." /> | 1500300000 | Barrels |
 <img src="./doc/icon_cattle_16.png" width="20" alt="If you are reading this, there is an error." /> | 1404422300 | Cattle |
-<img src="./shared_products_extended_kurila/data/products/cherries/icon_cherries.png" width="20" alt="If you are reading this, there is an error." /> | 1404420030 | Cherries |
-<img src="./doc/icon_cloth_16.png" width="20" alt="If you are reading this, there is an error." /> | 1500020000 | Wool Fabric |
+<img src="./shared_products_kurila/cherries_kurila/data/ui/kurila/icon_cherries.png" width="20" alt="If you are reading this, there is an error." /> | 1404420030 | Cherries |
+<img src="./shared_products_kurila/cherry_timber_kurila/data/ui/kurila/icon_cherry_planks.png" width="20" alt="If you are reading this, there is an error." /> | 1500301151 | Cherry Timber |
+<img src="./shared_products_kurila/chrome_kurila/data/ui/kurila/icon_chrome.png" width="20" alt="If you are reading this, there is an error." /> | 1500301156 | Chrome |
+<img src="./shared_products_kurila/coloured_tiles_kurila/data/ui/kurila/icon_tiles.png" width="20" alt="If you are reading this, there is an error." /> | 1500301073 | Coloured Tiles |
+<img src="./doc/icon_fur_16.png" width="20" alt="If you are reading this, there is an error." /> | 1500301152 | Hides |
+<img src="./shared_products_kurila/liqueur_kurila/data/ui/kurila/icon_liqueur.png" width="20" alt="If you are reading this, there is an error." /> | 1500300040 | Liqueur |
+<img src="./doc/icon_vegetable_oil_16.png" width="20" alt="If you are reading this, there is an error." /> | 1500301158 | Palm Oil |
+<img src="./shared_products_kurila/pralines_kurila/data/ui/kurila/icon_pralines.png" width="20" alt="If you are reading this, there is an error." /> | 1500301160 | Pralines |
+<img src="./shared_products_kurila/raw_furs_kurila/data/ui/kurila/icon_raw_fur.png" width="20" alt="If you are reading this, there is an error." /> | 1500301154 | Raw Furs |
+<img src="./shared_products_kurila/rubber_kurila/data/ui/kurila/icon_rubber.png" width="20" alt="If you are reading this, there is an error." /> | 1500301162 | Rubber |
+<img src="./shared_products_kurila/sandwiches_kurila/data/ui/kurila/icon_sandwich.png" width="20" alt="If you are reading this, there is an error." /> | 1500300060 | Sandwiches |
 <img src="./doc/icon_wool_16.png" width="20" alt="If you are reading this, there is an error." /> | 1500020010 | Sewing Thread |
-<img src="./shared_products_extended_kurila/data/products/barrels/icon_barrels.png" width="20" alt="If you are reading this, there is an error." /> | 1500300000 | Barrels |
+<img src="./shared_products_kurila/smoked_fish_kurila/data/ui/kurila/icon_smoked_fish.png" width="20" alt="If you are reading this, there is an error." /> | 1500300020 | Smoked Fish |
+<img src="./shared_products_kurila/spice_powder_kurila/data/ui/kurila/icon_spice_powder.png" width="20" alt="If you are reading this, there is an error." /> | 1500301148 | Spice Powder |
 <img src="./doc/icon_wansa_wood_16.png" width="20" alt="If you are reading this, there is an error." /> | 1500301150 | Wanza Wood |
-<img src="./shared_products_extended_kurila/data/products/cherry-timber/icon_cherry_planks.png" width="20" alt="If you are reading this, there is an error." /> | 1500301151 | Cherry Timber |
-<img src="./shared_products_extended_kurila/data/products/spice-powder/icon_spice_powder.png" width="20" alt="If you are reading this, there is an error." /> | 1500301148 | Spice Powder |
+<img src="./doc/icon_wooden_ring_16.png" width="20" alt="If you are reading this, there is an error." /> | 1500010150 | Wooden Jewelry |
+<img src="./doc/icon_cloth_16.png" width="20" alt="If you are reading this, there is an error." /> | 1500020000 | Wool Fabric |
 
 ### Use Products in your Mod
 
-Add one/all of the following dependencies to your `modinfo.json`:
+Add the needed of the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_products_kurila.zip",
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_products_extended_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v8/apples_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v8/barrels_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v8/cattle_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v8/cherries_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v8/cherry_timber_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v8/chrome_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v8/coloured_tiles_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v8/hides_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v8/liqueur_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v8/palm_oil_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v8/pralines_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v8/raw_furs_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v8/rubber_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v8/sandwiches_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v8/sewing_thread_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v8/smoked_fish_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v8/spice_powder_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v8/wanza_wood_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v8/wooden_jewelry_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v8/wool_fabric_kurila.zip"
 ]
 ```
 
 Products are not unlocked automatically, you need to unlock them yourself, if you use the products.
-
-## Shared Recipe Buildings
-
-This mods convert vanilla buildings to recipe buildings.
-
-This way, modders who plan new recipes can all build on the same base and there are no compatibility problems.
-
-### Converted buildings
-
-- Lumberjack
-- Marquetry Workshops
-- Sawmills (Inlcuding Mod Buildings)
-- Schnapps Distilleries (Inlcuding Mod Buildings)
-- (Beer)Breweries
-- Wool Farms (Sheep and Alpaca)
-
-### Use Recipe Buildings in your Mod
-
-Add the desired dependencies to your `modinfo.json`:
-
-```json
-"ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_lumberjack_kurila.zip"
-
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_sawmill_kurila.zip"
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_sawmill_river_kurila.zip"
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_sawmill_industrial_kurila.zip"
-
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_marquetry_workshop_kurila.zip"
-
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_beer_brewery_kurila.zip"
-
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_schnapps_kurila.zip"
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_schnapps_industrial_kurila.zip"
-
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_wool_farms_kurila.zip"
-]
-```
 
 ## Shared Cherry Sawmill
 
@@ -213,11 +186,8 @@ Add the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_cherry_sawmill_kurila.zip",
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_products_extended_kurila.zip",
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_sawmill_kurila.zip",
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_sawmill_river_kurila.zip",
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_sawmill_industrial_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v8/shared_cherry_sawmill_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v8/cherry_timber_kurila.zip"
 ]
 ```
 
@@ -231,8 +201,8 @@ Add the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_wanza_sawmill_kurila.zip",
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_products_extended_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v8/shared_wanza_sawmill_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v8/wanza_wood_kurila.zip"
 ]
 ```
 
@@ -246,7 +216,7 @@ Add the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_clay_works_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v8/shared_clay_works_kurila.zip"
 ]
 ```
 
@@ -260,21 +230,7 @@ Add the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_herb_garden_kurila.zip"
-]
-```
-
-## Shared Advanced Lumberjack
-
-This mod provides an ingineer-level Advanced Lumberjack as a late source of Wood.
-
-### Use Lumberjack
-
-Add the following dependencies to your `modinfo.json`:
-
-```json
-"ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_advanced_lumberjack_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v8/shared_herb_garden_kurila.zip"
 ]
 ```
 
@@ -288,7 +244,7 @@ Add the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_salt_works_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v8/shared_salt_works_kurila.zip"
 ]
 ```
 
@@ -302,8 +258,145 @@ Add the following dependencies to your `modinfo.json`:
 
 ```json
 "ModDependencies": [
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_spice_mill_kurila.zip",
-  "https://github.com/Qurila/shared-mods/releases/download/v7/shared_products_extended_kurila.zip"
+  "https://github.com/Qurila/shared-mods/releases/download/v8/shared_spice_mill_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v8/spice_powder_kurila.zip"
+]
+```
+
+## Shared Apple Orchard
+
+This mod provides a Apple Orchard for the Old World. Its produce the new good "Apples"
+
+### Use Apple Orchard
+
+Add the following dependencies to your `modinfo.json`:
+
+```json
+"ModDependencies": [
+  "https://github.com/Qurila/shared-mods/releases/download/v8/shared_apple_orchard_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v8/apples_kurila.zip",
+]
+```
+
+## Shared Chrome Mine
+
+This mod provides a Chrome Mine for the Arctic. Its produce the new good "Chrome"
+
+### Use Chrome Mine
+
+Add the following dependencies to your `modinfo.json`:
+
+```json
+"ModDependencies": [
+  "https://github.com/Qurila/shared-mods/releases/download/v8/shared_chrome_mine_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v8/chrome_kurila.zip"
+]
+```
+
+## Shared Cooperages
+
+This mod provide Cooperages for the Old and New World. They produce the new good "Barrels"
+
+### Use Cooperages
+
+Add the following dependencies to your `modinfo.json`:
+
+```json
+"ModDependencies": [
+  "https://github.com/Qurila/shared-mods/releases/download/v8/shared_cooperages_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v8/barrels_kurila.zip"
+]
+```
+
+## Shared Dynamite Storage
+
+This mod provide Dynamite Storages for the Old World, New World and Arctic.
+
+### Use Dynamite Storage
+
+Add the following dependencies to your `modinfo.json`:
+
+```json
+"ModDependencies": [
+  "https://github.com/Qurila/shared-mods/releases/download/v8/shared_dynamite_storage_kurila.zip"
+]
+```
+
+## Shared Lubricant Works
+
+This mod changes the production of Lubricant.
+Lubricant is produced in a new chemical factory.
+The original building has been turned into the ‘Orchard: Palm Oil’. It produce the new good "Palm Oil"
+
+### Use Lubricant Works
+
+Add the following dependencies to your `modinfo.json`:
+
+```json
+"ModDependencies": [
+  "https://github.com/Qurila/shared-mods/releases/download/v8/shared_lubricant_works_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v8/palm_oil_kurila.zip"
+]
+```
+
+## Shared Rubber Factory
+
+This mod provide Rubber Factories for the Old and New World. They produce the new good "Rubber"
+
+### Use Rubber Factory
+
+Add the following dependencies to your `modinfo.json`:
+
+```json
+"ModDependencies": [
+  "https://github.com/Qurila/shared-mods/releases/download/v8/shared_rubber_factory_kurila.zip",
+  "https://github.com/Qurila/shared-mods/releases/download/v8/rubber_kurila.zip",
+  "https://github.com/lion053/shared-mods/releases/download/v1.1/shared-sulfur-production-lion053.zip"
+]
+```
+
+## Shared Salpetre Works
+
+This mod provide a Salpetre Hut for the Old world, and a Salpetre Pit for the New World.
+
+### Use Salpetre Works
+
+Add the following dependencies to your `modinfo.json`:
+
+```json
+"ModDependencies": [
+  "https://github.com/Qurila/shared-mods/releases/download/v8/shared_salpetre_works_kurila.zip"
+]
+```
+
+## Shared Soda Factory
+
+This mod provide a Soda Factory for the Old World. They produce the new good "Soda"
+
+The mod "**sharedproduct_soda_taludas**" is required. This can be found in [Taluda's Collection](https://github.com/Taludas/GameplayModsCollection/releases/download/v1.8.0/GameplayModsCollection_v1.8.0.zip).
+
+### Use Soda Factory
+
+Add the following dependencies to your `modinfo.json`:
+
+```json
+"ModDependencies": [
+  "https://github.com/Qurila/shared-mods/releases/download/v8/shared_soda_factory_kurila.zip",
+  "https://github.com/lion053/shared-mods/releases/download/v1.1/shared-sulfur-production-lion053.zip"
+]
+```
+
+## Shared New World Seafood Stew
+
+This mod provide a Wat Kitchen for the New World.
+
+### Use New World Seafood Stew
+
+Add the following dependencies to your `modinfo.json`:
+
+```json
+"ModDependencies": [
+  "https://github.com/Qurila/shared-mods/releases/download/v8/nw_food_works_kurila.zip"
 ]
 ```
 

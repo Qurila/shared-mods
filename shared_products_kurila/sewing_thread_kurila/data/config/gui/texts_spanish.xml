@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500020010</GUID>
+      <Text>Hilo de coser</Text>
+    </Text>
+  </ModOp>
+</ModOps>

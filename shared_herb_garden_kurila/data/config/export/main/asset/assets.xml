@@ -56,6 +56,7 @@
           </Standard>
           <Building>
             <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>1</SecondPartyRelevant>
           </Building>
           <Text>
             <TextOverride>5463</TextOverride>
@@ -429,7 +430,7 @@
         </Item>
       </ModOp>
       <ModOp Type="add" GUID="5383" Path="/Values/Product/AssociatedRegion">;Moderate</ModOp>
-      <ModOp Type="add" Path="//Values[ResourceSetCondition/AllowedRegion='Moderate' and not(ResourceSetCondition/AllowedIslandType='Normal;Starter')]/FertilitySet/Fertilities[not(Item/Fertility='1010570')]">
+      <ModOp Type="add" Path="//Values[ResourceSetCondition/AllowedRegion='Moderate']/FertilitySet/Fertilities[Item/Fertility='1010570']">
         <Item>
           <Fertility>6250</Fertility>
         </Item>

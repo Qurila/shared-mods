@@ -25,16 +25,24 @@
       <Text>Bois de Wanza</Text>
     </Text>
     <Text>
-      <GUID>114356</GUID>
-      <Text>Planches en Wanza</Text>
-    </Text>
-    <Text>
       <GUID>1500301151</GUID>
       <Text>Planches en cerisier</Text>
     </Text>
     <Text>
       <GUID>1500301148</GUID>
       <Text>Poudre d'épices</Text>
+    </Text>
+    <Text>
+      <GUID>1500301152</GUID>
+      <Text>Peaux</Text>
+    </Text>
+    <Text>
+      <GUID>1500301154</GUID>
+      <Text>Fourrures brutes</Text>
+    </Text>
+    <Text>
+      <GUID>1500301158</GUID>
+      <Text>Huile de palme</Text>
     </Text>
   </ModOp>
 </ModOps>

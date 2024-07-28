@@ -1,0 +1,106 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+  	<!-- Cooperages -->
+      <Text>
+        <GUID>1500301340</GUID>
+        <Text>制桶工场</Text>
+      </Text>
+      <Text>
+        <GUID>1500301341</GUID>
+        <Text>制桶工场：木材</Text>
+      </Text>
+      <Text>
+        <GUID>1500301342</GUID>
+        <Text>桶可以有很多用途。它们都能保护其内容物不受外界影响，无论是固体还是液体。</Text>
+      </Text>
+      <Text>
+        <GUID>1500301343</GUID>
+        <Text>木桶：2吨</Text>
+      </Text>
+      <Text>
+        <GUID>1500301344</GUID>
+        <Text>制桶工场：樱桃原木</Text>
+      </Text>
+      <Text>
+        <GUID>1500301345</GUID>
+        <Text>樱桃木桶特别适合储存烈酒。它们能给酒一种特殊的香味。</Text>
+      </Text>
+      <Text>
+        <GUID>1500301346</GUID>
+        <Text>樱桃木桶：4吨</Text>
+      </Text>
+      <Text>
+        <GUID>1500301347</GUID>
+        <Text>制桶工场：万扎木材</Text>
+      </Text>
+      <Text>
+        <GUID>1500301348</GUID>
+        <Text>由于进口木材价格昂贵，万扎木桶的供应并不宽裕。但是它们的质量是无与伦比的。</Text>
+      </Text>
+      <Text>
+        <GUID>1500301349</GUID>
+        <Text>万扎木桶：6吨</Text>
+      </Text>
+      <Text>
+        <GUID>1500301350</GUID>
+        <Text>制桶工场：木材</Text>
+      </Text>
+      <Text>
+        <GUID>1500301351</GUID>
+        <Text>木桶：2吨</Text>
+      </Text>
+      <Text>
+        <GUID>1500301352</GUID>
+        <Text>制桶工场：樱桃原木</Text>
+      </Text>
+      <Text>
+        <GUID>1500301353</GUID>
+        <Text>樱桃木桶：4吨</Text>
+      </Text>
+      <Text>
+        <GUID>1500301354</GUID>
+        <Text>制桶工场：万扎木材</Text>
+      </Text>
+      <Text>
+        <GUID>1500301355</GUID>
+        <Text>万扎木桶：6吨</Text>
+      </Text>
+      <Text>
+        <GUID>1500301371</GUID>
+        <Text>制桶工场生产各种形状和大小的桶，无论是家用还是工厂用。经验丰富的工匠都可以处理各种型号的订单。</Text>
+      </Text>
+      <Text>
+        <GUID>1500301374</GUID>
+        <Text>制桶工场</Text>
+      </Text>
+    <!-- Extended InfoDesciption -->
+      <Text>
+        <GUID>1500301357</GUID>
+        <Text>[AssetData(1500300044) Text]&#xD;&#xA;[AssetData(1500301359) Text]&#xD;&#xA;[AssetData(1500301360) Text]&#xD;&#xA;[AssetData(1500301361) Text]</Text>
+      </Text>
+      <Text>
+        <GUID>1500301359</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(1010196) Icon]"/&gt; [AssetData(1010196) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301360</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(1500301151) Icon]"/&gt; [AssetData(1500301151) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301361</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(114356) Icon]"/&gt; [AssetData(114356) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301362</GUID>
+        <Text>[AssetData(1500300000) Text] &lt;b&gt;&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(1010196) Icon]"/&gt;&lt;b&gt;&lt;/b&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301363</GUID>
+        <Text>[AssetData(1500300000) Text] &lt;b&gt;&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(1500301151) Icon]"/&gt;&lt;b&gt;&lt;/b&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301364</GUID>
+        <Text>[AssetData(1500300000) Text] &lt;b&gt;&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(114356) Icon]"/&gt;&lt;b&gt;&lt;/b&gt;</Text>
+      </Text>
+  </ModOp>
+</ModOps>

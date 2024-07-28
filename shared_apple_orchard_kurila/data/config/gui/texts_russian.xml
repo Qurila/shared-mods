@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404420046</GUID>
+      <Text>Сад: Яблоки</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,142 @@
+<ModOps>
+  <!-- # Product: Liqueur -->
+  <ModOp GUID="120016" Type="addPrevSibling">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1500300040</GUID>
+          <Name>Liqueur</Name>
+          <IconFilename>data/ui\kurila\icon_liqueur.png</IconFilename>
+        </Standard>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11704</ProductCategory>
+          <BasePrice>225</BasePrice>
+          <CivLevel>4</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>15</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Storage Lists -->
+  <Group>
+    <ModOp Type="add" GUID="120055"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1500300040']"
+      Path="/Values/ProductStorageList/ProductList">
+      <Item>
+        <Product>1500300040</Product>
+      </Item>
+    </ModOp>
+  </Group>
+
+  <!-- # Expedition -->
+  <ModOp Type="add" GUID="800111"
+    Condition="!~/ExpeditionFeature/FeedOption/FeedOptions[Item/Product='1500300040']"
+    Path="/Values/ExpeditionFeature/FeedOption/FeedOptions">
+    <Item>
+      <MoraleFactor>0.4</MoraleFactor>
+      <Product>1500300040</Product>
+    </Item>
+  </ModOp>
+
+
+  <!-- # Liqueur: Feedl -->
+  <Group Condition="!@131764/.//TradeLevels/Item/Trades[Item/Good='1500300040']">
+    <ModOp Type="addPrevSibling" GUID="120016"
+      Condition="!//FactoryBase[FactoryOutputs/Item/Product='1500300040']/IsMainFactory[text()='1']">
+      <Asset>
+        <Template>FactoryBuilding7</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301133</GUID>
+            <Name>IsMainFactory_Fake: Liqueur</Name>
+          </Standard>
+          <Building>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
+          </Building>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/graphics/buildings/production/processing_09/processing_09.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Locked />
+          <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>1010216</Product>
+                <Amount>2</Amount>
+                <StorageAmount>5</StorageAmount>
+              </Item>
+              <Item>
+                <Product>133097</Product>
+                <Amount>1</Amount>
+                <StorageAmount>5</StorageAmount>
+              </Item>
+              <Item>
+                <Product>1010239</Product>
+                <Amount>1</Amount>
+                <StorageAmount>5</StorageAmount>
+              </Item>
+            </FactoryInputs>
+            <FactoryOutputs>
+              <Item>
+                <Product>1500300040</Product>
+                <Amount>1</Amount>
+                <StorageAmount>5</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>60</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
+          </FactoryBase>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010116</Product>
+                <Amount>150</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <ModOp Type="addPrevSibling" GUID="131764"
+      Path="/Values/TradeContractFeature/Traders/Item[TraderName='131809']/TradeLevels/Item/Trades/Item[Good='120016']">
+      <Item>
+      	<Level>Rare</Level>
+        <Good>1500300040</Good>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="502234" Path="/Values/ProductList/List"
+    Condition="!/Values/ProductList/List/Item[Product='1500300040']">
+      <Item>
+        <Product>1500300040</Product>
+      </Item>
+    </ModOp>
+  </Group>
+</ModOps>

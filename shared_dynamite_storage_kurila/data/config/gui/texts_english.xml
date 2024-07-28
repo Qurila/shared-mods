@@ -1,0 +1,24 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500302360</GUID>
+      <Text>Dynamite Storage</Text>
+    </Text>
+    <Text>
+      <GUID>1500302366</GUID>
+      <Text>[AssetData(1500004502) Text] (1-100%)</Text>
+    </Text>
+    <Text>
+      <GUID>1500302367</GUID>
+      <Text>[AssetData(1500004502) Text] (102-200%)</Text>
+    </Text>
+    <Text>
+      <GUID>1500302371</GUID>
+      <Text>All Dynamite Storages</Text>
+    </Text>
+    <Text>
+      <GUID>1500302376</GUID>
+      <Text>Stores Dynamite to boost Mine/Pit productivity.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

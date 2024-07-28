@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500020010</GUID>
+      <Text>Filo per cucire</Text>
+    </Text>
+  </ModOp>
+</ModOps>

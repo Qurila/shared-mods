@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500301073</GUID>
+      <Text>Kolorowe płytki</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -32,5 +32,17 @@
       <GUID>1500301148</GUID>
       <Text>Polvere di spezie</Text>
     </Text>
+    <Text>
+      <GUID>1500301152</GUID>
+      <Text>Pelli</Text>
+    </Text>
+    <Text>
+      <GUID>1500301154</GUID>
+      <Text>Pellicce grezze</Text>
+    </Text>
+    <Text>
+      <GUID>1500301158</GUID>
+      <Text>Olio di palma</Text>
+    </Text>
   </ModOp>
 </ModOps>

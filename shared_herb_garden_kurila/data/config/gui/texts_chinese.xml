@@ -1,19 +1,16 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
       <Text>
-        <!-- TODO translation -->
         <GUID>1500302202</GUID>
-        <Text>Herb Seeds</Text>
+        <Text>草药种子</Text>
       </Text>
       <Text>
-        <!-- TODO translation -->
         <GUID>1500302203</GUID>
-        <Text>Quality Herb Seeds</Text>
+        <Text>优质草药种子</Text>
       </Text>
       <Text>
-        <!-- TODO translation -->
         <GUID>1500302204</GUID>
-        <Text>Hybrid Herb Seeds</Text>
+        <Text>混种草药种子</Text>
       </Text>
   </ModOp>
 </ModOps>

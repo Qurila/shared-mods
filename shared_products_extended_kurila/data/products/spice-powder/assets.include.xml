@@ -1,6 +1,6 @@
 <ModOps>
   <!-- # Product: Spice Powder -->
-  <ModOp Type="addNextSibling" GUID="1010213">
+  <ModOp Type="addNextSibling" GUID="114408">
     <Asset>
       <Template>Product</Template>
       <Values>
@@ -64,9 +64,9 @@
   </ModOp>
 
   <!-- # Docklands: Feedl -->
-  <Group Condition="!//TradeLevels/Item/Trades[Item/Good='1500301148']">
-    <ModOp Type="addNextSibling" GUID="1010213"
-      Condition="!//FactoryBase[FactoryOutputs/Item/Product='1500010130']/IsMainFactory[text()='1']">
+  <Group Condition="!@131764/.//TradeLevels/Item/Trades[Item/Good='1500301148']">
+    <ModOp Type="addNextSibling" GUID="114408"
+      Condition="!//FactoryBase[FactoryOutputs/Item/Product='1500301148']/IsMainFactory[text()='1']">
       <Asset>
         <Template>FactoryBuilding7</Template>
         <Values>

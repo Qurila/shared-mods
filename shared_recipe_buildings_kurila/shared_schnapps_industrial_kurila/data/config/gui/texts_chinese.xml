@@ -1,14 +1,12 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
-      <!-- TODO translation -->
       <GUID>1500300864</GUID>
-      <Text>Schnapps distilled from Potatoes. It is a regular treat for large parts of the population, but it must be enjoyed with caution so as not to become addicted to it.</Text>
+      <Text>从土豆中蒸馏出烈酒。对于大部分人来说，这是一种日常的享受，但必须谨慎享用，以免上瘾。</Text>
     </Text>
     <Text>
-      <!-- TODO translation -->
       <GUID>1500300866</GUID>
-      <Text>Schnapps Distilleries can be found everywhere, whether in small Villages or large Cities, they produce high percentage Schnapps for the population.</Text>
+      <Text>烈酒酿酒厂随处可见，无论是在小村庄还是大城市。考虑人均产量的话，烈酒产量十分惊人。</Text>
     </Text>
   </ModOp>
 </ModOps>

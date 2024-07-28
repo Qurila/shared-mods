@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+      <Text>
+        <GUID>1500302280</GUID>
+        <Text>크롬 광산</Text>
+      </Text>
+      <Text>
+        <GUID>1500302283</GUID>
+        <Text>[AssetData(11143) Text]&#xD;&#xA;&#xD;&#xA;&lt;img height='24' width='24' src="[AssetData(1010507) Icon]"/&gt; [AssetData(1010507) Text]에서 빌드 .</Text>
+      </Text>
+  </ModOp>
+</ModOps>

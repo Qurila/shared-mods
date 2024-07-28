@@ -1,0 +1,57 @@
+{
+  "out": "${annoMods}/shared_apple_orchard_kurila",
+  "Version": "1.1",
+  "ModID": "shared_apple_orchard_kurila",
+  "DeprecateIds": [
+  ],
+  "LoadAfterIds": [
+    "shared-pools-and-definitions"
+   ],
+  "IncompatibleIds": null,
+  "ModDependencies": [
+    "apples_kurila"
+  ],
+  "Category": {
+    "English": "Production",
+    "Chinese": "Production",
+    "French": "Production",
+    "German": "Production",
+    "Italian": "Production",
+    "Japanese": "Production",
+    "Korean": "Production",
+    "Polish": "Production",
+    "Russian": "Production",
+    "Spanish": "Production",
+    "Taiwanese": "Production"
+  },
+  "ModName": {
+    "Chinese": "Apple Orchard (Kurila)",
+    "English": "Apple Orchard (Kurila)",
+    "French": "Apple Orchard (Kurila)",
+    "German": "Apple Orchard (Kurila)",
+    "Italian": "Apple Orchard (Kurila)",
+    "Japanese": "Apple Orchard (Kurila)",
+    "Korean": "Apple Orchard (Kurila)",
+    "Polish": "Apple Orchard (Kurila)",
+    "Russian": "Apple Orchard (Kurila)",
+    "Spanish": "Apple Orchard (Kurila)",
+    "Taiwanese": "Apple Orchard (Kurila)"
+  },
+  "Description": {
+    "English": "file::README.md",
+    "German": null,
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK"
+}

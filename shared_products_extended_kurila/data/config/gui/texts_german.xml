@@ -32,5 +32,17 @@
       <GUID>1500301148</GUID>
       <Text>Gewürzpulver</Text>
     </Text>
+    <Text>
+      <GUID>1500301152</GUID>
+      <Text>Häute</Text>
+    </Text>
+    <Text>
+      <GUID>1500301154</GUID>
+      <Text>Rohfelle</Text>
+    </Text>
+    <Text>
+      <GUID>1500301158</GUID>
+      <Text>Palmöl</Text>
+    </Text>
   </ModOp>
 </ModOps>

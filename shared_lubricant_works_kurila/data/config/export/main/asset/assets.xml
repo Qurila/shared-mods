@@ -1,0 +1,408 @@
+<ModOps>
+  <!-- Lubricant Works-->
+    <Group>
+      <!-- New Entries -->
+        <ModOp Type="addNextSibling" GUID="135224">
+          <Asset>
+            <BaseAssetGUID>135224</BaseAssetGUID>
+            <Values>
+              <Standard>
+                <GUID>1500302480</GUID>
+                <Name>Chemical Plant: Industrial Lubricant</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/icon_industrial_lubricant_a.png</IconFilename>
+              </Standard>
+              <Object>
+                <Variations>
+                  <Item>
+                    <Filename>data/kurila/lubricant/lubricant_multifactory.cfg</Filename>
+                  </Item>
+                </Variations>
+              </Object>
+              <FactoryBase>
+                <FactoryInputs>
+                  <Item>
+                    <Product>1500301158</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>10</StorageAmount>
+                  </Item>
+                  <Item>
+                    <Product>120042</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>10</StorageAmount>
+                  </Item>
+                  <Item>
+                    <Product>1010232</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>10</StorageAmount>
+                  </Item>
+                </FactoryInputs>
+                <FactoryOutputs>
+                  <Item>
+                    <Product>1414</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>10</StorageAmount>
+                  </Item>
+                </FactoryOutputs>
+                <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                <ClampedMaxTransporterLogisticCost>67</ClampedMaxTransporterLogisticCost>
+              </FactoryBase>
+            </Values>
+          </Asset>
+          <Asset>
+            <Template>Text</Template>
+            <Values>
+              <Standard>
+                <GUID>1500302481</GUID>
+                <Name>Recipe_Desc_Lubricant</Name>
+              </Standard>
+              </Values>
+          </Asset>
+          <Asset>
+            <Template>Recipe</Template>
+            <Values>
+              <Standard>
+                <GUID>1500302482</GUID>
+                <Name>Recipe_Industrial_Lubricant</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/icon_industrial_lubricant_a.png</IconFilename>
+              </Standard>
+              <Text>
+                <TextOverride>1414</TextOverride>
+              </Text>
+              <Recipe>
+                <RecipeBuilding>1500302480</RecipeBuilding>
+                <RecipeDescriptionText>1500302481</RecipeDescriptionText>
+                <RecipeImage>data/ui/2kimages/main/kurila/icon_industrial_lubricant_a.png</RecipeImage>
+                <RecipeIngredientUIData>
+                  <Item>
+                    <PosX>10</PosX>
+                    <PosY>210</PosY>
+                    <UICirclePointer>SouthEast</UICirclePointer>
+                  </Item>
+                  <Item>
+                    <PosX>10</PosX>
+                    <PosY>350</PosY>
+                    <UICirclePointer>NorthEast</UICirclePointer>
+                  </Item>
+                  <Item>
+                    <PosX>400</PosX>
+                    <PosY>300</PosY>
+                    <UICirclePointer>West</UICirclePointer>
+                  </Item>
+                </RecipeIngredientUIData>
+                <RecipeUnlockConditionText>137487</RecipeUnlockConditionText>
+              </Recipe>
+              <Locked />
+            </Values>
+          </Asset>
+          <Asset>
+            <Template>Text</Template>
+            <Values>
+              <Standard>
+                <GUID>1500302486</GUID>
+                <Name>Recipe_Desc_Palm_Oil</Name>
+              </Standard>
+            </Values>
+          </Asset>
+          <Asset>
+            <Template>Recipe</Template>
+            <Values>
+              <Standard>
+                <GUID>1500302485</GUID>
+                <Name>Recipe_PalmOil</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/icon_vegetable_oil.png</IconFilename>
+              </Standard>
+              <Text>
+                <TextOverride>1500301158</TextOverride>
+              </Text>
+              <Recipe>
+                <RecipeBuilding>1418</RecipeBuilding>
+                <RecipeDescriptionText>1500302486</RecipeDescriptionText>
+                <RecipeImage>data/ui/2kimages/main/kurila/icon_recipebook_planter_palmtree.png</RecipeImage>
+                <RecipeIngredientUIData>
+                  <Item>
+                    <PosX>26</PosX>
+                    <PosY>10</PosY>
+                  </Item>
+                  <Item>
+                    <PosX>340</PosX>
+                    <PosY>72</PosY>
+                  </Item>
+                  <Item>
+                    <PosX>60</PosX>
+                    <PosY>226</PosY>
+                  </Item>
+                </RecipeIngredientUIData>
+              </Recipe>
+              <Locked/>
+            </Values>
+          </Asset>
+          <Asset>
+            <Template>Trigger</Template>
+            <Values>
+              <Standard>
+                <GUID>1500302483</GUID>
+                <Name>Trigger_Unhide_300_Obrero</Name>
+                <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier02.png</IconFilename>
+              </Standard>
+              <Trigger>
+                <TriggerCondition>
+                  <Template>ConditionIsDLCActive</Template>
+                  <Values>
+                    <Condition />
+                    <ConditionIsDLCActive>
+                      <DLCAssetList>
+                        <Item>
+                          <DLCAsset>24962</DLCAsset>
+                        </Item>
+                      </DLCAssetList>
+                    </ConditionIsDLCActive>
+                    <ConditionPropsNegatable />
+                  </Values>
+                </TriggerCondition>
+                <TriggerActions>
+                  <Item>
+                    <TriggerAction>
+                      <Template>ActionUnlockAsset</Template>
+                      <Values>
+                        <Action />
+                        <ActionUnlockAsset>
+                          <UnhideAssets>
+                            <Item>
+                              <Asset>1500302480</Asset>
+                            </Item>
+                            <Item>
+                              <Asset>1500302482</Asset>
+                            </Item>
+                            <Item>
+                              <Asset>1500302485</Asset>
+                            </Item>
+                          </UnhideAssets>
+                        </ActionUnlockAsset>
+                      </Values>
+                    </TriggerAction>
+                  </Item>
+                </TriggerActions>
+                <SubTriggers>
+                  <Item>
+                    <SubTrigger>
+                      <Template>AutoCreateTrigger</Template>
+                      <Values>
+                        <Trigger>
+                          <TriggerCondition>
+                            <Template>ConditionPlayerCounter</Template>
+                            <Values>
+                              <Condition />
+                              <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000006</Context>
+                                <CounterAmount>300</CounterAmount>
+                              </ConditionPlayerCounter>
+                            </Values>
+                          </TriggerCondition>
+                        </Trigger>
+                      </Values>
+                    </SubTrigger>
+                  </Item>
+                </SubTriggers>
+                <ResetTrigger>
+                  <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                  <Values>
+                    <EmptyAutoCreateValue />
+                  </Values>
+                </ResetTrigger>
+              </Trigger>
+              <TriggerSetup />
+            </Values>
+          </Asset>
+          <Asset>
+            <Template>Trigger</Template>
+            <Values>
+              <Standard>
+                <GUID>1500302484</GUID>
+                <Name>Trigger_Unlock_600_Obrero</Name>
+                <IconFilename>data/ui/2kimages/main/profiles/resident_colony_tier02.png</IconFilename>
+              </Standard>
+              <Trigger>
+                <TriggerCondition>
+                  <Template>ConditionIsDLCActive</Template>
+                  <Values>
+                    <Condition />
+                    <ConditionIsDLCActive>
+                      <DLCAssetList>
+                        <Item>
+                          <DLCAsset>24962</DLCAsset>
+                        </Item>
+                      </DLCAssetList>
+                    </ConditionIsDLCActive>
+                    <ConditionPropsNegatable />
+                  </Values>
+                </TriggerCondition>
+                <TriggerActions>
+                  <Item>
+                    <TriggerAction>
+                      <Template>ActionUnlockAsset</Template>
+                      <Values>
+                        <Action />
+                        <ActionUnlockAsset>
+                          <UnlockAssets>
+                            <Item>
+                              <Asset>1500302480</Asset>
+                            </Item>
+                            <Item>
+                              <Asset>1500302482</Asset>
+                            </Item>
+                            <Item>
+                              <Asset>1500301158</Asset>
+                            </Item>
+                            <Item>
+                              <Asset>1500302485</Asset>
+                            </Item>
+                          </UnlockAssets>
+                        </ActionUnlockAsset>
+                      </Values>
+                    </TriggerAction>
+                  </Item>
+                </TriggerActions>
+                <SubTriggers>
+                  <Item>
+                    <SubTrigger>
+                      <Template>AutoCreateTrigger</Template>
+                      <Values>
+                        <Trigger>
+                          <TriggerCondition>
+                            <Template>ConditionPlayerCounter</Template>
+                            <Values>
+                              <Condition />
+                              <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000006</Context>
+                                <CounterAmount>600</CounterAmount>
+                              </ConditionPlayerCounter>
+                            </Values>
+                          </TriggerCondition>
+                        </Trigger>
+                      </Values>
+                    </SubTrigger>
+                  </Item>
+                </SubTriggers>
+                <ResetTrigger>
+                  <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                  <Values>
+                    <EmptyAutoCreateValue/>
+                  </Values>
+                </ResetTrigger>
+              </Trigger>
+              <TriggerSetup />
+            </Values>
+          </Asset>
+        </ModOp>
+      <!-- Adjust Pools / Buffs / Lists Menus-->
+        <Group>
+          <!-- WorkforceMenu -->
+            <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+              <Item>
+                <Factory>1500302480</Factory>
+              </Item>
+            </ModOp>
+          <!-- Feedbacks -->
+            <ModOp Type="add" GUID="142311" Path="/Values/FeedbackBuildingGroup/Buildings">
+              <Item>
+                <Building>1500302480</Building>
+              </Item>
+            </ModOp>
+          <!-- Pools with Chemical Plant: Celluloid -->
+            <ModOp Type="add" Path="//ItemEffectTargetPool/EffectTargetGUIDs[Item/GUID='135224']">
+              <Item>
+                <GUID>1500302480</GUID>
+              </Item>
+            </ModOp>
+          <!-- Lists -->
+          <Group>
+            <ModOp Type="addPrevSibling" GUID="502008,502038,502023"
+              Condition="!~/Values/ProductList/List/Item[Product='1500301158']"
+              Path="/Values/ProductList/List/Item[Product='133095' or Product='1414']">
+              <Item>
+                <Product>1500301158</Product>
+              </Item>
+            </ModOp>
+          </Group>
+          <!-- Recipe Lists -->
+            <ModOp Type="addNextSibling" GUID="135226" Path="/Values/RecipeList/Recipes/Item[Recipe='135222']">
+              <Item>
+                <Recipe>1500302482</Recipe>
+              </Item>
+            </ModOp>
+            <ModOp Type="add" GUID="132936" Path="/Values/RecipeList/Recipes">
+              <Item>
+                <Recipe>1500302485</Recipe>
+              </Item>
+            </ModOp>
+        <!-- Build Menu-->
+          <Group>
+            <ModOp Type="replace" GUID="1361" Path="/Values/ProductionChain/Tier1/Item[Building='1418']/Building">
+                <Building>1500302480</Building>
+            </ModOp>
+            <ModOp Type="addPrevSibling" GUID="1361" Path="/Values/ProductionChain/Tier1/Item[Building='1500302480']/Tier2/Item[1]">
+              <Item>
+                <Building>1418</Building>
+              </Item>
+            </ModOp>
+            <ModOp Type="add" GUID="7425" Path="/Values/ConstructionCategory/BuildingList">
+              <Item>
+                <Building>1418</Building>
+              </Item>
+            </ModOp>
+          </Group>
+        </Group>
+      <!-- Adjust Building -->
+        <Group>
+          <ModOp Type="merge" GUID="1418" Path="/">
+            <Template>FreeAreaBuilding</Template>
+            <Values>
+              <Standard>
+                <IconFilename>data/ui/2kimages/main/3dicons/icon_vegetable_oil.png</IconFilename>
+              </Standard>
+              <FactoryBase>
+                <FactoryOutputs>
+                  <Item>
+                    <Product>1500301158</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>9</StorageAmount>
+                  </Item>
+                </FactoryOutputs>
+                <IsMainFactory>0</IsMainFactory>
+              </FactoryBase>
+              <Maintenance>
+                <Maintenances>
+                  <Item>
+                    <Product>1010017</Product>
+                    <Amount>100</Amount>
+                    <InactiveAmount>50</InactiveAmount>
+                  </Item>
+                  <Item>
+                    <Product>1010366</Product>
+                    <Amount>70</Amount>
+                    <ShutdownThreshold>0.2</ShutdownThreshold>
+                  </Item>
+                </Maintenances>
+              </Maintenance>
+            </Values>
+          </ModOp>
+          <ModOp Type="replace" GUID="1418" Path="/Values/FactoryBase/FactoryInputs">
+            <FactoryInputs>
+              <Item>
+                <Product>1955</Product>
+                <StorageAmount>10</StorageAmount>
+              </Item>
+            </FactoryInputs>
+          </ModOp>
+        </Group>
+      <!-- Adjust Items-->
+        <Group>
+          <!-- Remove Industrial Oil Press from All Heavy Industries -->
+            <ModOp Type="remove" GUID="193771" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1418']" Condition="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1418']"></ModOp>
+          <!-- Remove Industrial Oil Press from all Forest Items -->
+            <ModOp Type="remove" GUID="190739,190856,190857,190858,136819" Path="/Values/ItemEffect/EffectTargets/Item[GUID='1418']" Condition="/Values/ItemEffect/EffectTargets/Item[GUID='1418']"></ModOp>
+        </Group>
+    </Group>
+</ModOps>

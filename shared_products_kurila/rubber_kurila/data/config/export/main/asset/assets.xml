@@ -1,0 +1,122 @@
+<ModOps>
+  <!-- # Product: Rubber -->
+  <ModOp Type="addNextSibling" GUID="1010258">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1500301162</GUID>
+          <Name>Rubber</Name>
+          <IconFilename>data/ui/kurila/icon_rubber.png</IconFilename>
+        </Standard>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11703</ProductCategory>
+          <BasePrice>500</BasePrice>
+          <CivLevel>4</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Crafting</Attribute>
+              <Amount>15</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # Storage Lists -->
+  <Group>
+    <ModOp Type="add" GUID="120055"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1500301162']"
+      Path="/Values/ProductStorageList/ProductList">
+      <Item>
+        <Product>1500301162</Product>
+      </Item>
+    </ModOp>
+  </Group>
+
+  <!-- # Rubber: Promise Trust -->
+  <Group Condition="!@131764/.//TradeLevels/Item/Trades[Item/Good='1500301162']">
+    <ModOp Type="addNextSibling" GUID="1010258"
+      Condition="!//FactoryBase[FactoryOutputs/Item/Product='1500301162']/IsMainFactory[text()='1']">
+      <Asset>
+        <Template>FactoryBuilding7</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301163</GUID>
+            <Name>IsMainFactory_Fake: Rubber</Name>
+          </Standard>
+          <Building>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
+          </Building>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/graphics/buildings/production/workshop_01/workshop_01.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Locked />
+          <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>1010255</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+              <Item>
+                <Product>2100115089</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryInputs>
+            <FactoryOutputs>
+              <Item>
+                <Product>1500301162</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>30</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
+          </FactoryBase>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010115</Product>
+                <Amount>100</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="131764"
+      Path="/Values/TradeContractFeature/Traders/Item[TraderName='131817']/TradeLevels/Item/Trades/Item[Good='1010255']">
+      <Item>
+        <Level>Rare</Level>
+        <Good>1500301162</Good>
+      </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="502239" Path="/Values/ProductList/List"
+    Condition="!/Values/ProductList/List/Item[Product='1500301162']">
+      <Item>
+        <Product>1500301162</Product>
+      </Item>
+    </ModOp>
+  </Group>
+</ModOps>

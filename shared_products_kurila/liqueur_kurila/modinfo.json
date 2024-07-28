@@ -1,0 +1,33 @@
+{
+  "out": "${annoMods}/liqueur_kurila",
+  "Version": "2.0",
+  "ModID": "liqueur_kurila",
+  "Category": {
+    "English": "Product",
+    "Chinese": "Product",
+    "French": "Product",
+    "German": "Product",
+    "Italian": "Product",
+    "Japanese": "Product",
+    "Korean": "Product",
+    "Polish": "Product",
+    "Russian": "Product",
+    "Spanish": "Product",
+    "Taiwanese": "Product"
+  },
+  "ModName": {
+    "English": "Liqueur (Kurila)",
+    "Chinese": "Liqueur (Kurila)",
+    "French": "Liqueur (Kurila)",
+    "German": "Liqueur (Kurila)",
+    "Italian": "Liqueur (Kurila)",
+    "Japanese": "Liqueur (Kurila)",
+    "Korean": "Liqueur (Kurila)",
+    "Polish": "Liqueur (Kurila)",
+    "Russian": "Liqueur (Kurila)",
+    "Spanish": "Liqueur (Kurila)",
+    "Taiwanese": "Liqueur (Kurila)"
+  },
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK"
+}

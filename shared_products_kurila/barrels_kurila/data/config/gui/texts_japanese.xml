@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500300000</GUID>
+      <Text>バーレル</Text>
+    </Text>
+  </ModOp>
+</ModOps>

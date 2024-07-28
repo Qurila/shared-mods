@@ -1,0 +1,111 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+  	<!-- Cooperages -->
+      <Text>
+        <GUID>1500301340</GUID>
+        <Text>Küferei</Text>
+      </Text>
+      <Text>
+        <GUID>1500301341</GUID>
+        <Text>Küferei: Bretter</Text>
+      </Text>
+      <Text>
+        <GUID>1500301342</GUID>
+        <Text>Fässer sind vielfälltig nutzbar. Ob Fest oder Flüssig, sie schützen ihren Inhalt vor äußeren einflüssen.</Text>
+      </Text>
+      <Text>
+        <GUID>1500301343</GUID>
+        <Text>Fässer: 2t</Text>
+      </Text>
+      <Text>
+        <GUID>1500301344</GUID>
+        <Text>Küferei: Kirschholz</Text>
+      </Text>
+      <Text>
+        <GUID>1500301345</GUID>
+        <Text>Kirschfässer sind besonders gut für die Lagerung von Wein und ähnlichem geeignet. Sie geben diesen ein spezielles Aroma.</Text>
+      </Text>
+      <Text>
+        <GUID>1500301346</GUID>
+        <Text>Kirschfässer: 4t</Text>
+      </Text>
+      <Text>
+        <GUID>1500301347</GUID>
+        <Text>Küferei: Wanza_Bretter</Text>
+      </Text>
+      <Text>
+        <GUID>1500301348</GUID>
+        <Text>Wanzafässer sind nicht weit verbreitet, da der Holzimport teuer ist. Aber dafür ist ihre Qualität unvergleichlich.</Text>
+      </Text>
+      <Text>
+        <GUID>1500301349</GUID>
+        <Text>Wanza-Fässer: 6t</Text>
+      </Text>
+      <Text>
+        <GUID>1500301350</GUID>
+        <Text>Küferei: Bretter</Text>
+      </Text>
+      <Text>
+        <GUID>1500301351</GUID>
+        <Text>Fässer: 2t</Text>
+      </Text>
+      <Text>
+        <GUID>1500301352</GUID>
+        <Text>Küferei: Kirschholz</Text>
+      </Text>
+      <Text>
+        <GUID>1500301353</GUID>
+        <Text>Kirschfässer: 4t</Text>
+      </Text>
+      <Text>
+        <GUID>1500301354</GUID>
+        <Text>Küferei: Wanza-Bretter</Text>
+      </Text>
+      <Text>
+        <GUID>1500301355</GUID>
+        <Text>Wanza-Fässer: 6t</Text>
+      </Text>
+      <Text>
+        <GUID>1500301371</GUID>
+        <Text>Küfereien stellen Fässer in jeder Form und Größe her. Ob für den Hausgebrauch oder für Fabriken, die erfahrenen Handwerker bewerkstelligen jeden Auftrag.</Text>
+      </Text>
+      <Text>
+        <GUID>1500301374</GUID>
+        <Text>Küferei</Text>
+      </Text>
+    <!-- Extended InfoDesciption -->
+      <Text>
+        <GUID>1500301357</GUID>
+        <Text>[AssetData(1500300044) Text]&#xD;&#xA;[AssetData(1500301359) Text]&#xD;&#xA;[AssetData(1500301360) Text]&#xD;&#xA;[AssetData(1500301361) Text]</Text>
+      </Text>
+      <Text>
+        <GUID>1500301359</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(1010196) Icon]"/&gt; [AssetData(1010196) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301360</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(1500301151) Icon]"/&gt; [AssetData(1500301151) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301361</GUID>
+        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(114356) Icon]"/&gt; [AssetData(114356) Text]&lt;/font&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301362</GUID>
+        <Text>[AssetData(1500300000) Text] &lt;b&gt;&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(1010196) Icon]"/&gt;&lt;b&gt;&lt;/b&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301363</GUID>
+        <Text>[AssetData(1500300000) Text] &lt;b&gt;&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(1500301151) Icon]"/&gt;&lt;b&gt;&lt;/b&gt;</Text>
+      </Text>
+      <Text>
+        <GUID>1500301364</GUID>
+        <Text>[AssetData(1500300000) Text] &lt;b&gt;&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(114356) Icon]"/&gt;&lt;b&gt;&lt;/b&gt;</Text>
+      </Text>
+    <!-- Old Content -->
+      <Text>
+        <GUID>1500300005</GUID>
+        <Text>Erfahrener Küfer</Text>
+      </Text>
+  </ModOp>
+</ModOps>

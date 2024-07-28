@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500301148</GUID>
+      <Text>Spice Powder</Text>
+    </Text>
+  </ModOp>
+</ModOps>

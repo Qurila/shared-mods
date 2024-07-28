@@ -1,0 +1,35 @@
+{
+  "out": "${annoMods}/sewing_thread_kurila",
+  "Version": "1.0",
+  "ModID": "sewing_thread_kurila",
+  "LoadAfterIds": [
+  ],
+  "Category": {
+    "English": "Product",
+    "Chinese": "Product",
+    "French": "Product",
+    "German": "Product",
+    "Italian": "Product",
+    "Japanese": "Product",
+    "Korean": "Product",
+    "Polish": "Product",
+    "Russian": "Product",
+    "Spanish": "Product",
+    "Taiwanese": "Product"
+  },
+  "ModName": {
+    "English": "Sewing Thread (Kurila)",
+    "Chinese": "Sewing Thread (Kurila)",
+    "French": "Sewing Thread (Kurila)",
+    "German": "Sewing Thread (Kurila)",
+    "Italian": "Sewing Thread (Kurila)",
+    "Japanese": "Sewing Thread (Kurila)",
+    "Korean": "Sewing Thread (Kurila)",
+    "Polish": "Sewing Thread (Kurila)",
+    "Russian": "Sewing Thread (Kurila)",
+    "Spanish": "Sewing Thread (Kurila)",
+    "Taiwanese": "Sewing Thread (Kurila)"
+  },
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK"
+}

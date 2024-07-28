@@ -1,6 +1,14 @@
 <ModOps>
   <ModOp Type="add" Path="/TextExport/Texts">
       <Text>
+        <GUID>1500300850</GUID>
+        <Text>多くの建物やモノの土台となる木材。厚いもの、薄いもの、広いものなど、あらゆる要求に応えることができます。</Text>
+      </Text>
+      <Text>
+        <GUID>1500300853</GUID>
+        <Text>製材所は、木工の基本です。ここでは、あらゆる種類の木材が丸太から製材される。</Text>
+      </Text>
+      <Text>
         <!-- TODO translation -->
         <GUID>1500301320</GUID>
         <Text>製材所: サクラの木</Text>
@@ -74,14 +82,6 @@
         <!-- TODO translation -->
         <GUID>1500301352</GUID>
         <Text>Cooperage: Cherry Timber</Text>
-      </Text>
-      <Text>
-        <GUID>1500301360</GUID>
-        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;b&gt;2t&lt;/b&gt; &lt;img height='24' width='24' src="[AssetData(1500301151) Icon]"/&gt; [AssetData(1500301151) Text]&lt;/font&gt;&#xD;&#xA;</Text>
-      </Text>
-      <Text>
-        <GUID>1500301363</GUID>
-        <Text>&lt;font overrideTextColor="true" color='#edc891'&gt;&lt;img height='24' width='24' src="[AssetData(1500301151) Icon]"/&gt; [AssetData(1500301151) Text] &lt;b&gt;= 4t &lt;/b&gt;&lt;/font&gt;&#xD;&#xA;</Text>
       </Text>
       <Text>
         <GUID>1500301336</GUID>

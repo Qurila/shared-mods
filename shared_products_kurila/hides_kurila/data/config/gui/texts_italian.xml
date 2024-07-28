@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500301152</GUID>
+      <Text>Pelli</Text>
+    </Text>
+  </ModOp>
+</ModOps>

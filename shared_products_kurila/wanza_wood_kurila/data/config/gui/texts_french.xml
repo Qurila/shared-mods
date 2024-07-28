@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1500301150</GUID>
+      <Text>Bois de Wanza</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,34 +1,29 @@
 {
   "out": "${annoMods}/shared_cherry_sawmill_kurila",
-  "Version": "1.6",
+  "Version": "2.0",
   "ModID": "shared_cherry_sawmill_kurila",
   "DeprecateIds": [
 
   ],
   "ModDependencies": [
-    "shared_products_extended_kurila",
-    "shared_sawmill_kurila",
-    "shared_sawmill_river_kurila",
-    "shared_sawmill_industrial_kurila"
+    "shared-pools-and-definitions"
   ],
   "LoadAfterIds": [
-    "shared_sawmill_kurila",
-    "shared_sawmill_river_kurila",
-    "shared_sawmill_industrial_kurila"
+    "shared-pools-and-definitions"
   ],
   "IncompatibleIds": null,
   "Category": {
-    "English": "Shared",
-    "Chinese": "Shared",
-    "French": "Shared",
-    "German": "Shared",
-    "Italian": "Shared",
-    "Japanese": "Shared",
-    "Korean": "Shared",
-    "Polish": "Shared",
-    "Russian": "Shared",
-    "Spanish": "Shared",
-    "Taiwanese": "Shared"
+    "English": "Production",
+    "Chinese": "Production",
+    "French": "Production",
+    "German": "Production",
+    "Italian": "Production",
+    "Japanese": "Production",
+    "Korean": "Production",
+    "Polish": "Production",
+    "Russian": "Production",
+    "Spanish": "Production",
+    "Taiwanese": "Production"
   },
   "ModName": {
     "Chinese": "Cherry Sawmill (Kurila)",

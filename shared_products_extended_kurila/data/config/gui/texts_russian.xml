@@ -22,7 +22,7 @@
     </Text>
     <Text>
       <GUID>1500301150</GUID>
-      <Text>Древесина кордии</Text>
+      <Text>Древесина ванза</Text>
     </Text>
     <Text>
       <GUID>1500301151</GUID>
@@ -31,6 +31,18 @@
     <Text>
       <GUID>1500301148</GUID>
       <Text>Порошок специй</Text>
+    </Text>
+    <Text>
+      <GUID>1500301152</GUID>
+      <Text>Шкуры</Text>
+    </Text>
+    <Text>
+      <GUID>1500301154</GUID>
+      <Text>Необработанные меха</Text>
+    </Text>
+    <Text>
+      <GUID>1500301158</GUID>
+      <Text>Пальмовое масло</Text>
     </Text>
   </ModOp>
 </ModOps>

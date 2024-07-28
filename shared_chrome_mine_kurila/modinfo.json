@@ -1,0 +1,57 @@
+{
+  "out": "${annoMods}/shared_chrome_mine_kurila",
+  "Version": "1.1",
+  "ModID": "shared_chrome_mine_kurila",
+  "DeprecateIds": [
+  ],
+  "LoadAfterIds": [
+    "shared-pools-and-definitions"
+   ],
+  "IncompatibleIds": null,
+  "ModDependencies": [
+    "chrome_kurila"
+  ],
+  "Category": {
+    "English": "Production",
+    "Chinese": "Production",
+    "French": "Production",
+    "German": "Production",
+    "Italian": "Production",
+    "Japanese": "Production",
+    "Korean": "Production",
+    "Polish": "Production",
+    "Russian": "Production",
+    "Spanish": "Production",
+    "Taiwanese": "Production"
+  },
+  "ModName": {
+    "Chinese": "Chrome Mine (Kurila)",
+    "English": "Chrome Mine (Kurila)",
+    "French": "Chrome Mine (Kurila)",
+    "German": "Chrome Mine (Kurila)",
+    "Italian": "Chrome Mine (Kurila)",
+    "Japanese": "Chrome Mine (Kurila)",
+    "Korean": "Chrome Mine (Kurila)",
+    "Polish": "Chrome Mine (Kurila)",
+    "Russian": "Chrome Mine (Kurila)",
+    "Spanish": "Chrome Mine (Kurila)",
+    "Taiwanese": "Chrome Mine (Kurila)"
+  },
+  "Description": {
+    "English": "file::README.md",
+    "German": null,
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Kurila",
+  "CreatorContact": "https://discord.gg/YTQGDFK"
+}
