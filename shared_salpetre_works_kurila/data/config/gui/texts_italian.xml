@@ -3,17 +3,17 @@
     <Text>
       <!-- TODO translation -->
       <GUID>1500302330</GUID>
-      <Text>Saltpetre Pit</Text>
+      <Text>Fossa del salnitro</Text>
     </Text>
     <Text>
       <!-- TODO translation -->
       <GUID>1500302331</GUID>
-      <Text>[AssetData(11143) Text]&#xD;&#xA;&#xD;&#xA;Buildable on &lt;img height='24' width='24' src="[AssetData(101061) Icon]"/&gt; [AssetData(101061) Text].</Text>
+      <Text>[AssetData(11143) Text]&#xD;&#xA;&#xD;&#xA;Edificabile su &lt;img height='24' width='24' src="[AssetData(101061) Icon]"/&gt; [AssetData(101061) Text].</Text>
     </Text>
     <Text>
       <!-- TODO translation -->
       <GUID>1500302333</GUID>
-      <Text>Saltpetre Hut</Text>
+      <Text>Rifugio del salnitro</Text>
     </Text>
     <Text>
       <GUID>1500302336</GUID>
